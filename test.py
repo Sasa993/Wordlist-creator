@@ -35,5 +35,10 @@ prva(rijec_prvo_slovo_upper, rijec, 5)
 prva(rijec_zadnje_slovo_upper, rijec, 9)
 prva(rijec_sva_slova_upper, rijec, 13)
 
+druga(rijec, rijec, 17)
+druga(rijec_prvo_slovo_upper, rijec, 21)
+druga(rijec_zadnje_slovo_upper, rijec, 25)
+druga(rijec_sva_slova_upper, rijec, 29)
+
 
 
