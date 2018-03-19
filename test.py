@@ -40,6 +40,26 @@ def druga_upper_alpha(rijec, rijec_original, txt_broj):
 	os.system("crunch {0} {0} -t ,,,{1} -o /root/Documents/{2}/{3}.txt".format(rijec_duzina + 3,rijec, rijec_original, txt_broj + 2))
 	os.system("crunch {0} {0} -t ,,,,{1} -o /root/Documents/{2}/{3}.txt".format(rijec_duzina + 4,rijec, rijec_original, txt_broj + 3))
 
+def prva_mix_upper_lower(rijec, rijec_original, txt_broj):
+	os.system("crunch {0} {0} -t ,@{1} -o /root/Documents/{2}/{3}.txt".format(rijec_duzina + 2,rijec, rijec_original, txt_broj))
+	os.system("crunch {0} {0} -t @,{1} -o /root/Documents/{2}/{3}.txt".format(rijec_duzina + 2,rijec, rijec_original, txt_broj + 1))
+	os.system("crunch {0} {0} -t @,,{1} -o /root/Documents/{2}/{3}.txt".format(rijec_duzina + 3,rijec, rijec_original, txt_broj + 2))
+	os.system("crunch {0} {0} -t ,@,{1} -o /root/Documents/{2}/{3}.txt".format(rijec_duzina + 3,rijec, rijec_original, txt_broj + 3))
+	os.system("crunch {0} {0} -t ,,@{1} -o /root/Documents/{2}/{3}.txt".format(rijec_duzina + 3,rijec, rijec_original, txt_broj + 4))
+	os.system("crunch {0} {0} -t @@,{1} -o /root/Documents/{2}/{3}.txt".format(rijec_duzina + 3,rijec, rijec_original, txt_broj + 5))
+	os.system("crunch {0} {0} -t ,@@{1} -o /root/Documents/{2}/{3}.txt".format(rijec_duzina + 3,rijec, rijec_original, txt_broj + 6))
+	os.system("crunch {0} {0} -t @,@{1} -o /root/Documents/{2}/{3}.txt".format(rijec_duzina + 3,rijec, rijec_original, txt_broj + 7))
+
+def druga_mix_upper_lower(rijec, rijec_original, txt_broj):
+	os.system("crunch {0} {0} -t {1},@ -o /root/Documents/{2}/{3}.txt".format(rijec_duzina + 2,rijec, rijec_original, txt_broj))
+	os.system("crunch {0} {0} -t {1}@, -o /root/Documents/{2}/{3}.txt".format(rijec_duzina + 2,rijec, rijec_original, txt_broj + 1))
+	os.system("crunch {0} {0} -t {1}@,, -o /root/Documents/{2}/{3}.txt".format(rijec_duzina + 3,rijec, rijec_original, txt_broj + 2))
+	os.system("crunch {0} {0} -t {1},@, -o /root/Documents/{2}/{3}.txt".format(rijec_duzina + 3,rijec, rijec_original, txt_broj + 3))
+	os.system("crunch {0} {0} -t {1},,@ -o /root/Documents/{2}/{3}.txt".format(rijec_duzina + 3,rijec, rijec_original, txt_broj + 4))
+	os.system("crunch {0} {0} -t {1}@@, -o /root/Documents/{2}/{3}.txt".format(rijec_duzina + 3,rijec, rijec_original, txt_broj + 5))
+	os.system("crunch {0} {0} -t {1},@@ -o /root/Documents/{2}/{3}.txt".format(rijec_duzina + 3,rijec, rijec_original, txt_broj + 6))
+	os.system("crunch {0} {0} -t {1}@,@ -o /root/Documents/{2}/{3}.txt".format(rijec_duzina + 3,rijec, rijec_original, txt_broj + 7))
+
 os.system("crunch")
 time.sleep(2)
 
@@ -82,6 +102,16 @@ druga_upper_alpha(rijec, rijec, 81)
 druga_upper_alpha(rijec_prvo_slovo_upper, rijec, 85)
 druga_upper_alpha(rijec_zadnje_slovo_upper, rijec, 89)
 druga_upper_alpha(rijec_sva_slova_upper, rijec, 93)
+
+prva_mix_upper_lower(rijec, rijec, 97)
+prva_mix_upper_lower(rijec_prvo_slovo_upper, rijec, 105)
+prva_mix_upper_lower(rijec_zadnje_slovo_upper, rijec, 113)
+prva_mix_upper_lower(rijec_sva_slova_upper, rijec, 121)
+
+druga_mix_upper_lower(rijec, rijec, 129)
+druga_mix_upper_lower(rijec_prvo_slovo_upper, rijec, 137)
+druga_mix_upper_lower(rijec_zadnje_slovo_upper, rijec, 145)
+druga_mix_upper_lower(rijec_sva_slova_upper, rijec, 153)
 
 
 #testiramo nesto
