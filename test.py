@@ -4,18 +4,41 @@ import time
 #1.parametar: rijec, odnosno naziv mreze
 #2.parametar: rijec_original, odnosno naziv foldera
 #3.parametar: txt_broj, odnosno naziv txt fajla, tj. wordlista || dictionary
-def prva(rijec, rijec_original, txt_broj):
+def prva_numeric(rijec, rijec_original, txt_broj):
 	os.system("crunch {0} {0} -t {1}% -o /root/Documents/{2}/{3}.txt".format(rijec_duzina + 1,rijec, rijec_original, txt_broj))
 	os.system("crunch {0} {0} -t {1}%% -o /root/Documents/{2}/{3}.txt".format(rijec_duzina + 2,rijec, rijec_original, txt_broj + 1))
 	os.system("crunch {0} {0} -t {1}%%% -o /root/Documents/{2}/{3}.txt".format(rijec_duzina + 3,rijec, rijec_original, txt_broj + 2))
 	os.system("crunch {0} {0} -t {1}%%%% -o /root/Documents/{2}/{3}.txt".format(rijec_duzina + 4,rijec, rijec_original, txt_broj + 3))
 
-#ovdje trebas napisati funkciju druga
-def druga(rijec, rijec_original, txt_broj):
+def druga_numeric(rijec, rijec_original, txt_broj):
 	os.system("crunch {0} {0} -t %{1} -o /root/Documents/{2}/{3}.txt".format(rijec_duzina + 1,rijec, rijec_original, txt_broj))
 	os.system("crunch {0} {0} -t %%{1} -o /root/Documents/{2}/{3}.txt".format(rijec_duzina + 2,rijec, rijec_original, txt_broj + 1))
 	os.system("crunch {0} {0} -t %%%{1} -o /root/Documents/{2}/{3}.txt".format(rijec_duzina + 3,rijec, rijec_original, txt_broj + 2))
 	os.system("crunch {0} {0} -t %%%%{1} -o /root/Documents/{2}/{3}.txt".format(rijec_duzina + 4,rijec, rijec_original, txt_broj + 3))
+
+def prva_lower_alpha(rijec, rijec_original, txt_broj):
+	os.system("crunch {0} {0} -t {1}@ -o /root/Documents/{2}/{3}.txt".format(rijec_duzina + 1,rijec, rijec_original, txt_broj))
+	os.system("crunch {0} {0} -t {1}@@ -o /root/Documents/{2}/{3}.txt".format(rijec_duzina + 2,rijec, rijec_original, txt_broj + 1))
+	os.system("crunch {0} {0} -t {1}@@@ -o /root/Documents/{2}/{3}.txt".format(rijec_duzina + 3,rijec, rijec_original, txt_broj + 2))
+	os.system("crunch {0} {0} -t {1}@@@@ -o /root/Documents/{2}/{3}.txt".format(rijec_duzina + 4,rijec, rijec_original, txt_broj + 3))
+
+def druga_lower_alpha(rijec, rijec_original, txt_broj):
+	os.system("crunch {0} {0} -t @{1} -o /root/Documents/{2}/{3}.txt".format(rijec_duzina + 1,rijec, rijec_original, txt_broj))
+	os.system("crunch {0} {0} -t @@{1} -o /root/Documents/{2}/{3}.txt".format(rijec_duzina + 2,rijec, rijec_original, txt_broj + 1))
+	os.system("crunch {0} {0} -t @@@{1} -o /root/Documents/{2}/{3}.txt".format(rijec_duzina + 3,rijec, rijec_original, txt_broj + 2))
+	os.system("crunch {0} {0} -t @@@@{1} -o /root/Documents/{2}/{3}.txt".format(rijec_duzina + 4,rijec, rijec_original, txt_broj + 3))
+
+def prva_upper_alpha(rijec, rijec_original, txt_broj):
+	os.system("crunch {0} {0} -t {1}, -o /root/Documents/{2}/{3}.txt".format(rijec_duzina + 1,rijec, rijec_original, txt_broj))
+	os.system("crunch {0} {0} -t {1},, -o /root/Documents/{2}/{3}.txt".format(rijec_duzina + 2,rijec, rijec_original, txt_broj + 1))
+	os.system("crunch {0} {0} -t {1},,, -o /root/Documents/{2}/{3}.txt".format(rijec_duzina + 3,rijec, rijec_original, txt_broj + 2))
+	os.system("crunch {0} {0} -t {1},,,, -o /root/Documents/{2}/{3}.txt".format(rijec_duzina + 4,rijec, rijec_original, txt_broj + 3))
+
+def druga_upper_alpha(rijec, rijec_original, txt_broj):
+	os.system("crunch {0} {0} -t ,{1} -o /root/Documents/{2}/{3}.txt".format(rijec_duzina + 1,rijec, rijec_original, txt_broj))
+	os.system("crunch {0} {0} -t ,,{1} -o /root/Documents/{2}/{3}.txt".format(rijec_duzina + 2,rijec, rijec_original, txt_broj + 1))
+	os.system("crunch {0} {0} -t ,,,{1} -o /root/Documents/{2}/{3}.txt".format(rijec_duzina + 3,rijec, rijec_original, txt_broj + 2))
+	os.system("crunch {0} {0} -t ,,,,{1} -o /root/Documents/{2}/{3}.txt".format(rijec_duzina + 4,rijec, rijec_original, txt_broj + 3))
 
 os.system("crunch")
 time.sleep(2)
@@ -30,15 +53,49 @@ rijec_prvo_slovo_upper = rijec[0].upper() + rijec[1:]
 rijec_zadnje_slovo_upper = rijec[:(rijec_duzina - 1)] + rijec[(rijec_duzina - 1)].upper()
 rijec_sva_slova_upper = rijec.upper()
 
-prva(rijec, rijec, 1)
-prva(rijec_prvo_slovo_upper, rijec, 5)
-prva(rijec_zadnje_slovo_upper, rijec, 9)
-prva(rijec_sva_slova_upper, rijec, 13)
+prva_numeric(rijec, rijec, 1)
+prva_numeric(rijec_prvo_slovo_upper, rijec, 5)
+prva_numeric(rijec_zadnje_slovo_upper, rijec, 9)
+prva_numeric(rijec_sva_slova_upper, rijec, 13)
 
-druga(rijec, rijec, 17)
-druga(rijec_prvo_slovo_upper, rijec, 21)
-druga(rijec_zadnje_slovo_upper, rijec, 25)
-druga(rijec_sva_slova_upper, rijec, 29)
+druga_numeric(rijec, rijec, 17)
+druga_numeric(rijec_prvo_slovo_upper, rijec, 21)
+druga_numeric(rijec_zadnje_slovo_upper, rijec, 25)
+druga_numeric(rijec_sva_slova_upper, rijec, 29)
 
+prva_lower_alpha(rijec, rijec, 33)
+prva_lower_alpha(rijec_prvo_slovo_upper, rijec, 37)
+prva_lower_alpha(rijec_zadnje_slovo_upper, rijec, 41)
+prva_lower_alpha(rijec_sva_slova_upper, rijec, 45)
+
+druga_lower_alpha(rijec, rijec, 49)
+druga_lower_alpha(rijec_prvo_slovo_upper, rijec, 53)
+druga_lower_alpha(rijec_zadnje_slovo_upper, rijec, 57)
+druga_lower_alpha(rijec_sva_slova_upper, rijec, 61)
+
+prva_upper_alpha(rijec, rijec, 65)
+prva_upper_alpha(rijec_prvo_slovo_upper, rijec, 69)
+prva_upper_alpha(rijec_zadnje_slovo_upper, rijec, 73)
+prva_upper_alpha(rijec_sva_slova_upper, rijec, 77)
+
+druga_upper_alpha(rijec, rijec, 81)
+druga_upper_alpha(rijec_prvo_slovo_upper, rijec, 85)
+druga_upper_alpha(rijec_zadnje_slovo_upper, rijec, 89)
+druga_upper_alpha(rijec_sva_slova_upper, rijec, 93)
+
+
+#testiramo nesto
+# def main_funkcija(ime_funkcije):
+# 	global brojac, rijec, rijec_prvo_slovo_upper, rijec_zadnje_slovo_upper, rijec_sva_slova_upper
+
+# 	brojac += 4
+# 	ime_funkcije(rijec, rijec, brojac)
+# 	brojac += 4
+# 	ime_funkcije(rijec_prvo_slovo_upper, rijec, brojac)
+# 	brojac += 4
+# 	ime_funkcije(rijec_zadnje_slovo_upper, rijec, brojac)
+# 	brojac += 4
+# 	ime_funkcije(rijec_sva_slova_upper, rijec, brojac)
+# 	brojac += 4
 
 
