@@ -293,6 +293,77 @@ druga_mix_lower_numeric(rijec_prvo_slovo_upper, rijec, 265)
 druga_mix_lower_numeric(rijec_zadnje_slovo_upper, rijec, 273)
 druga_mix_lower_numeric(rijec_sva_slova_upper, rijec, 281)
 
+prva_mix_lower_upper_numeric(rijec, rijec, 289)
+prva_mix_lower_upper_numeric(rijec_prvo_slovo_upper, rijec, 295)
+prva_mix_lower_upper_numeric(rijec_zadnje_slovo_upper, rijec, 301)
+prva_mix_lower_upper_numeric(rijec_sva_slova_upper, rijec, 307)
+
+druga_mix_lower_upper_numeric(rijec, rijec, 313)
+druga_mix_lower_upper_numeric(rijec_prvo_slovo_upper, rijec, 319)
+druga_mix_lower_upper_numeric(rijec_zadnje_slovo_upper, rijec, 325)
+druga_mix_lower_upper_numeric(rijec_sva_slova_upper, rijec, 331)
+
+prva_char(rijec, rijec, 337)
+prva_char(rijec_prvo_slovo_upper, rijec, 341)
+prva_char(rijec_zadnje_slovo_upper, rijec, 345)
+prva_char(rijec_sva_slova_upper, rijec, 349)
+
+druga_char(rijec, rijec, 353)
+druga_char(rijec_prvo_slovo_upper, rijec, 357)
+druga_char(rijec_zadnje_slovo_upper, rijec, 361)
+druga_char(rijec_sva_slova_upper, rijec, 365)
+
+prva_mix_upper_char(rijec, rijec, 369)
+prva_mix_upper_char(rijec_prvo_slovo_upper, rijec, 377)
+prva_mix_upper_char(rijec_zadnje_slovo_upper, rijec, 385)
+prva_mix_upper_char(rijec_sva_slova_upper, rijec, 393)
+
+druga_mix_upper_char(rijec, rijec, 401)
+druga_mix_upper_char(rijec_prvo_slovo_upper, rijec, 409)
+druga_mix_upper_char(rijec_zadnje_slovo_upper, rijec, 417)
+druga_mix_upper_char(rijec_sva_slova_upper, rijec, 425)
+
+prva_mix_lower_char(rijec, rijec, 433)
+prva_mix_lower_char(rijec_prvo_slovo_upper, rijec, 441)
+prva_mix_lower_char(rijec_zadnje_slovo_upper, rijec, 449)
+prva_mix_lower_char(rijec_sva_slova_upper, rijec, 457)
+
+druga_mix_lower_char(rijec, rijec, 465)
+druga_mix_lower_char(rijec_prvo_slovo_upper, rijec, 473)
+druga_mix_lower_char(rijec_zadnje_slovo_upper, rijec, 481)
+druga_mix_lower_char(rijec_sva_slova_upper, rijec, 489)
+
+prva_mix_numeric_char(rijec, rijec, 497)
+prva_mix_numeric_char(rijec_prvo_slovo_upper, rijec, 505)
+prva_mix_numeric_char(rijec_zadnje_slovo_upper, rijec, 513)
+prva_mix_numeric_char(rijec_sva_slova_upper, rijec, 521)
+
+druga_mix_numeric_char(rijec, rijec, 529)
+druga_mix_numeric_char(rijec_prvo_slovo_upper, rijec, 537)
+druga_mix_numeric_char(rijec_zadnje_slovo_upper, rijec, 545)
+druga_mix_numeric_char(rijec_sva_slova_upper, rijec, 553)
+
+prva_mix_upper_lower_char(rijec, rijec, 561)
+prva_mix_upper_lower_char(rijec_prvo_slovo_upper, rijec, 567)
+prva_mix_upper_lower_char(rijec_zadnje_slovo_upper, rijec, 573)
+prva_mix_upper_lower_char(rijec_sva_slova_upper, rijec, 579)
+
+druga_mix_upper_lower_char(rijec, rijec, 585)
+druga_mix_upper_lower_char(rijec_prvo_slovo_upper, rijec, 591)
+druga_mix_upper_lower_char(rijec_zadnje_slovo_upper, rijec, 597)
+druga_mix_upper_lower_char(rijec_sva_slova_upper, rijec, 603)
+
+prva_mix_upper_numeric_char(rijec, rijec, 609)
+prva_mix_upper_numeric_char(rijec_prvo_slovo_upper, rijec, 615)
+prva_mix_upper_numeric_char(rijec_zadnje_slovo_upper, rijec, 621)
+prva_mix_upper_numeric_char(rijec_sva_slova_upper, rijec, 627)
+
+druga_mix_upper_numeric_char(rijec, rijec, 633)
+druga_mix_upper_numeric_char(rijec_prvo_slovo_upper, rijec, 639)
+druga_mix_upper_numeric_char(rijec_zadnje_slovo_upper, rijec, 645)
+druga_mix_upper_numeric_char(rijec_sva_slova_upper, rijec, 651)
+
+
 
 #testiramo nesto
 # def main_funkcija(ime_funkcije, broj_skokova):
