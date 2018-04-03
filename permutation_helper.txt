@@ -10,7 +10,17 @@ prva_mix_upper_numeric - A1lesa, 1Alesa, 1ABlesa, A1Blesa, AB1lesa, 12Alesa, A12
 druga_mix_upper_numeric - lesaA1, lesa1A, lesa1AB, lesaA1B, lesaAB1, lesa12A, lesaA12, lesa1A2
 prva_mix_lower_numeric - 1alesa, a1lesa, a12lesa, 1a2lesa, 12alesa, ab1lesa, 1ablesa, a1blesa
 druga_mix_lower_numeric - lesa1a, lesaa1, lesaa12, lesa1a2, lesa12a, lesaab1, lesa1ab, lesaa1b
-prva_mix_lower_upper_numeric - lesaaa1, lesaaA1, lesaa1a, lesaa1A, lesaa12, lesaAa1, lesaAA1, lesaA1a, lesaA1A,
-	  		       lesaA11, lesa1aa, lesa1aA, lesa1a1, lesa1Aa, lesa1AA, lesa1A1, lesa11a, lesa11A 
-druga_mix_lower_upper_numeric - aa1lesa, aA1lesa, a1alesa, a1Alesa, a12lesa, Aa1lesa, AA1lesa, A1alesa, A1Alesa,
-				A11lesa, 1aalesa, 1aAlesa, 1a1lesa, 1Aalesa, 1AAlesa, 1A1lesa, 11alesa, 11Alesa
+prva_mix_lower_upper_numeric - aA1lesa, a1Alesa, Aa1lesa, A1alesa, 1aalesa, 1aAlesa, 1Aalesa
+druga_mix_lower_upper_numeric - lesaaa1, lesaaA1, lesaa1A, lesaAa1, lesaA1a, lesa1aA, lesa1Aa
+prva_char -  !lesa, !@lesa, !@#lesa, !@#$lesa
+druga_char - lesa!, lesa!@, lesa!@#, lesa!@#$ 
+prva_mix_upper_char - A!lesa, !Alesa, !ABlesa, A!Blesa, AB!lesa, !@Alesa, A!@lesa, !A@lesa
+druga_mix_upper_char - lesaA!, lesa!A, lesa!AB, lesaA!B, lesaAB!, lesa!@A, lesaA!@, lesa!A@
+prva_mix_lower_char - !alesa, a!lesa, a!@lesa, !a@lesa, !@alesa, ab!lesa, !ablesa, a!blesa
+druga_mix_lower_char - lesa!a, lesaa!, lesaa!@, lesa!a@, lesa!@a, lesaab!, lesa!ab, lesaa!b
+prva_mix_numeric_char -
+druga_mix_numeric_char -
+prva_mix_upper_lower_char -
+druga_mix_upper_lower_char - 
+prva_mix_upper_numeric_char -
+druga_mix_upper_numeric_char -
