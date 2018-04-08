@@ -6,40 +6,70 @@ import time
 #3.parametar: txt_broj, odnosno naziv txt fajla, tj. wordlista || dictionary
 neki_tamo_brojac = 0
 def prva_numeric(rijec, rijec_original, txt_broj):
+	global neki_tamo_brojac
 	os.system("crunch {0} {0} -t {1}% -o /root/Documents/{2}/{3}.txt".format(rijec_duzina + 1,rijec, rijec_original, txt_broj))
+	neki_tamo_brojac += os.path.getsize('/root/Documents/{0}/{1}.txt'.format(rijec_original, txt_broj))
 	os.system("crunch {0} {0} -t {1}%% -o /root/Documents/{2}/{3}.txt".format(rijec_duzina + 2,rijec, rijec_original, txt_broj + 1))
+	neki_tamo_brojac += os.path.getsize('/root/Documents/{0}/{1}.txt'.format(rijec_original, txt_broj + 1))
 	os.system("crunch {0} {0} -t {1}%%% -o /root/Documents/{2}/{3}.txt".format(rijec_duzina + 3,rijec, rijec_original, txt_broj + 2))
+	neki_tamo_brojac += os.path.getsize('/root/Documents/{0}/{1}.txt'.format(rijec_original, txt_broj + 2))
 	os.system("crunch {0} {0} -t {1}%%%% -o /root/Documents/{2}/{3}.txt".format(rijec_duzina + 4,rijec, rijec_original, txt_broj + 3))
+	neki_tamo_brojac += os.path.getsize('/root/Documents/{0}/{1}.txt'.format(rijec_original, txt_broj + 3))
 
 def druga_numeric(rijec, rijec_original, txt_broj):
+	global neki_tamo_brojac
 	os.system("crunch {0} {0} -t %{1} -o /root/Documents/{2}/{3}.txt".format(rijec_duzina + 1,rijec, rijec_original, txt_broj))
+	neki_tamo_brojac += os.path.getsize('/root/Documents/{0}/{1}.txt'.format(rijec_original, txt_broj))
 	os.system("crunch {0} {0} -t %%{1} -o /root/Documents/{2}/{3}.txt".format(rijec_duzina + 2,rijec, rijec_original, txt_broj + 1))
+	neki_tamo_brojac += os.path.getsize('/root/Documents/{0}/{1}.txt'.format(rijec_original, txt_broj + 1))
 	os.system("crunch {0} {0} -t %%%{1} -o /root/Documents/{2}/{3}.txt".format(rijec_duzina + 3,rijec, rijec_original, txt_broj + 2))
+	neki_tamo_brojac += os.path.getsize('/root/Documents/{0}/{1}.txt'.format(rijec_original, txt_broj + 2))
 	os.system("crunch {0} {0} -t %%%%{1} -o /root/Documents/{2}/{3}.txt".format(rijec_duzina + 4,rijec, rijec_original, txt_broj + 3))
+	neki_tamo_brojac += os.path.getsize('/root/Documents/{0}/{1}.txt'.format(rijec_original, txt_broj + 3))
 
 def prva_lower_alpha(rijec, rijec_original, txt_broj):
+	global neki_tamo_brojac
 	os.system("crunch {0} {0} -t {1}@ -o /root/Documents/{2}/{3}.txt".format(rijec_duzina + 1,rijec, rijec_original, txt_broj))
+	neki_tamo_brojac += os.path.getsize('/root/Documents/{0}/{1}.txt'.format(rijec_original, txt_broj))
 	os.system("crunch {0} {0} -t {1}@@ -o /root/Documents/{2}/{3}.txt".format(rijec_duzina + 2,rijec, rijec_original, txt_broj + 1))
+	neki_tamo_brojac += os.path.getsize('/root/Documents/{0}/{1}.txt'.format(rijec_original, txt_broj + 1))
 	os.system("crunch {0} {0} -t {1}@@@ -o /root/Documents/{2}/{3}.txt".format(rijec_duzina + 3,rijec, rijec_original, txt_broj + 2))
-	os.system("crunch {0} {0} -t {1}@@@@ -o /root/Documents/{2}/{3}.txt".format(rijec_duzina + 4,rijec, rijec_original, txt_broj + 3))
+	neki_tamo_brojac += os.path.getsize('/root/Documents/{0}/{1}.txt'.format(rijec_original, txt_broj + 2))
+	os.system("crunch {0} {0} -t {1}@@@@ -o /root/Documents/{2}/{3}.txt".format(rijec_duzina + 4,rijec, rijec_original, txt_broj + 3))	
+	neki_tamo_brojac += os.path.getsize('/root/Documents/{0}/{1}.txt'.format(rijec_original, txt_broj + 3))
 
 def druga_lower_alpha(rijec, rijec_original, txt_broj):
+	global neki_tamo_brojac
 	os.system("crunch {0} {0} -t @{1} -o /root/Documents/{2}/{3}.txt".format(rijec_duzina + 1,rijec, rijec_original, txt_broj))
+	neki_tamo_brojac += os.path.getsize('/root/Documents/{0}/{1}.txt'.format(rijec_original, txt_broj))
 	os.system("crunch {0} {0} -t @@{1} -o /root/Documents/{2}/{3}.txt".format(rijec_duzina + 2,rijec, rijec_original, txt_broj + 1))
+	neki_tamo_brojac += os.path.getsize('/root/Documents/{0}/{1}.txt'.format(rijec_original, txt_broj + 1))
 	os.system("crunch {0} {0} -t @@@{1} -o /root/Documents/{2}/{3}.txt".format(rijec_duzina + 3,rijec, rijec_original, txt_broj + 2))
+	neki_tamo_brojac += os.path.getsize('/root/Documents/{0}/{1}.txt'.format(rijec_original, txt_broj + 2))
 	os.system("crunch {0} {0} -t @@@@{1} -o /root/Documents/{2}/{3}.txt".format(rijec_duzina + 4,rijec, rijec_original, txt_broj + 3))
+	neki_tamo_brojac += os.path.getsize('/root/Documents/{0}/{1}.txt'.format(rijec_original, txt_broj + 3))
 
 def prva_upper_alpha(rijec, rijec_original, txt_broj):
+	global neki_tamo_brojac
 	os.system("crunch {0} {0} -t {1}, -o /root/Documents/{2}/{3}.txt".format(rijec_duzina + 1,rijec, rijec_original, txt_broj))
+	neki_tamo_brojac += os.path.getsize('/root/Documents/{0}/{1}.txt'.format(rijec_original, txt_broj))
 	os.system("crunch {0} {0} -t {1},, -o /root/Documents/{2}/{3}.txt".format(rijec_duzina + 2,rijec, rijec_original, txt_broj + 1))
+	neki_tamo_brojac += os.path.getsize('/root/Documents/{0}/{1}.txt'.format(rijec_original, txt_broj + 1))
 	os.system("crunch {0} {0} -t {1},,, -o /root/Documents/{2}/{3}.txt".format(rijec_duzina + 3,rijec, rijec_original, txt_broj + 2))
+	neki_tamo_brojac += os.path.getsize('/root/Documents/{0}/{1}.txt'.format(rijec_original, txt_broj + 2))
 	os.system("crunch {0} {0} -t {1},,,, -o /root/Documents/{2}/{3}.txt".format(rijec_duzina + 4,rijec, rijec_original, txt_broj + 3))
+	neki_tamo_brojac += os.path.getsize('/root/Documents/{0}/{1}.txt'.format(rijec_original, txt_broj + 3))
 
 def druga_upper_alpha(rijec, rijec_original, txt_broj):
+	global neki_tamo_brojac
 	os.system("crunch {0} {0} -t ,{1} -o /root/Documents/{2}/{3}.txt".format(rijec_duzina + 1,rijec, rijec_original, txt_broj))
+	neki_tamo_brojac += os.path.getsize('/root/Documents/{0}/{1}.txt'.format(rijec_original, txt_broj))
 	os.system("crunch {0} {0} -t ,,{1} -o /root/Documents/{2}/{3}.txt".format(rijec_duzina + 2,rijec, rijec_original, txt_broj + 1))
+	neki_tamo_brojac += os.path.getsize('/root/Documents/{0}/{1}.txt'.format(rijec_original, txt_broj + 1))
 	os.system("crunch {0} {0} -t ,,,{1} -o /root/Documents/{2}/{3}.txt".format(rijec_duzina + 3,rijec, rijec_original, txt_broj + 2))
+	neki_tamo_brojac += os.path.getsize('/root/Documents/{0}/{1}.txt'.format(rijec_original, txt_broj + 2))
 	os.system("crunch {0} {0} -t ,,,,{1} -o /root/Documents/{2}/{3}.txt".format(rijec_duzina + 4,rijec, rijec_original, txt_broj + 3))
+	neki_tamo_brojac += os.path.getsize('/root/Documents/{0}/{1}.txt'.format(rijec_original, txt_broj + 3))
 
 def prva_mix_upper_lower(rijec, rijec_original, txt_broj):
 	global neki_tamo_brojac
@@ -59,7 +89,6 @@ def prva_mix_upper_lower(rijec, rijec_original, txt_broj):
 	neki_tamo_brojac += os.path.getsize('/root/Documents/{0}/{1}.txt'.format(rijec_original, txt_broj + 6))
 	os.system("crunch {0} {0} -t @,@{1} -o /root/Documents/{2}/{3}.txt".format(rijec_duzina + 3,rijec, rijec_original, txt_broj + 7))
 	neki_tamo_brojac += os.path.getsize('/root/Documents/{0}/{1}.txt'.format(rijec_original, txt_broj + 7))
-	return neki_tamo_brojac
 
 def druga_mix_upper_lower(rijec, rijec_original, txt_broj):
 	global neki_tamo_brojac
@@ -100,14 +129,23 @@ def prva_mix_upper_numeric(rijec, rijec_original, txt_broj):
 	neki_tamo_brojac += os.path.getsize('/root/Documents/{0}/{1}.txt'.format(rijec_original, txt_broj + 7))
 
 def druga_mix_upper_numeric(rijec, rijec_original, txt_broj):
+	global neki_tamo_brojac
 	os.system("crunch {0} {0} -t {1},% -o /root/Documents/{2}/{3}.txt".format(rijec_duzina + 2,rijec, rijec_original, txt_broj))
+	neki_tamo_brojac += os.path.getsize('/root/Documents/{0}/{1}.txt'.format(rijec_original, txt_broj))
 	os.system("crunch {0} {0} -t {1}%, -o /root/Documents/{2}/{3}.txt".format(rijec_duzina + 2,rijec, rijec_original, txt_broj + 1))
+	neki_tamo_brojac += os.path.getsize('/root/Documents/{0}/{1}.txt'.format(rijec_original, txt_broj + 1))
 	os.system("crunch {0} {0} -t {1}%,, -o /root/Documents/{2}/{3}.txt".format(rijec_duzina + 3,rijec, rijec_original, txt_broj + 2))
+	neki_tamo_brojac += os.path.getsize('/root/Documents/{0}/{1}.txt'.format(rijec_original, txt_broj + 2))
 	os.system("crunch {0} {0} -t {1},%, -o /root/Documents/{2}/{3}.txt".format(rijec_duzina + 3,rijec, rijec_original, txt_broj + 3))
+	neki_tamo_brojac += os.path.getsize('/root/Documents/{0}/{1}.txt'.format(rijec_original, txt_broj + 3))
 	os.system("crunch {0} {0} -t {1},,% -o /root/Documents/{2}/{3}.txt".format(rijec_duzina + 3,rijec, rijec_original, txt_broj + 4))
+	neki_tamo_brojac += os.path.getsize('/root/Documents/{0}/{1}.txt'.format(rijec_original, txt_broj + 4))
 	os.system("crunch {0} {0} -t {1}%%, -o /root/Documents/{2}/{3}.txt".format(rijec_duzina + 3,rijec, rijec_original, txt_broj + 5))
+	neki_tamo_brojac += os.path.getsize('/root/Documents/{0}/{1}.txt'.format(rijec_original, txt_broj + 5))
 	os.system("crunch {0} {0} -t {1},%% -o /root/Documents/{2}/{3}.txt".format(rijec_duzina + 3,rijec, rijec_original, txt_broj + 6))
+	neki_tamo_brojac += os.path.getsize('/root/Documents/{0}/{1}.txt'.format(rijec_original, txt_broj + 6))
 	os.system("crunch {0} {0} -t {1}%,% -o /root/Documents/{2}/{3}.txt".format(rijec_duzina + 3,rijec, rijec_original, txt_broj + 7))
+	neki_tamo_brojac += os.path.getsize('/root/Documents/{0}/{1}.txt'.format(rijec_original, txt_broj + 7))
 
 def prva_mix_lower_numeric(rijec, rijec_original, txt_broj):
 	os.system("crunch {0} {0} -t %@{1} -o /root/Documents/{2}/{3}.txt".format(rijec_duzina + 2,rijec, rijec_original, txt_broj))
@@ -296,14 +334,14 @@ rijec_sva_slova_upper = rijec.upper()
 
 #96 files - 72.9MB
 
-prva_mix_upper_lower(rijec, rijec, 97)
-print("\nVelicina foldera iznosi:\n{0:.2f}MB".format(float(neki_tamo_brojac)/1024/1024))
-prva_mix_upper_lower(rijec_prvo_slovo_upper, rijec, 105)
-print("\nVelicina foldera:\n{0:.2f}MB".format(float(neki_tamo_brojac)/1024/1024))
-prva_mix_upper_lower(rijec_zadnje_slovo_upper, rijec, 113)
-print("\nVelicina foldera:\n{0:.2f}MB".format(float(neki_tamo_brojac)/1024/1024))
-prva_mix_upper_lower(rijec_sva_slova_upper, rijec, 121)
-print("\nVelicina foldera:\n{0:.2f}MB".format(float(neki_tamo_brojac)/1024/1024))
+#prva_mix_upper_lower(rijec, rijec, 97)
+#print("\nVelicina foldera iznosi:\n{0:.2f}MB".format(float(neki_tamo_brojac)/1024/1024))
+#prva_mix_upper_lower(rijec_prvo_slovo_upper, rijec, 105)
+#print("\nVelicina foldera:\n{0:.2f}MB".format(float(neki_tamo_brojac)/1024/1024))
+#prva_mix_upper_lower(rijec_zadnje_slovo_upper, rijec, 113)
+#print("\nVelicina foldera:\n{0:.2f}MB".format(float(neki_tamo_brojac)/1024/1024))
+#prva_mix_upper_lower(rijec_sva_slova_upper, rijec, 121)
+#print("\nVelicina foldera:\n{0:.2f}MB".format(float(neki_tamo_brojac)/1024/1024))
 
 #128 files - 78.9MB
 
@@ -322,15 +360,19 @@ print("\nVelicina foldera:\n{0:.2f}MB".format(float(neki_tamo_brojac)/1024/1024)
 #druga_mix_upper_numeric(rijec_zadnje_slovo_upper, rijec, 209)
 #druga_mix_upper_numeric(rijec_sva_slova_upper, rijec, 217)
 
-#prva_mix_lower_numeric(rijec, rijec, 225)
-#prva_mix_lower_numeric(rijec_prvo_slovo_upper, rijec, 233)
-#prva_mix_lower_numeric(rijec_zadnje_slovo_upper, rijec, 241)
-#prva_mix_lower_numeric(rijec_sva_slova_upper, rijec, 249)
+#224 files - 87.4MB
 
-#druga_mix_lower_numeric(rijec, rijec, 257)
-#druga_mix_lower_numeric(rijec_prvo_slovo_upper, rijec, 265)
-#druga_mix_lower_numeric(rijec_zadnje_slovo_upper, rijec, 273)
-#druga_mix_lower_numeric(rijec_sva_slova_upper, rijec, 281)
+prva_mix_lower_numeric(rijec, rijec, 225)
+prva_mix_lower_numeric(rijec_prvo_slovo_upper, rijec, 233)
+prva_mix_lower_numeric(rijec_zadnje_slovo_upper, rijec, 241)
+prva_mix_lower_numeric(rijec_sva_slova_upper, rijec, 249)
+
+druga_mix_lower_numeric(rijec, rijec, 257)
+druga_mix_lower_numeric(rijec_prvo_slovo_upper, rijec, 265)
+druga_mix_lower_numeric(rijec_zadnje_slovo_upper, rijec, 273)
+druga_mix_lower_numeric(rijec_sva_slova_upper, rijec, 281)
+
+#288 files - 
 
 #prva_mix_lower_upper_numeric(rijec, rijec, 289)
 #prva_mix_lower_upper_numeric(rijec_prvo_slovo_upper, rijec, 295)
