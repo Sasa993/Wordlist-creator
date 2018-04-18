@@ -442,9 +442,12 @@ def druga_mix_upper_numeric_char(rijec, rijec_original, txt_broj):
 os.system("crunch")
 time.sleep(2)
 
-broj_ukupnih_rijeci = 0
+broj_ukupnih_rijeci = raw_input("Unesi broj ukupnih rijeci:")
 
-if (broj_ukupnih_rijeci = 0):
+if (broj_ukupnih_rijeci == 0):
+	pass
+
+elif (broj_ukupnih_rijeci == 1):
 	rijec = raw_input("Unesi nesto:")
 	rijec_duzina = len(rijec)
 
@@ -652,7 +655,7 @@ if (broj_ukupnih_rijeci = 0):
 	print("\nVelicina foldera iznosi:\n{0:.2f}MB".format(float(neki_tamo_brojac)/1024/1024))
 
 else:
-	
+	pass
 
 #656 files - 214.6MB
 
