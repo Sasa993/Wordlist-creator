@@ -442,211 +442,217 @@ def druga_mix_upper_numeric_char(rijec, rijec_original, txt_broj):
 os.system("crunch")
 time.sleep(2)
 
-rijec = raw_input("Unesi nesto:")
-rijec_duzina = len(rijec)
+broj_ukupnih_rijeci = 0
 
-#os.system("cd /")
-os.system("mkdir /root/Documents/{0}".format(rijec)) 									#kreiranje foldera po nazivu
+if (broj_ukupnih_rijeci = 0):
+	rijec = raw_input("Unesi nesto:")
+	rijec_duzina = len(rijec)
 
-rijec_prvo_slovo_upper = rijec[0].upper() + rijec[1:]
-rijec_zadnje_slovo_upper = rijec[:(rijec_duzina - 1)] + rijec[(rijec_duzina - 1)].upper()
-rijec_sva_slova_upper = rijec.upper()
+	#os.system("cd /")
+	os.system("mkdir /root/Documents/{0}".format(rijec)) 									#kreiranje foldera po nazivu
 
-prva_numeric(rijec, rijec, 1)
-prva_numeric(rijec_prvo_slovo_upper, rijec, 5)
-prva_numeric(rijec_zadnje_slovo_upper, rijec, 9)
-prva_numeric(rijec_sva_slova_upper, rijec, 13)
+	rijec_prvo_slovo_upper = rijec[0].upper() + rijec[1:]
+	rijec_zadnje_slovo_upper = rijec[:(rijec_duzina - 1)] + rijec[(rijec_duzina - 1)].upper()
+	rijec_sva_slova_upper = rijec.upper()
 
-print("\nVelicina foldera iznosi:\n{0:.2f}MB".format(float(neki_tamo_brojac)/1024/1024))
+	prva_numeric(rijec, rijec, 1)
+	prva_numeric(rijec_prvo_slovo_upper, rijec, 5)
+	prva_numeric(rijec_zadnje_slovo_upper, rijec, 9)
+	prva_numeric(rijec_sva_slova_upper, rijec, 13)
 
-druga_numeric(rijec, rijec, 17)
-druga_numeric(rijec_prvo_slovo_upper, rijec, 21)
-druga_numeric(rijec_zadnje_slovo_upper, rijec, 25)
-druga_numeric(rijec_sva_slova_upper, rijec, 29)
+	print("\nVelicina foldera iznosi:\n{0:.2f}MB".format(float(neki_tamo_brojac)/1024/1024))
 
-print("\nVelicina foldera iznosi:\n{0:.2f}MB".format(float(neki_tamo_brojac)/1024/1024))
+	druga_numeric(rijec, rijec, 17)
+	druga_numeric(rijec_prvo_slovo_upper, rijec, 21)
+	druga_numeric(rijec_zadnje_slovo_upper, rijec, 25)
+	druga_numeric(rijec_sva_slova_upper, rijec, 29)
 
-prva_lower_alpha(rijec, rijec, 33)
-prva_lower_alpha(rijec_prvo_slovo_upper, rijec, 37)
-prva_lower_alpha(rijec_zadnje_slovo_upper, rijec, 41)
-prva_lower_alpha(rijec_sva_slova_upper, rijec, 45)
+	print("\nVelicina foldera iznosi:\n{0:.2f}MB".format(float(neki_tamo_brojac)/1024/1024))
 
-print("\nVelicina foldera iznosi:\n{0:.2f}MB".format(float(neki_tamo_brojac)/1024/1024))
+	prva_lower_alpha(rijec, rijec, 33)
+	prva_lower_alpha(rijec_prvo_slovo_upper, rijec, 37)
+	prva_lower_alpha(rijec_zadnje_slovo_upper, rijec, 41)
+	prva_lower_alpha(rijec_sva_slova_upper, rijec, 45)
 
-#48 files - 21.8MB
+	print("\nVelicina foldera iznosi:\n{0:.2f}MB".format(float(neki_tamo_brojac)/1024/1024))
 
-druga_lower_alpha(rijec, rijec, 49)
-druga_lower_alpha(rijec_prvo_slovo_upper, rijec, 53)
-druga_lower_alpha(rijec_zadnje_slovo_upper, rijec, 57)
-druga_lower_alpha(rijec_sva_slova_upper, rijec, 61)
+	#48 files - 21.8MB
 
-print("\nVelicina foldera iznosi:\n{0:.2f}MB".format(float(neki_tamo_brojac)/1024/1024))
+	druga_lower_alpha(rijec, rijec, 49)
+	druga_lower_alpha(rijec_prvo_slovo_upper, rijec, 53)
+	druga_lower_alpha(rijec_zadnje_slovo_upper, rijec, 57)
+	druga_lower_alpha(rijec_sva_slova_upper, rijec, 61)
 
-prva_upper_alpha(rijec, rijec, 65)
-prva_upper_alpha(rijec_prvo_slovo_upper, rijec, 69)
-prva_upper_alpha(rijec_zadnje_slovo_upper, rijec, 73)
-prva_upper_alpha(rijec_sva_slova_upper, rijec, 77)
+	print("\nVelicina foldera iznosi:\n{0:.2f}MB".format(float(neki_tamo_brojac)/1024/1024))
 
-print("\nVelicina foldera iznosi:\n{0:.2f}MB".format(float(neki_tamo_brojac)/1024/1024))
+	prva_upper_alpha(rijec, rijec, 65)
+	prva_upper_alpha(rijec_prvo_slovo_upper, rijec, 69)
+	prva_upper_alpha(rijec_zadnje_slovo_upper, rijec, 73)
+	prva_upper_alpha(rijec_sva_slova_upper, rijec, 77)
 
-druga_upper_alpha(rijec, rijec, 81)
-druga_upper_alpha(rijec_prvo_slovo_upper, rijec, 85)
-druga_upper_alpha(rijec_zadnje_slovo_upper, rijec, 89)
-druga_upper_alpha(rijec_sva_slova_upper, rijec, 93)
+	print("\nVelicina foldera iznosi:\n{0:.2f}MB".format(float(neki_tamo_brojac)/1024/1024))
 
-print("\nVelicina foldera iznosi:\n{0:.2f}MB".format(float(neki_tamo_brojac)/1024/1024))
+	druga_upper_alpha(rijec, rijec, 81)
+	druga_upper_alpha(rijec_prvo_slovo_upper, rijec, 85)
+	druga_upper_alpha(rijec_zadnje_slovo_upper, rijec, 89)
+	druga_upper_alpha(rijec_sva_slova_upper, rijec, 93)
 
-#96 files - 72.9MB
+	print("\nVelicina foldera iznosi:\n{0:.2f}MB".format(float(neki_tamo_brojac)/1024/1024))
 
-prva_mix_upper_lower(rijec, rijec, 97)
-prva_mix_upper_lower(rijec_prvo_slovo_upper, rijec, 105)
-prva_mix_upper_lower(rijec_zadnje_slovo_upper, rijec, 113)
-prva_mix_upper_lower(rijec_sva_slova_upper, rijec, 121)
+	#96 files - 72.9MB
 
-print("\nVelicina foldera iznosi:\n{0:.2f}MB".format(float(neki_tamo_brojac)/1024/1024))
+	prva_mix_upper_lower(rijec, rijec, 97)
+	prva_mix_upper_lower(rijec_prvo_slovo_upper, rijec, 105)
+	prva_mix_upper_lower(rijec_zadnje_slovo_upper, rijec, 113)
+	prva_mix_upper_lower(rijec_sva_slova_upper, rijec, 121)
 
-#128 files - 78.9MB
+	print("\nVelicina foldera iznosi:\n{0:.2f}MB".format(float(neki_tamo_brojac)/1024/1024))
 
-druga_mix_upper_lower(rijec, rijec, 129)
-druga_mix_upper_lower(rijec_prvo_slovo_upper, rijec, 137)
-druga_mix_upper_lower(rijec_zadnje_slovo_upper, rijec, 145)
-druga_mix_upper_lower(rijec_sva_slova_upper, rijec, 153)
+	#128 files - 78.9MB
 
-print("\nVelicina foldera iznosi:\n{0:.2f}MB".format(float(neki_tamo_brojac)/1024/1024))
+	druga_mix_upper_lower(rijec, rijec, 129)
+	druga_mix_upper_lower(rijec_prvo_slovo_upper, rijec, 137)
+	druga_mix_upper_lower(rijec_zadnje_slovo_upper, rijec, 145)
+	druga_mix_upper_lower(rijec_sva_slova_upper, rijec, 153)
 
-prva_mix_upper_numeric(rijec, rijec, 161)
-prva_mix_upper_numeric(rijec_prvo_slovo_upper, rijec, 169)
-prva_mix_upper_numeric(rijec_zadnje_slovo_upper, rijec, 177)
-prva_mix_upper_numeric(rijec_sva_slova_upper, rijec, 185)
+	print("\nVelicina foldera iznosi:\n{0:.2f}MB".format(float(neki_tamo_brojac)/1024/1024))
 
-print("\nVelicina foldera iznosi:\n{0:.2f}MB".format(float(neki_tamo_brojac)/1024/1024))
+	prva_mix_upper_numeric(rijec, rijec, 161)
+	prva_mix_upper_numeric(rijec_prvo_slovo_upper, rijec, 169)
+	prva_mix_upper_numeric(rijec_zadnje_slovo_upper, rijec, 177)
+	prva_mix_upper_numeric(rijec_sva_slova_upper, rijec, 185)
 
-druga_mix_upper_numeric(rijec, rijec, 193)
-druga_mix_upper_numeric(rijec_prvo_slovo_upper, rijec, 201)
-druga_mix_upper_numeric(rijec_zadnje_slovo_upper, rijec, 209)
-druga_mix_upper_numeric(rijec_sva_slova_upper, rijec, 217)
+	print("\nVelicina foldera iznosi:\n{0:.2f}MB".format(float(neki_tamo_brojac)/1024/1024))
 
-print("\nVelicina foldera iznosi:\n{0:.2f}MB".format(float(neki_tamo_brojac)/1024/1024))
+	druga_mix_upper_numeric(rijec, rijec, 193)
+	druga_mix_upper_numeric(rijec_prvo_slovo_upper, rijec, 201)
+	druga_mix_upper_numeric(rijec_zadnje_slovo_upper, rijec, 209)
+	druga_mix_upper_numeric(rijec_sva_slova_upper, rijec, 217)
 
-#224 files - 87.4MB
+	print("\nVelicina foldera iznosi:\n{0:.2f}MB".format(float(neki_tamo_brojac)/1024/1024))
 
-prva_mix_lower_numeric(rijec, rijec, 225)
-prva_mix_lower_numeric(rijec_prvo_slovo_upper, rijec, 233)
-prva_mix_lower_numeric(rijec_zadnje_slovo_upper, rijec, 241)
-prva_mix_lower_numeric(rijec_sva_slova_upper, rijec, 249)
+	#224 files - 87.4MB
 
-print("\nVelicina foldera iznosi:\n{0:.2f}MB".format(float(neki_tamo_brojac)/1024/1024))
+	prva_mix_lower_numeric(rijec, rijec, 225)
+	prva_mix_lower_numeric(rijec_prvo_slovo_upper, rijec, 233)
+	prva_mix_lower_numeric(rijec_zadnje_slovo_upper, rijec, 241)
+	prva_mix_lower_numeric(rijec_sva_slova_upper, rijec, 249)
 
-druga_mix_lower_numeric(rijec, rijec, 257)
-druga_mix_lower_numeric(rijec_prvo_slovo_upper, rijec, 265)
-druga_mix_lower_numeric(rijec_zadnje_slovo_upper, rijec, 273)
-druga_mix_lower_numeric(rijec_sva_slova_upper, rijec, 281)
+	print("\nVelicina foldera iznosi:\n{0:.2f}MB".format(float(neki_tamo_brojac)/1024/1024))
 
-print("\nVelicina foldera iznosi:\n{0:.2f}MB".format(float(neki_tamo_brojac)/1024/1024))
+	druga_mix_lower_numeric(rijec, rijec, 257)
+	druga_mix_lower_numeric(rijec_prvo_slovo_upper, rijec, 265)
+	druga_mix_lower_numeric(rijec_zadnje_slovo_upper, rijec, 273)
+	druga_mix_lower_numeric(rijec_sva_slova_upper, rijec, 281)
 
-#288 files - 89.7MB
+	print("\nVelicina foldera iznosi:\n{0:.2f}MB".format(float(neki_tamo_brojac)/1024/1024))
 
-prva_mix_lower_upper_numeric(rijec, rijec, 289)
-prva_mix_lower_upper_numeric(rijec_prvo_slovo_upper, rijec, 295)
-prva_mix_lower_upper_numeric(rijec_zadnje_slovo_upper, rijec, 301)
-prva_mix_lower_upper_numeric(rijec_sva_slova_upper, rijec, 307)
+	#288 files - 89.7MB
 
-print("\nVelicina foldera iznosi:\n{0:.2f}MB".format(float(neki_tamo_brojac)/1024/1024))
+	prva_mix_lower_upper_numeric(rijec, rijec, 289)
+	prva_mix_lower_upper_numeric(rijec_prvo_slovo_upper, rijec, 295)
+	prva_mix_lower_upper_numeric(rijec_zadnje_slovo_upper, rijec, 301)
+	prva_mix_lower_upper_numeric(rijec_sva_slova_upper, rijec, 307)
 
-druga_mix_lower_upper_numeric(rijec, rijec, 313)
-druga_mix_lower_upper_numeric(rijec_prvo_slovo_upper, rijec, 319)
-druga_mix_lower_upper_numeric(rijec_zadnje_slovo_upper, rijec, 325)
-druga_mix_lower_upper_numeric(rijec_sva_slova_upper, rijec, 331)
+	print("\nVelicina foldera iznosi:\n{0:.2f}MB".format(float(neki_tamo_brojac)/1024/1024))
 
-print("\nVelicina foldera iznosi:\n{0:.2f}MB".format(float(neki_tamo_brojac)/1024/1024))
+	druga_mix_lower_upper_numeric(rijec, rijec, 313)
+	druga_mix_lower_upper_numeric(rijec_prvo_slovo_upper, rijec, 319)
+	druga_mix_lower_upper_numeric(rijec_zadnje_slovo_upper, rijec, 325)
+	druga_mix_lower_upper_numeric(rijec_sva_slova_upper, rijec, 331)
 
-#336 files - 92.6MB
+	print("\nVelicina foldera iznosi:\n{0:.2f}MB".format(float(neki_tamo_brojac)/1024/1024))
 
-prva_char(rijec, rijec, 337)
-prva_char(rijec_prvo_slovo_upper, rijec, 341)
-prva_char(rijec_zadnje_slovo_upper, rijec, 345)
-prva_char(rijec_sva_slova_upper, rijec, 349)
+	#336 files - 92.6MB
 
-print("\nVelicina foldera iznosi:\n{0:.2f}MB".format(float(neki_tamo_brojac)/1024/1024))
+	prva_char(rijec, rijec, 337)
+	prva_char(rijec_prvo_slovo_upper, rijec, 341)
+	prva_char(rijec_zadnje_slovo_upper, rijec, 345)
+	prva_char(rijec_sva_slova_upper, rijec, 349)
 
-druga_char(rijec, rijec, 353)
-druga_char(rijec_prvo_slovo_upper, rijec, 357)
-druga_char(rijec_zadnje_slovo_upper, rijec, 361)
-druga_char(rijec_sva_slova_upper, rijec, 365)
+	print("\nVelicina foldera iznosi:\n{0:.2f}MB".format(float(neki_tamo_brojac)/1024/1024))
 
-print("\nVelicina foldera iznosi:\n{0:.2f}MB".format(float(neki_tamo_brojac)/1024/1024))
+	druga_char(rijec, rijec, 353)
+	druga_char(rijec_prvo_slovo_upper, rijec, 357)
+	druga_char(rijec_zadnje_slovo_upper, rijec, 361)
+	druga_char(rijec_sva_slova_upper, rijec, 365)
 
-prva_mix_upper_char(rijec, rijec, 369)
-prva_mix_upper_char(rijec_prvo_slovo_upper, rijec, 377)
-prva_mix_upper_char(rijec_zadnje_slovo_upper, rijec, 385)
-prva_mix_upper_char(rijec_sva_slova_upper, rijec, 393)
+	print("\nVelicina foldera iznosi:\n{0:.2f}MB".format(float(neki_tamo_brojac)/1024/1024))
 
-print("\nVelicina foldera iznosi:\n{0:.2f}MB".format(float(neki_tamo_brojac)/1024/1024))
+	prva_mix_upper_char(rijec, rijec, 369)
+	prva_mix_upper_char(rijec_prvo_slovo_upper, rijec, 377)
+	prva_mix_upper_char(rijec_zadnje_slovo_upper, rijec, 385)
+	prva_mix_upper_char(rijec_sva_slova_upper, rijec, 393)
 
-druga_mix_upper_char(rijec, rijec, 401)
-druga_mix_upper_char(rijec_prvo_slovo_upper, rijec, 409)
-druga_mix_upper_char(rijec_zadnje_slovo_upper, rijec, 417)
-druga_mix_upper_char(rijec_sva_slova_upper, rijec, 425)
+	print("\nVelicina foldera iznosi:\n{0:.2f}MB".format(float(neki_tamo_brojac)/1024/1024))
 
-print("\nVelicina foldera iznosi:\n{0:.2f}MB".format(float(neki_tamo_brojac)/1024/1024))
+	druga_mix_upper_char(rijec, rijec, 401)
+	druga_mix_upper_char(rijec_prvo_slovo_upper, rijec, 409)
+	druga_mix_upper_char(rijec_zadnje_slovo_upper, rijec, 417)
+	druga_mix_upper_char(rijec_sva_slova_upper, rijec, 425)
 
-prva_mix_lower_char(rijec, rijec, 433)
-prva_mix_lower_char(rijec_prvo_slovo_upper, rijec, 441)
-prva_mix_lower_char(rijec_zadnje_slovo_upper, rijec, 449)
-prva_mix_lower_char(rijec_sva_slova_upper, rijec, 457)
+	print("\nVelicina foldera iznosi:\n{0:.2f}MB".format(float(neki_tamo_brojac)/1024/1024))
 
-print("\nVelicina foldera iznosi:\n{0:.2f}MB".format(float(neki_tamo_brojac)/1024/1024))
+	prva_mix_lower_char(rijec, rijec, 433)
+	prva_mix_lower_char(rijec_prvo_slovo_upper, rijec, 441)
+	prva_mix_lower_char(rijec_zadnje_slovo_upper, rijec, 449)
+	prva_mix_lower_char(rijec_sva_slova_upper, rijec, 457)
 
-druga_mix_lower_char(rijec, rijec, 465)
-druga_mix_lower_char(rijec_prvo_slovo_upper, rijec, 473)
-druga_mix_lower_char(rijec_zadnje_slovo_upper, rijec, 481)
-druga_mix_lower_char(rijec_sva_slova_upper, rijec, 489)
+	print("\nVelicina foldera iznosi:\n{0:.2f}MB".format(float(neki_tamo_brojac)/1024/1024))
 
-print("\nVelicina foldera iznosi:\n{0:.2f}MB".format(float(neki_tamo_brojac)/1024/1024))
+	druga_mix_lower_char(rijec, rijec, 465)
+	druga_mix_lower_char(rijec_prvo_slovo_upper, rijec, 473)
+	druga_mix_lower_char(rijec_zadnje_slovo_upper, rijec, 481)
+	druga_mix_lower_char(rijec_sva_slova_upper, rijec, 489)
 
-prva_mix_numeric_char(rijec, rijec, 497)
-prva_mix_numeric_char(rijec_prvo_slovo_upper, rijec, 505)
-prva_mix_numeric_char(rijec_zadnje_slovo_upper, rijec, 513)
-prva_mix_numeric_char(rijec_sva_slova_upper, rijec, 521)
+	print("\nVelicina foldera iznosi:\n{0:.2f}MB".format(float(neki_tamo_brojac)/1024/1024))
 
-print("\nVelicina foldera iznosi:\n{0:.2f}MB".format(float(neki_tamo_brojac)/1024/1024))
+	prva_mix_numeric_char(rijec, rijec, 497)
+	prva_mix_numeric_char(rijec_prvo_slovo_upper, rijec, 505)
+	prva_mix_numeric_char(rijec_zadnje_slovo_upper, rijec, 513)
+	prva_mix_numeric_char(rijec_sva_slova_upper, rijec, 521)
 
-druga_mix_numeric_char(rijec, rijec, 529)
-druga_mix_numeric_char(rijec_prvo_slovo_upper, rijec, 537)
-druga_mix_numeric_char(rijec_zadnje_slovo_upper, rijec, 545)
-druga_mix_numeric_char(rijec_sva_slova_upper, rijec, 553)
+	print("\nVelicina foldera iznosi:\n{0:.2f}MB".format(float(neki_tamo_brojac)/1024/1024))
 
-print("\nVelicina foldera iznosi:\n{0:.2f}MB".format(float(neki_tamo_brojac)/1024/1024))
+	druga_mix_numeric_char(rijec, rijec, 529)
+	druga_mix_numeric_char(rijec_prvo_slovo_upper, rijec, 537)
+	druga_mix_numeric_char(rijec_zadnje_slovo_upper, rijec, 545)
+	druga_mix_numeric_char(rijec_sva_slova_upper, rijec, 553)
 
-#560 files - 202.7MB
+	print("\nVelicina foldera iznosi:\n{0:.2f}MB".format(float(neki_tamo_brojac)/1024/1024))
 
-prva_mix_upper_lower_char(rijec, rijec, 561)
-prva_mix_upper_lower_char(rijec_prvo_slovo_upper, rijec, 567)
-prva_mix_upper_lower_char(rijec_zadnje_slovo_upper, rijec, 573)
-prva_mix_upper_lower_char(rijec_sva_slova_upper, rijec, 579)
+	#560 files - 202.7MB
 
-print("\nVelicina foldera iznosi:\n{0:.2f}MB".format(float(neki_tamo_brojac)/1024/1024))
+	prva_mix_upper_lower_char(rijec, rijec, 561)
+	prva_mix_upper_lower_char(rijec_prvo_slovo_upper, rijec, 567)
+	prva_mix_upper_lower_char(rijec_zadnje_slovo_upper, rijec, 573)
+	prva_mix_upper_lower_char(rijec_sva_slova_upper, rijec, 579)
 
-druga_mix_upper_lower_char(rijec, rijec, 585)
-druga_mix_upper_lower_char(rijec_prvo_slovo_upper, rijec, 591)
-druga_mix_upper_lower_char(rijec_zadnje_slovo_upper, rijec, 597)
-druga_mix_upper_lower_char(rijec_sva_slova_upper, rijec, 603)
+	print("\nVelicina foldera iznosi:\n{0:.2f}MB".format(float(neki_tamo_brojac)/1024/1024))
 
-print("\nVelicina foldera iznosi:\n{0:.2f}MB".format(float(neki_tamo_brojac)/1024/1024))
+	druga_mix_upper_lower_char(rijec, rijec, 585)
+	druga_mix_upper_lower_char(rijec_prvo_slovo_upper, rijec, 591)
+	druga_mix_upper_lower_char(rijec_zadnje_slovo_upper, rijec, 597)
+	druga_mix_upper_lower_char(rijec_sva_slova_upper, rijec, 603)
 
-prva_mix_upper_numeric_char(rijec, rijec, 609)
-prva_mix_upper_numeric_char(rijec_prvo_slovo_upper, rijec, 615)
-prva_mix_upper_numeric_char(rijec_zadnje_slovo_upper, rijec, 621)
-prva_mix_upper_numeric_char(rijec_sva_slova_upper, rijec, 627)
+	print("\nVelicina foldera iznosi:\n{0:.2f}MB".format(float(neki_tamo_brojac)/1024/1024))
 
-print("\nVelicina foldera iznosi:\n{0:.2f}MB".format(float(neki_tamo_brojac)/1024/1024))
+	prva_mix_upper_numeric_char(rijec, rijec, 609)
+	prva_mix_upper_numeric_char(rijec_prvo_slovo_upper, rijec, 615)
+	prva_mix_upper_numeric_char(rijec_zadnje_slovo_upper, rijec, 621)
+	prva_mix_upper_numeric_char(rijec_sva_slova_upper, rijec, 627)
 
-druga_mix_upper_numeric_char(rijec, rijec, 633)
-druga_mix_upper_numeric_char(rijec_prvo_slovo_upper, rijec, 639)
-druga_mix_upper_numeric_char(rijec_zadnje_slovo_upper, rijec, 645)
-druga_mix_upper_numeric_char(rijec_sva_slova_upper, rijec, 651)
+	print("\nVelicina foldera iznosi:\n{0:.2f}MB".format(float(neki_tamo_brojac)/1024/1024))
 
-print("\nVelicina foldera iznosi:\n{0:.2f}MB".format(float(neki_tamo_brojac)/1024/1024))
+	druga_mix_upper_numeric_char(rijec, rijec, 633)
+	druga_mix_upper_numeric_char(rijec_prvo_slovo_upper, rijec, 639)
+	druga_mix_upper_numeric_char(rijec_zadnje_slovo_upper, rijec, 645)
+	druga_mix_upper_numeric_char(rijec_sva_slova_upper, rijec, 651)
+
+	print("\nVelicina foldera iznosi:\n{0:.2f}MB".format(float(neki_tamo_brojac)/1024/1024))
+
+else:
+	
 
 #656 files - 214.6MB
 
