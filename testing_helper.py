@@ -1,6 +1,13 @@
 import os
 
-broj_rijeci = int(input("Unesi broj rijeci:"))
+while (True):
+	broj_rijeci = int(input("Unesi broj rijeci:"))
+
+	if (1 <= broj_rijeci < 6):
+		break
+
+	print("Minimalan broj rijeci je 1, a maksimalan 5.\nMolimo Vas, pokusajte ponovo!\n")
+
 rijecnik = {}
 naziv_foldera = ""
 

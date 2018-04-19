@@ -442,12 +442,15 @@ def druga_mix_upper_numeric_char(rijec, rijec_original, txt_broj):
 os.system("crunch")
 time.sleep(2)
 
-broj_ukupnih_rijeci = raw_input("Unesi broj ukupnih rijeci:")
+while(True):
+	broj_ukupnih_rijeci = raw_input("Unesite broj ukupnih rijeci:")
 
-if (broj_ukupnih_rijeci == 0):
-	pass
+	if (1 <= broj_ukupnih_rijeci < 6):
+		break
 
-elif (broj_ukupnih_rijeci == 1):
+	print("Minimalan broj rijeci je 1, a maksimalan 5.\nMolimo Vas, pokusajte ponovo!\n")
+
+if (broj_ukupnih_rijeci == 1):
 	rijec = raw_input("Unesi nesto:")
 	rijec_duzina = len(rijec)
 
@@ -654,12 +657,28 @@ elif (broj_ukupnih_rijeci == 1):
 
 	print("\nVelicina foldera iznosi:\n{0:.2f}MB".format(float(neki_tamo_brojac)/1024/1024))
 
+	#656 files - 214.6MB
+
 else:
-	pass
+	sve_rijeci_dictionary = {}
+	naziv_foldera = ""
 
-#656 files - 214.6MB
+	for x in range(broj_ukupnih_rijeci):
+		rijec = input("Unesite {0}. rijec:".format(x + 1))
+		rijec_duzina = len(rijec)
 
-#testiramo nesto
+		sve_rijeci_dictionary[x] = {}
+		sve_rijeci_dictionary[x]["rijec"] = rijec
+		sve_rijeci_dictionary[x]["rijec_duzina"] = rijec_duzina
+		sve_rijeci_dictionary[x]["rijec_prvo_slovo_upper"] = rijec[0].upper() + rijec[1:]
+		sve_rijeci_dictionary[x]["rijec_zadnje_slovo_upper"] = rijec[:(rijec_duzina - 1)] + rijec[(rijec_duzina) - 1].upper()
+		sve_rijeci_dictionary[x]["rijec_sva_slova_upper"] = rijec.upper()
+
+		naziv_foldera += rijec
+
+	#funkcije
+
+##############################testiramo nesto#######################################################
 # def main_funkcija(ime_funkcije, broj_skokova):
 # 	global brojac, rijec, rijec_prvo_slovo_upper, rijec_zadnje_slovo_upper, rijec_sva_slova_upper
 
