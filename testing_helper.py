@@ -24,8 +24,8 @@ for x in range(broj_rijeci):
 
 	naziv_foldera += rijec
 
-def testna_funkcija(rijec, prvo_slovo_upper):
-	print("Lesa care napusi se kare, i onda kazem da je rijec \n{0} kada se pretvori da bude prvo slovo upper onda je:\n{1}".format(rijec, prvo_slovo_upper))
+def testna_funkcija(rijecnik):
+	print("Lesa care napusi se kare, i onda kazem da je rijec \n{0} kada se pretvori da bude prvo slovo upper onda je:\n{1}\nA kad je sve veliko onda je:\n{2}".format(rijecnik[0]['rijec'], rijecnik[0]['prvo_slovo_upper'], rijecnik[1]['sva_slova_upper']))
 
 def testna_funkcija_dva(rijec, sva_slova_upper):
 	print("Lesa care napusi se kare, i onda kazem da je rijec \n{0} kada se pretvori da budu sva slova upper onda je:\n{1}".format(rijec, sva_slova_upper))
@@ -34,6 +34,6 @@ def testna_funkcija_dva(rijec, sva_slova_upper):
 
 os.system("mkdir {0}".format(naziv_foldera))
 
-for y in range(broj_rijeci):
-	testna_funkcija(rijecnik[y]['rijec'], rijecnik[y]['prvo_slovo_upper'])
-	testna_funkcija_dva(rijecnik[y]['rijec'], rijecnik[y]['sva_slova_upper'])
+# for y in range(broj_rijeci):
+testna_funkcija(rijecnik)
+	# testna_funkcija_dva(rijecnik[y]['rijec'], rijecnik[y]['sva_slova_upper'])
