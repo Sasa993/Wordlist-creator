@@ -1,3 +1,4 @@
+#dodaj vrijeme izvrsavanja
 prva_numeric - lesa1, lesa11, lesa111, lesa1111
 druga_numeric - 1lesa, 11lesa, 111lesa, 1111lesa
 prva_lower_alpha - lesaa, lesaab, lesaabc, lesaabcd
