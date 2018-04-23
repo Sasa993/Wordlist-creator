@@ -1,4 +1,40 @@
-#dodaj vrijeme izvrsavanja
+#TASKS#
+* add time of the execution
+* add combo with 2 names
+* figure out if you can add a counter instead of that fking txt_broj
+
+
+
+
+
+#NOTES#
+* vise_rijeci_prva_numeric function tested with two words, everything went okay - 60 files created (MB)
+*
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+#PERMUTATION HELPER#
 prva_numeric - lesa1, lesa11, lesa111, lesa1111
 druga_numeric - 1lesa, 11lesa, 111lesa, 1111lesa
 prva_lower_alpha - lesaa, lesaab, lesaabc, lesaabcd
