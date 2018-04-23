@@ -3,6 +3,7 @@
 * add combo with 2 names
 * figure out if you can add a counter instead of that fking txt_broj
 * test if you always need to declare tamo_neki_brojac, or perhaps just once
+* see if you could ask the user after the execution, if he wants to run the script again
 
 
 
@@ -17,8 +18,13 @@
 
 
 
-
-
+#COMBO 3 WORDS#
+012 -
+102	
+120
+210
+210
+021
 
 
 
