@@ -483,11 +483,11 @@ def vise_rijeci_prva_numeric(broj_rijeci, folder, rijecnik, txt_broj):
 		neki_tamo_brojac += os.path.getsize('/root/Documents/{0}/{1}.txt'.format(folder, txt_broj + 19))
 		os.system("crunch {0} {0} -t %{1}%%{2} -o /root/Documents/{3}/{4}.txt".format(rijecnik[0]['rijec_duzina'] + rijecnik[1]['rijec_duzina'] + 3, rijecnik[0]['rijec'], rijecnik[1]['rijec'], folder, txt_broj + 20))
 		neki_tamo_brojac += os.path.getsize('/root/Documents/{0}/{1}.txt'.format(folder, txt_broj + 20))
-		os.system("crunch {0} {0} -t %{1}%%%{2} -o /root/Documents/{3}/{4}.txt".format(rijecnik[0]['rijec_duzina'] + rijecnik[1]['rijec_duzina'] + 3, rijecnik[0]['rijec'], rijecnik[1]['rijec'], folder, txt_broj + 21))
+		os.system("crunch {0} {0} -t %{1}%%%{2} -o /root/Documents/{3}/{4}.txt".format(rijecnik[0]['rijec_duzina'] + rijecnik[1]['rijec_duzina'] + 4, rijecnik[0]['rijec'], rijecnik[1]['rijec'], folder, txt_broj + 21))
 		neki_tamo_brojac += os.path.getsize('/root/Documents/{0}/{1}.txt'.format(folder, txt_broj + 21))
-		os.system("crunch {0} {0} -t %%{1}%%{2} -o /root/Documents/{3}/{4}.txt".format(rijecnik[0]['rijec_duzina'] + rijecnik[1]['rijec_duzina'] + 3, rijecnik[0]['rijec'], rijecnik[1]['rijec'], folder, txt_broj + 22))
+		os.system("crunch {0} {0} -t %%{1}%%{2} -o /root/Documents/{3}/{4}.txt".format(rijecnik[0]['rijec_duzina'] + rijecnik[1]['rijec_duzina'] + 4, rijecnik[0]['rijec'], rijecnik[1]['rijec'], folder, txt_broj + 22))
 		neki_tamo_brojac += os.path.getsize('/root/Documents/{0}/{1}.txt'.format(folder, txt_broj + 22))
-		os.system("crunch {0} {0} -t %%%{1}%{2} -o /root/Documents/{3}/{4}.txt".format(rijecnik[0]['rijec_duzina'] + rijecnik[1]['rijec_duzina'] + 3, rijecnik[0]['rijec'], rijecnik[1]['rijec'], folder, txt_broj + 23))
+		os.system("crunch {0} {0} -t %%%{1}%{2} -o /root/Documents/{3}/{4}.txt".format(rijecnik[0]['rijec_duzina'] + rijecnik[1]['rijec_duzina'] + 4, rijecnik[0]['rijec'], rijecnik[1]['rijec'], folder, txt_broj + 23))
 		neki_tamo_brojac += os.path.getsize('/root/Documents/{0}/{1}.txt'.format(folder, txt_broj + 23))
 		os.system("crunch {0} {0} -t %{1}{2}% -o /root/Documents/{3}/{4}.txt".format(rijecnik[0]['rijec_duzina'] + rijecnik[1]['rijec_duzina'] + 2, rijecnik[0]['rijec'], rijecnik[1]['rijec'], folder, txt_broj + 24))
 		neki_tamo_brojac += os.path.getsize('/root/Documents/{0}/{1}.txt'.format(folder, txt_broj + 24))
@@ -495,11 +495,11 @@ def vise_rijeci_prva_numeric(broj_rijeci, folder, rijecnik, txt_broj):
 		neki_tamo_brojac += os.path.getsize('/root/Documents/{0}/{1}.txt'.format(folder, txt_broj + 25))
 		os.system("crunch {0} {0} -t %{1}{2}%% -o /root/Documents/{3}/{4}.txt".format(rijecnik[0]['rijec_duzina'] + rijecnik[1]['rijec_duzina'] + 3, rijecnik[0]['rijec'], rijecnik[1]['rijec'], folder, txt_broj + 26))
 		neki_tamo_brojac += os.path.getsize('/root/Documents/{0}/{1}.txt'.format(folder, txt_broj + 26))
-		os.system("crunch {0} {0} -t %%{1}{2}%% -o /root/Documents/{3}/{4}.txt".format(rijecnik[0]['rijec_duzina'] + rijecnik[1]['rijec_duzina'] + 3, rijecnik[0]['rijec'], rijecnik[1]['rijec'], folder, txt_broj + 27))
+		os.system("crunch {0} {0} -t %%{1}{2}%% -o /root/Documents/{3}/{4}.txt".format(rijecnik[0]['rijec_duzina'] + rijecnik[1]['rijec_duzina'] + 4, rijecnik[0]['rijec'], rijecnik[1]['rijec'], folder, txt_broj + 27))
 		neki_tamo_brojac += os.path.getsize('/root/Documents/{0}/{1}.txt'.format(folder, txt_broj + 27))
-		os.system("crunch {0} {0} -t %%%{1}{2}% -o /root/Documents/{3}/{4}.txt".format(rijecnik[0]['rijec_duzina'] + rijecnik[1]['rijec_duzina'] + 3, rijecnik[0]['rijec'], rijecnik[1]['rijec'], folder, txt_broj + 28))
+		os.system("crunch {0} {0} -t %%%{1}{2}% -o /root/Documents/{3}/{4}.txt".format(rijecnik[0]['rijec_duzina'] + rijecnik[1]['rijec_duzina'] + 4, rijecnik[0]['rijec'], rijecnik[1]['rijec'], folder, txt_broj + 28))
 		neki_tamo_brojac += os.path.getsize('/root/Documents/{0}/{1}.txt'.format(folder, txt_broj + 28))
-		os.system("crunch {0} {0} -t %{1}{2}%%% -o /root/Documents/{3}/{4}.txt".format(rijecnik[0]['rijec_duzina'] + rijecnik[1]['rijec_duzina'] + 3, rijecnik[0]['rijec'], rijecnik[1]['rijec'], folder, txt_broj + 29))
+		os.system("crunch {0} {0} -t %{1}{2}%%% -o /root/Documents/{3}/{4}.txt".format(rijecnik[0]['rijec_duzina'] + rijecnik[1]['rijec_duzina'] + 4, rijecnik[0]['rijec'], rijecnik[1]['rijec'], folder, txt_broj + 29))
 		neki_tamo_brojac += os.path.getsize('/root/Documents/{0}/{1}.txt'.format(folder, txt_broj + 29))
 
 	elif (broj_rijeci == 3):
@@ -628,12 +628,12 @@ def vise_rijeci_prva_numeric(broj_rijeci, folder, rijecnik, txt_broj):
 		pass
 
 os.system("crunch")
-time.sleep(2)
+time.sleep(1)
 
 while(True):
-	broj_ukupnih_rijeci = raw_input("Unesite broj ukupnih rijeci:")
+	broj_ukupnih_rijeci = input("Unesite broj ukupnih rijeci:")
 
-	if (1 <= broj_ukupnih_rijeci < 6):
+	if (1 <= int(broj_ukupnih_rijeci) < 6):
 		break
 
 	print("Minimalan broj rijeci je 1, a maksimalan 5.\nMolimo Vas, pokusajte ponovo!\n")
@@ -854,7 +854,7 @@ else:
 	naziv_foldera = ""
 
 	for x in range(broj_ukupnih_rijeci):
-		rijec = input("Unesite {0}. rijec:".format(x + 1))
+		rijec = raw_input("Unesite {0}. rijec:".format(x + 1))
 		rijec_duzina = len(rijec)
 
 		sve_rijeci_dictionary[x] = {}
@@ -866,7 +866,8 @@ else:
 
 		naziv_foldera += rijec
 
-	#funkcije
+	os.system("mkdir /root/Documents/{0}".format(naziv_foldera))
+	vise_rijeci_prva_numeric(broj_ukupnih_rijeci, naziv_foldera, sve_rijeci_dictionary, 1)
 
 ##############################testiramo nesto#######################################################
 # def main_funkcija(ime_funkcije, broj_skokova):
