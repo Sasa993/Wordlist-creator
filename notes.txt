@@ -2,13 +2,14 @@
 * add time of the execution
 * add combo with 2 names
 * figure out if you can add a counter instead of that fking txt_broj
+* test if you always need to declare tamo_neki_brojac, or perhaps just once
 
 
 
 
 
 #NOTES#
-* vise_rijeci_prva_numeric function tested with two words, everything went okay - 60 files created (MB)
+* dvije_rijeci_prva_numeric function tested with two words, everything went okay - 60 files created (4.9MB)
 *
 
 
