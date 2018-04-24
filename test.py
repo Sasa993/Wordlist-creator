@@ -1177,11 +1177,11 @@ elif (broj_ukupnih_rijeci == 2):
 
 	os.system("mkdir /root/Documents/{0}".format(naziv_foldera))
 
-	dvije_rijeci_prva_numeric("rijec", "rijec" naziv_foldera, sve_rijeci_dictionary, 1)
-	dvije_rijeci_prva_numeric("rijec_prvo_slovo_upper", "rijec" naziv_foldera, sve_rijeci_dictionary, 29)
-	dvije_rijeci_prva_numeric("rijec_prvo_slovo_upper", "rijec_prvo_slovo_upper" naziv_foldera, sve_rijeci_dictionary, 57)
-	dvije_rijeci_prva_numeric("rijec", "rijec_prvo_slovo_upper" naziv_foldera, sve_rijeci_dictionary, 85)
-	
+	dvije_rijeci_prva_numeric("rijec", "rijec", naziv_foldera, sve_rijeci_dictionary, 1)
+	dvije_rijeci_prva_numeric("rijec_prvo_slovo_upper", "rijec", naziv_foldera, sve_rijeci_dictionary, 29)
+	dvije_rijeci_prva_numeric("rijec_prvo_slovo_upper", "rijec_prvo_slovo_upper", naziv_foldera, sve_rijeci_dictionary, 57)
+	dvije_rijeci_prva_numeric("rijec", "rijec_prvo_slovo_upper", naziv_foldera, sve_rijeci_dictionary, 85)
+
 	dvije_rijeci_prva_numeric("rijec_zadnje_slovo_upper", "rijec", naziv_foldera, sve_rijeci_dictionary, 113)
 	dvije_rijeci_prva_numeric("rijec_zadnje_slovo_upper", "rijec_zadnje_slovo_upper", naziv_foldera, sve_rijeci_dictionary, 141)
 	dvije_rijeci_prva_numeric("rijec", "rijec_zadnje_slovo_upper", naziv_foldera, sve_rijeci_dictionary, 169)
