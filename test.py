@@ -1179,7 +1179,15 @@ elif (broj_ukupnih_rijeci == 2):
 
 	dvije_rijeci_prva_numeric("rijec", naziv_foldera, sve_rijeci_dictionary, 1)
 	dvije_rijeci_prva_numeric("rijec_prvo_slovo_upper", naziv_foldera, sve_rijeci_dictionary, 29)
+	dvije_rijeci_prva_numeric("rijec_zadnje_slovo_upper", naziv_foldera, sve_rijeci_dictionary, 57)
+	dvije_rijeci_prva_numeric("rijec_sva_slova_upper", naziv_foldera, sve_rijeci_dictionary, 85)
+
 	print("\nVelicina foldera iznosi:\n{0:.2f}MB".format(float(neki_tamo_brojac)/1024/1024))
+
+	dvije_rijeci_druga_numeric("rijec", naziv_foldera, sve_rijeci_dictionary, 113)
+	dvije_rijeci_druga_numeric("rijec_prvo_slovo_upper", naziv_foldera, sve_rijeci_dictionary, 145)
+	dvije_rijeci_druga_numeric("rijec_zadnje_slovo_upper", naziv_foldera, sve_rijeci_dictionary, 177)
+	dvije_rijeci_druga_numeric("rijec_sva_slova_upper", naziv_foldera, sve_rijeci_dictionary, 209)
 
 elif (broj_ukupnih_rijeci == 3):
 	pass
