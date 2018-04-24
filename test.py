@@ -1177,7 +1177,7 @@ elif (broj_ukupnih_rijeci == 2):
 
 	os.system("mkdir /root/Documents/{0}".format(naziv_foldera))
 
-	dvije_rijeci_prva_numeric(rijec, naziv_foldera, sve_rijeci_dictionary, 1)
+	dvije_rijeci_prva_numeric("rijec", naziv_foldera, sve_rijeci_dictionary, 1)
 	print("\nVelicina foldera iznosi:\n{0:.2f}MB".format(float(neki_tamo_brojac)/1024/1024))
 
 elif (broj_ukupnih_rijeci == 3):
