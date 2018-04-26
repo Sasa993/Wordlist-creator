@@ -215,4 +215,60 @@ druga_mix_upper_numeric_char -
 	@,12, -
 	,@12@
 	@,12@
-	@@12,	
+	@@12,
+
+*DVIJE_RIJECI_PRVA_MIX_LOWER_UPPER_NUMERIC*
+	@,%12
+	@%,12
+	%@,12
+	%,@12
+	,@%12
+	,%@12
+
+	@1,%2
+	@1%,2
+	%1@,2
+	%1,@2
+	,1@%2
+	,1%@2
+
+	@,1%2
+	@%1,2
+	%@1,2
+	%,1@2
+	,@1%2
+	,%1@2
+
+	1@,%2
+	1@%,2
+	1%@,2
+	1%,@2
+	1,@%2
+	1,%@2
+
+prva_numeric -
+druga_numeric -
+prva_lower_alpha -
+druga_lower_alpha -
+prva_upper_alpha -
+druga_upper_alpha -
+prva_mix_upper_lower -
+druga_mix_upper_lower -
+prva_mix_upper_numeric
+druga_mix_upper_numeric
+prva_mix_lower_numeric
+druga_mix_lower_numeric
+prva_mix_lower_upper_numeric -
+druga_mix_lower_upper_numeric -
+prva_char
+druga_char
+prva_mix_upper_char
+druga_mix_upper_char
+prva_mix_lower_char
+druga_mix_lower_char
+prva_mix_numeric_char
+druga_mix_numeric_char
+prva_mix_upper_lower_char
+druga_mix_upper_lower_char
+prva_mix_upper_numeric_char
+druga_mix_upper_numeric_char
