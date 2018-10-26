@@ -10,154 +10,20 @@
 
 
 
-#NOTES#
-* dvije_rijeci_prva_numeric function tested with two words, everything went okay - 60 files created (4.9MB)
-*
+#TESTED#
+* dvije_rijeci_prva_numeric
+* dvije_rijeci_druga_numeric
+600 files - 28.3MB
+*dvije_rijeci_prva_lower_alpha
+*dvije_rijeci_druga_lower_alpha
+600 files - 1.6GB
 
 
-
-
-
-
-#COMBO 3 WORDS#
-012 -
-102	
-120
-210
-210
-021
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-#PERMUTATION HELPER#
-prva_numeric - lesa1, lesa11, lesa111, lesa1111
-druga_numeric - 1lesa, 11lesa, 111lesa, 1111lesa
-prva_lower_alpha - lesaa, lesaab, lesaabc, lesaabcd
-druga_lower_alpha - alesa, ablesa, abclesa, abcdlesa
-prva_upper_alpha - lesaA, lesaAB, lesaABC, lesaABCD
-druga_upper_alpha - Alesa, ABlesa, ABClesa, ABCDlesa
-prva_mix_upper_lower - Aalesa, aAlesa, aABlesa, AaBlesa, ABalesa, abAlesa, Aablesa, aAblesa
-druga_mix_upper_lower - lesaAa, lesaaA, lesaaAB, lesaAaB, lesaABa, lesaabA, lesaAab, lesaaAb
-prva_mix_upper_numeric - A1lesa, 1Alesa, 1ABlesa, A1Blesa, AB1lesa, 12Alesa, A12lesa, 1A2lesa
-druga_mix_upper_numeric - lesaA1, lesa1A, lesa1AB, lesaA1B, lesaAB1, lesa12A, lesaA12, lesa1A2
-prva_mix_lower_numeric - 1alesa, a1lesa, a12lesa, 1a2lesa, 12alesa, ab1lesa, 1ablesa, a1blesa
-druga_mix_lower_numeric - lesa1a, lesaa1, lesaa12, lesa1a2, lesa12a, lesaab1, lesa1ab, lesaa1b
-prva_mix_lower_upper_numeric - aA1lesa, a1Alesa, Aa1lesa, A1alesa, 1aalesa, 1aAlesa, 1Aalesa
-druga_mix_lower_upper_numeric - lesaaa1, lesaaA1, lesaa1A, lesaAa1, lesaA1a, lesa1aA, lesa1Aa
-prva_char -  !lesa, !@lesa, !@#lesa, !@#$lesa
-druga_char - lesa!, lesa!@, lesa!@#, lesa!@#$ 
-prva_mix_upper_char - A!lesa, !Alesa, !ABlesa, A!Blesa, AB!lesa, !@Alesa, A!@lesa, !A@lesa
-druga_mix_upper_char - lesaA!, lesa!A, lesa!AB, lesaA!B, lesaAB!, lesa!@A, lesaA!@, lesa!A@
-prva_mix_lower_char - !alesa, a!lesa, a!@lesa, !a@lesa, !@alesa, ab!lesa, !ablesa, a!blesa
-druga_mix_lower_char - lesa!a, lesaa!, lesaa!@, lesa!a@, lesa!@a, lesaab!, lesa!ab, lesaa!b
-prva_mix_numeric_char -
-druga_mix_numeric_char -
-prva_mix_upper_lower_char -
-druga_mix_upper_lower_char - 
-prva_mix_upper_numeric_char -
-druga_mix_upper_numeric_char -
-
-{1}{2}?
-{1}{2}??
-{1}{2}???
-{1}{2}????
-{1}?{2}
-{1}??{2}
-{1}???{2}
-{1}????{2}
-{1}?{2}?
-{1}??{2}?
-{1}?{2}??
-{1}???{2}?
-{1}??{2}??
-{1}?{2}???
-?{1}{2}
-??{1}{2}
-???{1}{2}
-????{1}{2}
-?{1}?{2}
-??{1}?{2}
-?{1}??{2}
-?{1}???{2}
-??{1}??{2}
-???{1}?{2}
-?{1}{2}?
-??{1}{2}?
-?{1}{2}??
-??{1}{2}??
-???{1}{2}?
-?{1}{2}???
-
-{1}{2}{3}?
-{1}{2}{3}??
-{1}{2}{3}???
-{1}{2}{3}????
-{1}{2}?{3}
-{1}{2}??{3}
-{1}{2}???{3}
-{1}{2}????{3}
-{1}{2}?{3}?
-{1}{2}??{3}?
-{1}{2}?{3}??
-{1}{2}??{3}??
-{1}{2}???{3}?
-{1}{2}?{3}???
-{1}?{2}{3}
-{1}??{2}{3}
-{1}???{2}{3}
-{1}????{2}{3}
-{1}?{2}?{3}
-{1}?{2}{3}?
-{1}?{2}??{3}
-{1}??{2}?{3}
-{1}?{2}?{3}?
-{1}?{2}{3}??
-{1}??{2}{3}?
-{1}??{2}?{3}?
-{1}?{2}??{3}?
-{1}?{2}?{3}??
-{1}???{2}?{3}
-{1}???{2}{3}?
-{1}??{2}??{3}
-{1}??{2}{3}??
-{1}?{2}{3}???
-?{1}{2}{3}
-??{1}{2}{3}
-???{1}{2}{3}
-????{1}{2}{3}
-?{1}?{2}{3}
-?{1}{2}?{3}
-?{1}{2}{3}?
-?{1}??{2}{3}
-?{1}{2}??{3}
-?{1}{2}{3}??
-??{1}?{2}{3}
-??{1}{2}?{3}
-??{1}{2}{3}?
-??{1}?{2}?{3}
-??{1}?{2}{3}?
-??{1}{2}?{3}?
-?{1}??{2}?{3}
-?{1}?{2}??{3}
-???{1}?{2}{3}
-???{1}{2}?{3}
-???{1}{2}{3}?
-?{1}???{2}{3}
-?{1}{2}???{3}
-?{1}{2}{3}???***************
+AKO BUDE ZEZALO OKO DIR-A U LINUXU:
+folder_path = "Documents/"
+os.chdir("..")
+os.chdir("..")
+os.chdir("..")
 
 *DVIJE_RIJECI_PRVA_MIX_UPPER_LOWER*
 	,@{1}{2}
