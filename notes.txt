@@ -24,6 +24,8 @@ folder_path = "Documents/"
 os.chdir("..")
 os.chdir("..")
 os.chdir("..")
+NAJBOLJE RJESENJE:
+stavi folder_path = "" i jedan os.chdir("..") i to je to
 
 *DVIJE_RIJECI_PRVA_MIX_UPPER_LOWER*
 	,@{1}{2}
