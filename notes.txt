@@ -17,6 +17,9 @@
 *dvije_rijeci_prva_lower_alpha
 *dvije_rijeci_druga_lower_alpha
 600 files - 1.6GB
+*dvije_rijeci_prva_lower_alpha
+*dvije_rijeci_druga_lower_alpha
+600 files - 1.8GB
 
 
 AKO BUDE ZEZALO OKO DIR-A U LINUXU:
