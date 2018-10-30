@@ -25,6 +25,10 @@
 1080 files - 179MB
 *dvije_rijeci_prva_mix_upper_numeric
 *dvije_rijeci_druga_mix_upper_numeric
+1200 files - around 300MB
+*dvije_rijeci_prva_mix_lower_numeric
+720 files - 42MB
+*dvije_rijeci_druga_mix_lower_numeric
 
 
 
