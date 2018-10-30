@@ -2129,7 +2129,7 @@ def dvije_rijeci_prva_mix_lower_char(prva_rijec, druga_rijec, folder, rijecnik, 
 	neki_tamo_brojac += os.path.getsize('{0}{1}/{2}.txt'.format(folder_path, folder, txt_broj + 28))
 	os.system("crunch {0} {0} -t ^@{1}{2} -o {3}{4}/{5}.txt".format(rijecnik[0]['rijec_duzina'] + rijecnik[1]['rijec_duzina'] + 2, rijecnik[1][prva_rijec], rijecnik[0][druga_rijec], folder_path, folder, txt_broj + 29))
 	neki_tamo_brojac += os.path.getsize('{0}{1}/{2}.txt'.format(folder_path, folder, txt_broj + 29))
-	os.system("crunch {0} {0} -t @{1}^{2} -o {3}{4}/{5}.txt".format(rijecnik[0]['rijec_duzina'] + rijecnik[1]['rijec_duzina'] + 2, rijecnik[1][prva_rijec], rijecnik[0][druga_rijec], folder_path, folder, txt_broj + 307))
+	os.system("crunch {0} {0} -t @{1}^{2} -o {3}{4}/{5}.txt".format(rijecnik[0]['rijec_duzina'] + rijecnik[1]['rijec_duzina'] + 2, rijecnik[1][prva_rijec], rijecnik[0][druga_rijec], folder_path, folder, txt_broj + 30))
 	neki_tamo_brojac += os.path.getsize('{0}{1}/{2}.txt'.format(folder_path, folder, txt_broj + 30))
 	os.system("crunch {0} {0} -t ^{1}@{2} -o {3}{4}/{5}.txt".format(rijecnik[0]['rijec_duzina'] + rijecnik[1]['rijec_duzina'] + 2, rijecnik[1][prva_rijec], rijecnik[0][druga_rijec], folder_path, folder, txt_broj + 31))
 	neki_tamo_brojac += os.path.getsize('{0}{1}/{2}.txt'.format(folder_path, folder, txt_broj + 31))

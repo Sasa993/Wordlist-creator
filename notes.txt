@@ -29,6 +29,18 @@
 *dvije_rijeci_prva_mix_lower_numeric
 720 files - 42MB
 *dvije_rijeci_druga_mix_lower_numeric
+480 files - 25MB
+*dvije_rijeci_prva_mix_lower_upper_numeric
+*dvije_rijeci_druga_mix_lower_upper_numeric
+912 files - 105MB
+*dvije_rijeci_char
+*dvije_rijeci_prva_mix_upper_char
+*dvije_rijeci_druga_mix_upper_char
+1460 files - 513MB
+*dvije_rijeci_prva_mix_lower_char
+*dvije_rijeci_druga_mix_lower_char
+
+
 
 
 
