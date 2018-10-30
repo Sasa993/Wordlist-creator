@@ -39,10 +39,10 @@
 1460 files - 513MB
 *dvije_rijeci_prva_mix_lower_char
 *dvije_rijeci_druga_mix_lower_char
-
-
-
-
+500 files - 160MB
+*dvije_rijeci_prva_mix_numeric_char
+560 files - 44MB
+*dvije_rijeci_druga_mix_numeric_char
 
 AKO BUDE ZEZALO OKO DIR-A U LINUXU:
 folder_path = "Documents/"
