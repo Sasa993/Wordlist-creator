@@ -1,6 +1,0 @@
-#TASKS#
-* add the precise time of the execution, after the execution
-* add approximately how much time the user has to wait, before he gets the whole dictionary
-* figure out if you can add a counter instead of that fking txt_broj
-* test if you always need to declare tamo_neki_brojac, or perhaps just once
-* see if you could ask the user after the execution, if he wants to run the script again

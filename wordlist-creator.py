@@ -3145,8 +3145,9 @@ if (broj_ukupnih_rijeci == 1):
 
 	#656 files - 214.6MB
 	#sve spajamo u jedan finalni fajl i brisemo sve ostale fajlove
-	os.system("cd {0}".format(naziv_foldera))
-	os.system("cat * > {0}_dictionary.txt && rm !({0})".format(naziv_foldera))
+	os.chdir(rijec)
+	os.system("mkdir temp && cat *.txt > temp/{0}_dictionary.txt".format(rijec))
+	os.system("rm *.txt && mv temp/{0}_dictionary.txt {0}_dictionary.txt && rmdir temp".format(rijec))
 
 elif (broj_ukupnih_rijeci == 2):
 	neki_tamo_brojac = 0
@@ -3641,24 +3642,9 @@ elif (broj_ukupnih_rijeci == 2):
 
 	#11220 files - 4.3GB
 	#sve spajamo u jedan finalni fajl i brisemo sve ostale fajlove
-	os.system("cd {0}".format(naziv_foldera))
-	os.system("cat * > {0}_dictionary.txt && rm !({0})".format(naziv_foldera))
+	os.chdir(naziv_foldera)
+	os.system("mkdir temp && cat *.txt > temp/{0}_dictionary.txt".format(naziv_foldera))
+	os.system("rm *.txt && mv temp/{0}_dictionary.txt {0}_dictionary.txt && rmdir temp".format(naziv_foldera))
 
 else:
 	pass
-
-##############################testiramo nesto#######################################################
-# def main_funkcija(ime_funkcije, broj_skokova):
-# 	global brojac, rijec, rijec_prvo_slovo_upper, rijec_zadnje_slovo_upper, rijec_sva_slova_upper
-
-# 	brojac += broj_skokova
-# 	ime_funkcije(rijec, rijec, brojac)
-# 	brojac += broj_skokova
-# 	ime_funkcije(rijec_prvo_slovo_upper, rijec, brojac)
-# 	brojac += broj_skokova
-# 	ime_funkcije(rijec_zadnje_slovo_upper, rijec, brojac)
-# 	brojac += broj_skokova
-# 	ime_funkcije(rijec_sva_slova_upper, rijec, brojac)
-# 	brojac += broj_skokova
-
-
