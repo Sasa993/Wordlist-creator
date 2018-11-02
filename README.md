@@ -2,7 +2,7 @@
 A `Python` script which takes an input, and based on it, opens Crunch and makes a huge wordlist. 
 Wordlist can be used for aircrack, bruteforcing, etc.<br><br>
 
-_Wordlist-Creator is not usable on any other OS other then `Linux`. Before using this script, you need to install <strong>Crunch</strong> (some Linux Distributions already have Crunch installed, for instance `Kali Linux`)._<br><br>
+_Wordlist-Creator is not usable on any other OS other than `Linux`. Before using this script, you need to install <strong>Crunch</strong> (some Linux Distributions already have Crunch installed, for instance `Kali Linux`)._<br><br>
 <strong>To install or upgrade Crunch on an Ubuntu or Debian system:</strong></br>
 `$ sudo apt-get install crunch`<br>
 <strong>To install or upgrade Crunch on a Red Hat system:</strong><br>
