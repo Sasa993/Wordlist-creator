@@ -11,5 +11,5 @@ _Wordlist-Creator is not usable on any other OS other than `Linux`. Before using
 `$ sudo zypper install crunch`
 
 After executing this script, you will be asked to choose if you want to have your dictionary based on 1 or 2 words. 
-If you choose 1, 700 files (approximately) will be created, with size of 200MB. At the end of the execution, all of those files (with different possible combinations of inserted word) will be placed into one file, which will be available for further use.
+If you choose 1 word, 700 files (approximately) will be created, with size of 200MB. At the end of the execution, all of those files (with different possible combinations of inserted word) will be placed into one file, which will be available for further use.
 If you choose to insert 2 words, 12 000 files (approximately) will be created, with size of 4.5GB.
