@@ -3172,7 +3172,7 @@ elif (broj_ukupnih_rijeci == 2):
 	while(True):
 		memory_pitanje = input('Do you have at least 6GB of free memory space?(type 0 for "no" and 1 for "yes"): ')
 
-		if (1 <= int(memory_pitanje) < 3):
+		if (0 <= int(memory_pitanje) < 2):
 			break
 
 		print("We're sorry. You have to type in 1 or 2. Try again, please.\n")
