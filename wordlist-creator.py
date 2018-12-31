@@ -3169,482 +3169,647 @@ elif (broj_ukupnih_rijeci == 2):
 
 	os.system("mkdir {0}{1}".format(folder_path, naziv_foldera))
 
-	dvije_rijeci_prva_numeric("rijec", "rijec", naziv_foldera, sve_rijeci_dictionary, 1)
-	dvije_rijeci_prva_numeric("rijec_prvo_slovo_upper", "rijec", naziv_foldera, sve_rijeci_dictionary, 29)
-	dvije_rijeci_prva_numeric("rijec_prvo_slovo_upper", "rijec_prvo_slovo_upper", naziv_foldera, sve_rijeci_dictionary, 57)
-	dvije_rijeci_prva_numeric("rijec", "rijec_prvo_slovo_upper", naziv_foldera, sve_rijeci_dictionary, 85)
+	while(True):
+		memory_pitanje = input('Do you have at least 6GB of free memory space?(type 0 for "no" and 1 for "yes"): ')
 
-	print("\nThe size of folder is:\n{0:.2f}MB".format(float(neki_tamo_brojac)/1024/1024))
+		if (1 <= int(memory_pitanje) < 3):
+			break
 
-	dvije_rijeci_prva_numeric("rijec_zadnje_slovo_upper", "rijec", naziv_foldera, sve_rijeci_dictionary, 113)
-	dvije_rijeci_prva_numeric("rijec_zadnje_slovo_upper", "rijec_zadnje_slovo_upper", naziv_foldera, sve_rijeci_dictionary, 141)
-	dvije_rijeci_prva_numeric("rijec", "rijec_zadnje_slovo_upper", naziv_foldera, sve_rijeci_dictionary, 169)
+		print("We're sorry. You have to type in 1 or 2. Try again, please.\n")
 
-	print("\nThe size of folder is:\n{0:.2f}MB".format(float(neki_tamo_brojac)/1024/1024))
+	if (memory_pitanje == 1):
 
-	dvije_rijeci_prva_numeric("rijec_sva_slova_upper", "rijec", naziv_foldera, sve_rijeci_dictionary, 197)
-	dvije_rijeci_prva_numeric("rijec_sva_slova_upper", "rijec_sva_slova_upper", naziv_foldera, sve_rijeci_dictionary, 225)
-	dvije_rijeci_prva_numeric("rijec", "rijec_sva_slova_upper", naziv_foldera, sve_rijeci_dictionary, 253)
+		dvije_rijeci_prva_numeric("rijec", "rijec", naziv_foldera, sve_rijeci_dictionary, 1)
+		dvije_rijeci_prva_numeric("rijec_prvo_slovo_upper", "rijec", naziv_foldera, sve_rijeci_dictionary, 29)
+		dvije_rijeci_prva_numeric("rijec_prvo_slovo_upper", "rijec_prvo_slovo_upper", naziv_foldera, sve_rijeci_dictionary, 57)
+		dvije_rijeci_prva_numeric("rijec", "rijec_prvo_slovo_upper", naziv_foldera, sve_rijeci_dictionary, 85)
 
-	print("\nThe size of folder is:\n{0:.2f}MB".format(float(neki_tamo_brojac)/1024/1024))
+		print("\nThe size of folder is:\n{0:.2f}MB".format(float(neki_tamo_brojac)/1024/1024))
 
-	dvije_rijeci_druga_numeric("rijec", "rijec", naziv_foldera, sve_rijeci_dictionary, 281)
-	dvije_rijeci_druga_numeric("rijec_prvo_slovo_upper", "rijec", naziv_foldera, sve_rijeci_dictionary, 313)
-	dvije_rijeci_druga_numeric("rijec_prvo_slovo_upper", "rijec_prvo_slovo_upper", naziv_foldera, sve_rijeci_dictionary, 345)
-	dvije_rijeci_druga_numeric("rijec", "rijec_prvo_slovo_upper", naziv_foldera, sve_rijeci_dictionary, 377)
+		dvije_rijeci_prva_numeric("rijec_zadnje_slovo_upper", "rijec", naziv_foldera, sve_rijeci_dictionary, 113)
+		dvije_rijeci_prva_numeric("rijec_zadnje_slovo_upper", "rijec_zadnje_slovo_upper", naziv_foldera, sve_rijeci_dictionary, 141)
+		dvije_rijeci_prva_numeric("rijec", "rijec_zadnje_slovo_upper", naziv_foldera, sve_rijeci_dictionary, 169)
 
-	print("\nThe size of folder is:\n{0:.2f}MB".format(float(neki_tamo_brojac)/1024/1024))
+		print("\nThe size of folder is:\n{0:.2f}MB".format(float(neki_tamo_brojac)/1024/1024))
 
-	dvije_rijeci_druga_numeric("rijec_zadnje_slovo_upper", "rijec", naziv_foldera, sve_rijeci_dictionary, 409)
-	dvije_rijeci_druga_numeric("rijec_zadnje_slovo_upper", "rijec_zadnje_slovo_upper", naziv_foldera, sve_rijeci_dictionary, 441)
-	dvije_rijeci_druga_numeric("rijec", "rijec_zadnje_slovo_upper", naziv_foldera, sve_rijeci_dictionary, 473)
+		dvije_rijeci_prva_numeric("rijec_sva_slova_upper", "rijec", naziv_foldera, sve_rijeci_dictionary, 197)
+		dvije_rijeci_prva_numeric("rijec_sva_slova_upper", "rijec_sva_slova_upper", naziv_foldera, sve_rijeci_dictionary, 225)
+		dvije_rijeci_prva_numeric("rijec", "rijec_sva_slova_upper", naziv_foldera, sve_rijeci_dictionary, 253)
 
-	print("\nThe size of folder is:\n{0:.2f}MB".format(float(neki_tamo_brojac)/1024/1024))
+		print("\nThe size of folder is:\n{0:.2f}MB".format(float(neki_tamo_brojac)/1024/1024))
 
-	dvije_rijeci_druga_numeric("rijec_sva_slova_upper", "rijec", naziv_foldera, sve_rijeci_dictionary, 505)
-	dvije_rijeci_druga_numeric("rijec_sva_slova_upper", "rijec_sva_slova_upper", naziv_foldera, sve_rijeci_dictionary, 537)
-	dvije_rijeci_druga_numeric("rijec", "rijec_sva_slova_upper", naziv_foldera, sve_rijeci_dictionary, 569)
+		dvije_rijeci_druga_numeric("rijec", "rijec", naziv_foldera, sve_rijeci_dictionary, 281)
+		dvije_rijeci_druga_numeric("rijec_prvo_slovo_upper", "rijec", naziv_foldera, sve_rijeci_dictionary, 313)
+		dvije_rijeci_druga_numeric("rijec_prvo_slovo_upper", "rijec_prvo_slovo_upper", naziv_foldera, sve_rijeci_dictionary, 345)
+		dvije_rijeci_druga_numeric("rijec", "rijec_prvo_slovo_upper", naziv_foldera, sve_rijeci_dictionary, 377)
 
-	print("\nThe size of folder is:\n{0:.2f}MB".format(float(neki_tamo_brojac)/1024/1024))
+		print("\nThe size of folder is:\n{0:.2f}MB".format(float(neki_tamo_brojac)/1024/1024))
 
-	dvije_rijeci_prva_lower_alpha("rijec", "rijec", naziv_foldera, sve_rijeci_dictionary, 601)
-	dvije_rijeci_prva_lower_alpha("rijec_prvo_slovo_upper", "rijec", naziv_foldera, sve_rijeci_dictionary, 629)
-	dvije_rijeci_prva_lower_alpha("rijec_prvo_slovo_upper", "rijec_prvo_slovo_upper", naziv_foldera, sve_rijeci_dictionary, 657)
-	dvije_rijeci_prva_lower_alpha("rijec", "rijec_prvo_slovo_upper", naziv_foldera, sve_rijeci_dictionary, 685)
+		dvije_rijeci_druga_numeric("rijec_zadnje_slovo_upper", "rijec", naziv_foldera, sve_rijeci_dictionary, 409)
+		dvije_rijeci_druga_numeric("rijec_zadnje_slovo_upper", "rijec_zadnje_slovo_upper", naziv_foldera, sve_rijeci_dictionary, 441)
+		dvije_rijeci_druga_numeric("rijec", "rijec_zadnje_slovo_upper", naziv_foldera, sve_rijeci_dictionary, 473)
 
-	print("\nThe size of folder is:\n{0:.2f}MB".format(float(neki_tamo_brojac)/1024/1024))
+		print("\nThe size of folder is:\n{0:.2f}MB".format(float(neki_tamo_brojac)/1024/1024))
 
-	dvije_rijeci_prva_lower_alpha("rijec_zadnje_slovo_upper", "rijec", naziv_foldera, sve_rijeci_dictionary, 713)
-	dvije_rijeci_prva_lower_alpha("rijec_zadnje_slovo_upper", "rijec_zadnje_slovo_upper", naziv_foldera, sve_rijeci_dictionary, 741)
-	dvije_rijeci_prva_lower_alpha("rijec", "rijec_zadnje_slovo_upper", naziv_foldera, sve_rijeci_dictionary, 769)
+		dvije_rijeci_druga_numeric("rijec_sva_slova_upper", "rijec", naziv_foldera, sve_rijeci_dictionary, 505)
+		dvije_rijeci_druga_numeric("rijec_sva_slova_upper", "rijec_sva_slova_upper", naziv_foldera, sve_rijeci_dictionary, 537)
+		dvije_rijeci_druga_numeric("rijec", "rijec_sva_slova_upper", naziv_foldera, sve_rijeci_dictionary, 569)
 
-	print("\nThe size of folder is:\n{0:.2f}MB".format(float(neki_tamo_brojac)/1024/1024))
+		print("\nThe size of folder is:\n{0:.2f}MB".format(float(neki_tamo_brojac)/1024/1024))
 
-	dvije_rijeci_prva_lower_alpha("rijec_sva_slova_upper", "rijec", naziv_foldera, sve_rijeci_dictionary, 797)
-	dvije_rijeci_prva_lower_alpha("rijec_sva_slova_upper", "rijec_sva_slova_upper", naziv_foldera, sve_rijeci_dictionary, 825)
-	dvije_rijeci_prva_lower_alpha("rijec", "rijec_sva_slova_upper", naziv_foldera, sve_rijeci_dictionary, 853)
+		dvije_rijeci_prva_lower_alpha("rijec", "rijec", naziv_foldera, sve_rijeci_dictionary, 601)
+		dvije_rijeci_prva_lower_alpha("rijec_prvo_slovo_upper", "rijec", naziv_foldera, sve_rijeci_dictionary, 629)
+		dvije_rijeci_prva_lower_alpha("rijec_prvo_slovo_upper", "rijec_prvo_slovo_upper", naziv_foldera, sve_rijeci_dictionary, 657)
+		dvije_rijeci_prva_lower_alpha("rijec", "rijec_prvo_slovo_upper", naziv_foldera, sve_rijeci_dictionary, 685)
 
-	print("\nThe size of folder is:\n{0:.2f}MB".format(float(neki_tamo_brojac)/1024/1024))
+		print("\nThe size of folder is:\n{0:.2f}MB".format(float(neki_tamo_brojac)/1024/1024))
 
-	dvije_rijeci_druga_lower_alpha("rijec", "rijec", naziv_foldera, sve_rijeci_dictionary, 881)
-	dvije_rijeci_druga_lower_alpha("rijec_prvo_slovo_upper", "rijec", naziv_foldera, sve_rijeci_dictionary, 913)
-	dvije_rijeci_druga_lower_alpha("rijec_prvo_slovo_upper", "rijec_prvo_slovo_upper", naziv_foldera, sve_rijeci_dictionary, 945)
-	dvije_rijeci_druga_lower_alpha("rijec", "rijec_prvo_slovo_upper", naziv_foldera, sve_rijeci_dictionary, 977)
+		dvije_rijeci_prva_lower_alpha("rijec_zadnje_slovo_upper", "rijec", naziv_foldera, sve_rijeci_dictionary, 713)
+		dvije_rijeci_prva_lower_alpha("rijec_zadnje_slovo_upper", "rijec_zadnje_slovo_upper", naziv_foldera, sve_rijeci_dictionary, 741)
+		dvije_rijeci_prva_lower_alpha("rijec", "rijec_zadnje_slovo_upper", naziv_foldera, sve_rijeci_dictionary, 769)
 
-	print("\nThe size of folder is:\n{0:.2f}MB".format(float(neki_tamo_brojac)/1024/1024))
+		print("\nThe size of folder is:\n{0:.2f}MB".format(float(neki_tamo_brojac)/1024/1024))
 
-	dvije_rijeci_druga_lower_alpha("rijec_zadnje_slovo_upper", "rijec", naziv_foldera, sve_rijeci_dictionary, 1009)
-	dvije_rijeci_druga_lower_alpha("rijec_zadnje_slovo_upper", "rijec_zadnje_slovo_upper", naziv_foldera, sve_rijeci_dictionary, 1041)
-	dvije_rijeci_druga_lower_alpha("rijec", "rijec_zadnje_slovo_upper", naziv_foldera, sve_rijeci_dictionary, 1073)
+		dvije_rijeci_prva_lower_alpha("rijec_sva_slova_upper", "rijec", naziv_foldera, sve_rijeci_dictionary, 797)
+		dvije_rijeci_prva_lower_alpha("rijec_sva_slova_upper", "rijec_sva_slova_upper", naziv_foldera, sve_rijeci_dictionary, 825)
+		dvije_rijeci_prva_lower_alpha("rijec", "rijec_sva_slova_upper", naziv_foldera, sve_rijeci_dictionary, 853)
 
-	print("\nThe size of folder is:\n{0:.2f}MB".format(float(neki_tamo_brojac)/1024/1024))
+		print("\nThe size of folder is:\n{0:.2f}MB".format(float(neki_tamo_brojac)/1024/1024))
 
-	dvije_rijeci_druga_lower_alpha("rijec_sva_slova_upper", "rijec", naziv_foldera, sve_rijeci_dictionary, 1105)
-	dvije_rijeci_druga_lower_alpha("rijec_sva_slova_upper", "rijec_sva_slova_upper", naziv_foldera, sve_rijeci_dictionary, 1137)
-	dvije_rijeci_druga_lower_alpha("rijec", "rijec_sva_slova_upper", naziv_foldera, sve_rijeci_dictionary, 1169)
+		dvije_rijeci_druga_lower_alpha("rijec", "rijec", naziv_foldera, sve_rijeci_dictionary, 881)
+		dvije_rijeci_druga_lower_alpha("rijec_prvo_slovo_upper", "rijec", naziv_foldera, sve_rijeci_dictionary, 913)
+		dvije_rijeci_druga_lower_alpha("rijec_prvo_slovo_upper", "rijec_prvo_slovo_upper", naziv_foldera, sve_rijeci_dictionary, 945)
+		dvije_rijeci_druga_lower_alpha("rijec", "rijec_prvo_slovo_upper", naziv_foldera, sve_rijeci_dictionary, 977)
 
-	print("\nThe size of folder is:\n{0:.2f}MB".format(float(neki_tamo_brojac)/1024/1024))
+		print("\nThe size of folder is:\n{0:.2f}MB".format(float(neki_tamo_brojac)/1024/1024))
 
-	dvije_rijeci_prva_upper_alpha("rijec", "rijec", naziv_foldera, sve_rijeci_dictionary, 1201)
-	dvije_rijeci_prva_upper_alpha("rijec_prvo_slovo_upper", "rijec", naziv_foldera, sve_rijeci_dictionary, 1229)
-	dvije_rijeci_prva_upper_alpha("rijec_prvo_slovo_upper", "rijec_prvo_slovo_upper", naziv_foldera, sve_rijeci_dictionary, 1257)
-	dvije_rijeci_prva_upper_alpha("rijec", "rijec_prvo_slovo_upper", naziv_foldera, sve_rijeci_dictionary, 1285)
+		dvije_rijeci_druga_lower_alpha("rijec_zadnje_slovo_upper", "rijec", naziv_foldera, sve_rijeci_dictionary, 1009)
+		dvije_rijeci_druga_lower_alpha("rijec_zadnje_slovo_upper", "rijec_zadnje_slovo_upper", naziv_foldera, sve_rijeci_dictionary, 1041)
+		dvije_rijeci_druga_lower_alpha("rijec", "rijec_zadnje_slovo_upper", naziv_foldera, sve_rijeci_dictionary, 1073)
 
-	print("\nThe size of folder is:\n{0:.2f}MB".format(float(neki_tamo_brojac)/1024/1024))
+		print("\nThe size of folder is:\n{0:.2f}MB".format(float(neki_tamo_brojac)/1024/1024))
 
-	dvije_rijeci_prva_upper_alpha("rijec_zadnje_slovo_upper", "rijec", naziv_foldera, sve_rijeci_dictionary, 1313)
-	dvije_rijeci_prva_upper_alpha("rijec_zadnje_slovo_upper", "rijec_zadnje_slovo_upper", naziv_foldera, sve_rijeci_dictionary, 1341)
-	dvije_rijeci_prva_upper_alpha("rijec", "rijec_zadnje_slovo_upper", naziv_foldera, sve_rijeci_dictionary, 1369)
+		dvije_rijeci_druga_lower_alpha("rijec_sva_slova_upper", "rijec", naziv_foldera, sve_rijeci_dictionary, 1105)
+		dvije_rijeci_druga_lower_alpha("rijec_sva_slova_upper", "rijec_sva_slova_upper", naziv_foldera, sve_rijeci_dictionary, 1137)
+		dvije_rijeci_druga_lower_alpha("rijec", "rijec_sva_slova_upper", naziv_foldera, sve_rijeci_dictionary, 1169)
 
-	print("\nThe size of folder is:\n{0:.2f}MB".format(float(neki_tamo_brojac)/1024/1024))
+		print("\nThe size of folder is:\n{0:.2f}MB".format(float(neki_tamo_brojac)/1024/1024))
 
-	dvije_rijeci_prva_upper_alpha("rijec_sva_slova_upper", "rijec", naziv_foldera, sve_rijeci_dictionary, 1397)
-	dvije_rijeci_prva_upper_alpha("rijec_sva_slova_upper", "rijec_sva_slova_upper", naziv_foldera, sve_rijeci_dictionary, 1425)
-	dvije_rijeci_prva_upper_alpha("rijec", "rijec_sva_slova_upper", naziv_foldera, sve_rijeci_dictionary, 1453)
+		dvije_rijeci_prva_upper_alpha("rijec", "rijec", naziv_foldera, sve_rijeci_dictionary, 1201)
+		dvije_rijeci_prva_upper_alpha("rijec_prvo_slovo_upper", "rijec", naziv_foldera, sve_rijeci_dictionary, 1229)
+		dvije_rijeci_prva_upper_alpha("rijec_prvo_slovo_upper", "rijec_prvo_slovo_upper", naziv_foldera, sve_rijeci_dictionary, 1257)
+		dvije_rijeci_prva_upper_alpha("rijec", "rijec_prvo_slovo_upper", naziv_foldera, sve_rijeci_dictionary, 1285)
 
-	print("\nThe size of folder is:\n{0:.2f}MB".format(float(neki_tamo_brojac)/1024/1024))
+		print("\nThe size of folder is:\n{0:.2f}MB".format(float(neki_tamo_brojac)/1024/1024))
 
-	dvije_rijeci_druga_upper_alpha("rijec", "rijec", naziv_foldera, sve_rijeci_dictionary, 1481)
-	dvije_rijeci_druga_upper_alpha("rijec_prvo_slovo_upper", "rijec", naziv_foldera, sve_rijeci_dictionary, 1513)
-	dvije_rijeci_druga_upper_alpha("rijec_prvo_slovo_upper", "rijec_prvo_slovo_upper", naziv_foldera, sve_rijeci_dictionary, 1545)
-	dvije_rijeci_druga_upper_alpha("rijec", "rijec_prvo_slovo_upper", naziv_foldera, sve_rijeci_dictionary, 1577)
+		dvije_rijeci_prva_upper_alpha("rijec_zadnje_slovo_upper", "rijec", naziv_foldera, sve_rijeci_dictionary, 1313)
+		dvije_rijeci_prva_upper_alpha("rijec_zadnje_slovo_upper", "rijec_zadnje_slovo_upper", naziv_foldera, sve_rijeci_dictionary, 1341)
+		dvije_rijeci_prva_upper_alpha("rijec", "rijec_zadnje_slovo_upper", naziv_foldera, sve_rijeci_dictionary, 1369)
 
-	print("\nThe size of folder is:\n{0:.2f}MB".format(float(neki_tamo_brojac)/1024/1024))
+		print("\nThe size of folder is:\n{0:.2f}MB".format(float(neki_tamo_brojac)/1024/1024))
 
-	dvije_rijeci_druga_upper_alpha("rijec_zadnje_slovo_upper", "rijec", naziv_foldera, sve_rijeci_dictionary, 1609)
-	dvije_rijeci_druga_upper_alpha("rijec_zadnje_slovo_upper", "rijec_zadnje_slovo_upper", naziv_foldera, sve_rijeci_dictionary, 1641)
-	dvije_rijeci_druga_upper_alpha("rijec", "rijec_zadnje_slovo_upper", naziv_foldera, sve_rijeci_dictionary, 1673)
+		dvije_rijeci_prva_upper_alpha("rijec_sva_slova_upper", "rijec", naziv_foldera, sve_rijeci_dictionary, 1397)
+		dvije_rijeci_prva_upper_alpha("rijec_sva_slova_upper", "rijec_sva_slova_upper", naziv_foldera, sve_rijeci_dictionary, 1425)
+		dvije_rijeci_prva_upper_alpha("rijec", "rijec_sva_slova_upper", naziv_foldera, sve_rijeci_dictionary, 1453)
 
-	print("\nThe size of folder is:\n{0:.2f}MB".format(float(neki_tamo_brojac)/1024/1024))
+		print("\nThe size of folder is:\n{0:.2f}MB".format(float(neki_tamo_brojac)/1024/1024))
 
-	dvije_rijeci_druga_upper_alpha("rijec_sva_slova_upper", "rijec", naziv_foldera, sve_rijeci_dictionary, 1705)
-	dvije_rijeci_druga_upper_alpha("rijec_sva_slova_upper", "rijec_sva_slova_upper", naziv_foldera, sve_rijeci_dictionary, 1737)
-	dvije_rijeci_druga_upper_alpha("rijec", "rijec_sva_slova_upper", naziv_foldera, sve_rijeci_dictionary, 1769)
+		dvije_rijeci_druga_upper_alpha("rijec", "rijec", naziv_foldera, sve_rijeci_dictionary, 1481)
+		dvije_rijeci_druga_upper_alpha("rijec_prvo_slovo_upper", "rijec", naziv_foldera, sve_rijeci_dictionary, 1513)
+		dvije_rijeci_druga_upper_alpha("rijec_prvo_slovo_upper", "rijec_prvo_slovo_upper", naziv_foldera, sve_rijeci_dictionary, 1545)
+		dvije_rijeci_druga_upper_alpha("rijec", "rijec_prvo_slovo_upper", naziv_foldera, sve_rijeci_dictionary, 1577)
 
-	print("\nThe size of folder is:\n{0:.2f}MB".format(float(neki_tamo_brojac)/1024/1024))
+		print("\nThe size of folder is:\n{0:.2f}MB".format(float(neki_tamo_brojac)/1024/1024))
 
-	dvije_rijeci_prva_mix_upper_lower("rijec", "rijec", naziv_foldera, sve_rijeci_dictionary, 1801)
-	dvije_rijeci_prva_mix_upper_lower("rijec_prvo_slovo_upper", "rijec", naziv_foldera, sve_rijeci_dictionary, 1857)
-	dvije_rijeci_prva_mix_upper_lower("rijec_prvo_slovo_upper", "rijec_prvo_slovo_upper", naziv_foldera, sve_rijeci_dictionary, 1913)
-	dvije_rijeci_prva_mix_upper_lower("rijec", "rijec_prvo_slovo_upper", naziv_foldera, sve_rijeci_dictionary, 1969)
+		dvije_rijeci_druga_upper_alpha("rijec_zadnje_slovo_upper", "rijec", naziv_foldera, sve_rijeci_dictionary, 1609)
+		dvije_rijeci_druga_upper_alpha("rijec_zadnje_slovo_upper", "rijec_zadnje_slovo_upper", naziv_foldera, sve_rijeci_dictionary, 1641)
+		dvije_rijeci_druga_upper_alpha("rijec", "rijec_zadnje_slovo_upper", naziv_foldera, sve_rijeci_dictionary, 1673)
 
-	print("\nThe size of folder is:\n{0:.2f}MB".format(float(neki_tamo_brojac)/1024/1024))
+		print("\nThe size of folder is:\n{0:.2f}MB".format(float(neki_tamo_brojac)/1024/1024))
 
-	dvije_rijeci_prva_mix_upper_lower("rijec_zadnje_slovo_upper", "rijec", naziv_foldera, sve_rijeci_dictionary, 2025)
-	dvije_rijeci_prva_mix_upper_lower("rijec_zadnje_slovo_upper", "rijec_zadnje_slovo_upper", naziv_foldera, sve_rijeci_dictionary, 2081)
-	dvije_rijeci_prva_mix_upper_lower("rijec", "rijec_zadnje_slovo_upper", naziv_foldera, sve_rijeci_dictionary, 2137)
+		dvije_rijeci_druga_upper_alpha("rijec_sva_slova_upper", "rijec", naziv_foldera, sve_rijeci_dictionary, 1705)
+		dvije_rijeci_druga_upper_alpha("rijec_sva_slova_upper", "rijec_sva_slova_upper", naziv_foldera, sve_rijeci_dictionary, 1737)
+		dvije_rijeci_druga_upper_alpha("rijec", "rijec_sva_slova_upper", naziv_foldera, sve_rijeci_dictionary, 1769)
 
-	print("\nThe size of folder is:\n{0:.2f}MB".format(float(neki_tamo_brojac)/1024/1024))
+		print("\nThe size of folder is:\n{0:.2f}MB".format(float(neki_tamo_brojac)/1024/1024))
 
-	dvije_rijeci_prva_mix_upper_lower("rijec_sva_slova_upper", "rijec", naziv_foldera, sve_rijeci_dictionary, 2193)
-	dvije_rijeci_prva_mix_upper_lower("rijec_sva_slova_upper", "rijec_sva_slova_upper", naziv_foldera, sve_rijeci_dictionary, 2249)
-	dvije_rijeci_prva_mix_upper_lower("rijec", "rijec_sva_slova_upper", naziv_foldera, sve_rijeci_dictionary, 2305)
+		dvije_rijeci_prva_mix_upper_lower("rijec", "rijec", naziv_foldera, sve_rijeci_dictionary, 1801)
+		dvije_rijeci_prva_mix_upper_lower("rijec_prvo_slovo_upper", "rijec", naziv_foldera, sve_rijeci_dictionary, 1857)
+		dvije_rijeci_prva_mix_upper_lower("rijec_prvo_slovo_upper", "rijec_prvo_slovo_upper", naziv_foldera, sve_rijeci_dictionary, 1913)
+		dvije_rijeci_prva_mix_upper_lower("rijec", "rijec_prvo_slovo_upper", naziv_foldera, sve_rijeci_dictionary, 1969)
 
-	print("\nThe size of folder is:\n{0:.2f}MB".format(float(neki_tamo_brojac)/1024/1024))
+		print("\nThe size of folder is:\n{0:.2f}MB".format(float(neki_tamo_brojac)/1024/1024))
 
-	dvije_rijeci_druga_mix_upper_lower("rijec", "rijec", naziv_foldera, sve_rijeci_dictionary, 2361)
-	dvije_rijeci_druga_mix_upper_lower("rijec_prvo_slovo_upper", "rijec", naziv_foldera, sve_rijeci_dictionary, 2413)
-	dvije_rijeci_druga_mix_upper_lower("rijec_prvo_slovo_upper", "rijec_prvo_slovo_upper", naziv_foldera, sve_rijeci_dictionary, 2465)
-	dvije_rijeci_druga_mix_upper_lower("rijec", "rijec_prvo_slovo_upper", naziv_foldera, sve_rijeci_dictionary, 2517)
+		dvije_rijeci_prva_mix_upper_lower("rijec_zadnje_slovo_upper", "rijec", naziv_foldera, sve_rijeci_dictionary, 2025)
+		dvije_rijeci_prva_mix_upper_lower("rijec_zadnje_slovo_upper", "rijec_zadnje_slovo_upper", naziv_foldera, sve_rijeci_dictionary, 2081)
+		dvije_rijeci_prva_mix_upper_lower("rijec", "rijec_zadnje_slovo_upper", naziv_foldera, sve_rijeci_dictionary, 2137)
 
-	print("\nThe size of folder is:\n{0:.2f}MB".format(float(neki_tamo_brojac)/1024/1024))
+		print("\nThe size of folder is:\n{0:.2f}MB".format(float(neki_tamo_brojac)/1024/1024))
 
-	dvije_rijeci_druga_mix_upper_lower("rijec_zadnje_slovo_upper", "rijec", naziv_foldera, sve_rijeci_dictionary, 2569)
-	dvije_rijeci_druga_mix_upper_lower("rijec_zadnje_slovo_upper", "rijec_zadnje_slovo_upper", naziv_foldera, sve_rijeci_dictionary, 2621)
-	dvije_rijeci_druga_mix_upper_lower("rijec", "rijec_zadnje_slovo_upper", naziv_foldera, sve_rijeci_dictionary, 2673)
+		dvije_rijeci_prva_mix_upper_lower("rijec_sva_slova_upper", "rijec", naziv_foldera, sve_rijeci_dictionary, 2193)
+		dvije_rijeci_prva_mix_upper_lower("rijec_sva_slova_upper", "rijec_sva_slova_upper", naziv_foldera, sve_rijeci_dictionary, 2249)
+		dvije_rijeci_prva_mix_upper_lower("rijec", "rijec_sva_slova_upper", naziv_foldera, sve_rijeci_dictionary, 2305)
 
-	print("\nThe size of folder is:\n{0:.2f}MB".format(float(neki_tamo_brojac)/1024/1024))
+		print("\nThe size of folder is:\n{0:.2f}MB".format(float(neki_tamo_brojac)/1024/1024))
 
-	dvije_rijeci_druga_mix_upper_lower("rijec_sva_slova_upper", "rijec", naziv_foldera, sve_rijeci_dictionary, 2725)
-	dvije_rijeci_druga_mix_upper_lower("rijec_sva_slova_upper", "rijec_sva_slova_upper", naziv_foldera, sve_rijeci_dictionary, 2777)
-	dvije_rijeci_druga_mix_upper_lower("rijec", "rijec_sva_slova_upper", naziv_foldera, sve_rijeci_dictionary, 2829)
+		dvije_rijeci_druga_mix_upper_lower("rijec", "rijec", naziv_foldera, sve_rijeci_dictionary, 2361)
+		dvije_rijeci_druga_mix_upper_lower("rijec_prvo_slovo_upper", "rijec", naziv_foldera, sve_rijeci_dictionary, 2413)
+		dvije_rijeci_druga_mix_upper_lower("rijec_prvo_slovo_upper", "rijec_prvo_slovo_upper", naziv_foldera, sve_rijeci_dictionary, 2465)
+		dvije_rijeci_druga_mix_upper_lower("rijec", "rijec_prvo_slovo_upper", naziv_foldera, sve_rijeci_dictionary, 2517)
 
-	print("\nThe size of folder is:\n{0:.2f}MB".format(float(neki_tamo_brojac)/1024/1024))
-	
-	dvije_rijeci_prva_mix_upper_numeric("rijec", "rijec", naziv_foldera, sve_rijeci_dictionary, 2881)
-	dvije_rijeci_prva_mix_upper_numeric("rijec_prvo_slovo_upper", "rijec", naziv_foldera, sve_rijeci_dictionary, 2953)
-	dvije_rijeci_prva_mix_upper_numeric("rijec_prvo_slovo_upper", "rijec_prvo_slovo_upper", naziv_foldera, sve_rijeci_dictionary, 3025)
-	dvije_rijeci_prva_mix_upper_numeric("rijec", "rijec_prvo_slovo_upper", naziv_foldera, sve_rijeci_dictionary, 3097)
+		print("\nThe size of folder is:\n{0:.2f}MB".format(float(neki_tamo_brojac)/1024/1024))
 
-	print("\nThe size of folder is:\n{0:.2f}MB".format(float(neki_tamo_brojac)/1024/1024))
+		dvije_rijeci_druga_mix_upper_lower("rijec_zadnje_slovo_upper", "rijec", naziv_foldera, sve_rijeci_dictionary, 2569)
+		dvije_rijeci_druga_mix_upper_lower("rijec_zadnje_slovo_upper", "rijec_zadnje_slovo_upper", naziv_foldera, sve_rijeci_dictionary, 2621)
+		dvije_rijeci_druga_mix_upper_lower("rijec", "rijec_zadnje_slovo_upper", naziv_foldera, sve_rijeci_dictionary, 2673)
 
-	dvije_rijeci_prva_mix_upper_numeric("rijec_zadnje_slovo_upper", "rijec", naziv_foldera, sve_rijeci_dictionary, 3169)
-	dvije_rijeci_prva_mix_upper_numeric("rijec_zadnje_slovo_upper", "rijec_zadnje_slovo_upper", naziv_foldera, sve_rijeci_dictionary, 3241)
-	dvije_rijeci_prva_mix_upper_numeric("rijec", "rijec_zadnje_slovo_upper", naziv_foldera, sve_rijeci_dictionary, 3313)
+		print("\nThe size of folder is:\n{0:.2f}MB".format(float(neki_tamo_brojac)/1024/1024))
 
-	print("\nThe size of folder is:\n{0:.2f}MB".format(float(neki_tamo_brojac)/1024/1024))
+		dvije_rijeci_druga_mix_upper_lower("rijec_sva_slova_upper", "rijec", naziv_foldera, sve_rijeci_dictionary, 2725)
+		dvije_rijeci_druga_mix_upper_lower("rijec_sva_slova_upper", "rijec_sva_slova_upper", naziv_foldera, sve_rijeci_dictionary, 2777)
+		dvije_rijeci_druga_mix_upper_lower("rijec", "rijec_sva_slova_upper", naziv_foldera, sve_rijeci_dictionary, 2829)
 
-	dvije_rijeci_prva_mix_upper_numeric("rijec_sva_slova_upper", "rijec", naziv_foldera, sve_rijeci_dictionary, 3385)
-	dvije_rijeci_prva_mix_upper_numeric("rijec_sva_slova_upper", "rijec_sva_slova_upper", naziv_foldera, sve_rijeci_dictionary, 3457)
-	dvije_rijeci_prva_mix_upper_numeric("rijec", "rijec_sva_slova_upper", naziv_foldera, sve_rijeci_dictionary, 3529)
+		print("\nThe size of folder is:\n{0:.2f}MB".format(float(neki_tamo_brojac)/1024/1024))
+		
+		dvije_rijeci_prva_mix_upper_numeric("rijec", "rijec", naziv_foldera, sve_rijeci_dictionary, 2881)
+		dvije_rijeci_prva_mix_upper_numeric("rijec_prvo_slovo_upper", "rijec", naziv_foldera, sve_rijeci_dictionary, 2953)
+		dvije_rijeci_prva_mix_upper_numeric("rijec_prvo_slovo_upper", "rijec_prvo_slovo_upper", naziv_foldera, sve_rijeci_dictionary, 3025)
+		dvije_rijeci_prva_mix_upper_numeric("rijec", "rijec_prvo_slovo_upper", naziv_foldera, sve_rijeci_dictionary, 3097)
 
-	print("\nThe size of folder is:\n{0:.2f}MB".format(float(neki_tamo_brojac)/1024/1024))
+		print("\nThe size of folder is:\n{0:.2f}MB".format(float(neki_tamo_brojac)/1024/1024))
 
-	#3640 files - 3.2GB
+		dvije_rijeci_prva_mix_upper_numeric("rijec_zadnje_slovo_upper", "rijec", naziv_foldera, sve_rijeci_dictionary, 3169)
+		dvije_rijeci_prva_mix_upper_numeric("rijec_zadnje_slovo_upper", "rijec_zadnje_slovo_upper", naziv_foldera, sve_rijeci_dictionary, 3241)
+		dvije_rijeci_prva_mix_upper_numeric("rijec", "rijec_zadnje_slovo_upper", naziv_foldera, sve_rijeci_dictionary, 3313)
 
-	dvije_rijeci_druga_mix_upper_numeric("rijec", "rijec", naziv_foldera, sve_rijeci_dictionary, 3601)
-	dvije_rijeci_druga_mix_upper_numeric("rijec_prvo_slovo_upper", "rijec", naziv_foldera, sve_rijeci_dictionary, 3649)
-	dvije_rijeci_druga_mix_upper_numeric("rijec_prvo_slovo_upper", "rijec_prvo_slovo_upper", naziv_foldera, sve_rijeci_dictionary, 3697)
-	dvije_rijeci_druga_mix_upper_numeric("rijec", "rijec_prvo_slovo_upper", naziv_foldera, sve_rijeci_dictionary, 3745)
+		print("\nThe size of folder is:\n{0:.2f}MB".format(float(neki_tamo_brojac)/1024/1024))
 
-	print("\nThe size of folder is:\n{0:.2f}MB".format(float(neki_tamo_brojac)/1024/1024))
+		dvije_rijeci_prva_mix_upper_numeric("rijec_sva_slova_upper", "rijec", naziv_foldera, sve_rijeci_dictionary, 3385)
+		dvije_rijeci_prva_mix_upper_numeric("rijec_sva_slova_upper", "rijec_sva_slova_upper", naziv_foldera, sve_rijeci_dictionary, 3457)
+		dvije_rijeci_prva_mix_upper_numeric("rijec", "rijec_sva_slova_upper", naziv_foldera, sve_rijeci_dictionary, 3529)
 
-	dvije_rijeci_druga_mix_upper_numeric("rijec_zadnje_slovo_upper", "rijec", naziv_foldera, sve_rijeci_dictionary, 3793)
-	dvije_rijeci_druga_mix_upper_numeric("rijec_zadnje_slovo_upper", "rijec_zadnje_slovo_upper", naziv_foldera, sve_rijeci_dictionary, 3841)
-	dvije_rijeci_druga_mix_upper_numeric("rijec", "rijec_zadnje_slovo_upper", naziv_foldera, sve_rijeci_dictionary, 3889)
+		print("\nThe size of folder is:\n{0:.2f}MB".format(float(neki_tamo_brojac)/1024/1024))
 
-	print("\nThe size of folder is:\n{0:.2f}MB".format(float(neki_tamo_brojac)/1024/1024))
+		#3640 files - 3.2GB
 
-	dvije_rijeci_druga_mix_upper_numeric("rijec_sva_slova_upper", "rijec", naziv_foldera, sve_rijeci_dictionary, 3937)
-	dvije_rijeci_druga_mix_upper_numeric("rijec_sva_slova_upper", "rijec_sva_slova_upper", naziv_foldera, sve_rijeci_dictionary, 3985)
-	dvije_rijeci_druga_mix_upper_numeric("rijec", "rijec_sva_slova_upper", naziv_foldera, sve_rijeci_dictionary, 4033)
-	
-	dvije_rijeci_prva_mix_lower_numeric("rijec", "rijec", naziv_foldera, sve_rijeci_dictionary, 4081)
-	dvije_rijeci_prva_mix_lower_numeric("rijec_prvo_slovo_upper", "rijec", naziv_foldera, sve_rijeci_dictionary, 4153)
-	dvije_rijeci_prva_mix_lower_numeric("rijec_prvo_slovo_upper", "rijec_prvo_slovo_upper", naziv_foldera, sve_rijeci_dictionary, 4225)
-	dvije_rijeci_prva_mix_lower_numeric("rijec", "rijec_prvo_slovo_upper", naziv_foldera, sve_rijeci_dictionary, 4297)
+		dvije_rijeci_druga_mix_upper_numeric("rijec", "rijec", naziv_foldera, sve_rijeci_dictionary, 3601)
+		dvije_rijeci_druga_mix_upper_numeric("rijec_prvo_slovo_upper", "rijec", naziv_foldera, sve_rijeci_dictionary, 3649)
+		dvije_rijeci_druga_mix_upper_numeric("rijec_prvo_slovo_upper", "rijec_prvo_slovo_upper", naziv_foldera, sve_rijeci_dictionary, 3697)
+		dvije_rijeci_druga_mix_upper_numeric("rijec", "rijec_prvo_slovo_upper", naziv_foldera, sve_rijeci_dictionary, 3745)
 
-	print("\nThe size of folder is:\n{0:.2f}MB".format(float(neki_tamo_brojac)/1024/1024))
+		print("\nThe size of folder is:\n{0:.2f}MB".format(float(neki_tamo_brojac)/1024/1024))
 
-	dvije_rijeci_prva_mix_lower_numeric("rijec_zadnje_slovo_upper", "rijec", naziv_foldera, sve_rijeci_dictionary, 4369)
-	dvije_rijeci_prva_mix_lower_numeric("rijec_zadnje_slovo_upper", "rijec_zadnje_slovo_upper", naziv_foldera, sve_rijeci_dictionary, 4441)
-	dvije_rijeci_prva_mix_lower_numeric("rijec", "rijec_zadnje_slovo_upper", naziv_foldera, sve_rijeci_dictionary, 4513)
+		dvije_rijeci_druga_mix_upper_numeric("rijec_zadnje_slovo_upper", "rijec", naziv_foldera, sve_rijeci_dictionary, 3793)
+		dvije_rijeci_druga_mix_upper_numeric("rijec_zadnje_slovo_upper", "rijec_zadnje_slovo_upper", naziv_foldera, sve_rijeci_dictionary, 3841)
+		dvije_rijeci_druga_mix_upper_numeric("rijec", "rijec_zadnje_slovo_upper", naziv_foldera, sve_rijeci_dictionary, 3889)
 
-	print("\nThe size of folder is:\n{0:.2f}MB".format(float(neki_tamo_brojac)/1024/1024))
+		print("\nThe size of folder is:\n{0:.2f}MB".format(float(neki_tamo_brojac)/1024/1024))
 
-	dvije_rijeci_prva_mix_lower_numeric("rijec_sva_slova_upper", "rijec", naziv_foldera, sve_rijeci_dictionary, 4585)
-	dvije_rijeci_prva_mix_lower_numeric("rijec_sva_slova_upper", "rijec_sva_slova_upper", naziv_foldera, sve_rijeci_dictionary, 4657)
-	dvije_rijeci_prva_mix_lower_numeric("rijec", "rijec_sva_slova_upper", naziv_foldera, sve_rijeci_dictionary, 4729)
+		dvije_rijeci_druga_mix_upper_numeric("rijec_sva_slova_upper", "rijec", naziv_foldera, sve_rijeci_dictionary, 3937)
+		dvije_rijeci_druga_mix_upper_numeric("rijec_sva_slova_upper", "rijec_sva_slova_upper", naziv_foldera, sve_rijeci_dictionary, 3985)
+		dvije_rijeci_druga_mix_upper_numeric("rijec", "rijec_sva_slova_upper", naziv_foldera, sve_rijeci_dictionary, 4033)
+		
+		dvije_rijeci_prva_mix_lower_numeric("rijec", "rijec", naziv_foldera, sve_rijeci_dictionary, 4081)
+		dvije_rijeci_prva_mix_lower_numeric("rijec_prvo_slovo_upper", "rijec", naziv_foldera, sve_rijeci_dictionary, 4153)
+		dvije_rijeci_prva_mix_lower_numeric("rijec_prvo_slovo_upper", "rijec_prvo_slovo_upper", naziv_foldera, sve_rijeci_dictionary, 4225)
+		dvije_rijeci_prva_mix_lower_numeric("rijec", "rijec_prvo_slovo_upper", naziv_foldera, sve_rijeci_dictionary, 4297)
 
-	dvije_rijeci_druga_mix_lower_numeric("rijec", "rijec", naziv_foldera, sve_rijeci_dictionary, 4801)
-	dvije_rijeci_druga_mix_lower_numeric("rijec_prvo_slovo_upper", "rijec", naziv_foldera, sve_rijeci_dictionary, 4849)
-	dvije_rijeci_druga_mix_lower_numeric("rijec_prvo_slovo_upper", "rijec_prvo_slovo_upper", naziv_foldera, sve_rijeci_dictionary, 4897)
-	dvije_rijeci_druga_mix_lower_numeric("rijec", "rijec_prvo_slovo_upper", naziv_foldera, sve_rijeci_dictionary, 4945)
+		print("\nThe size of folder is:\n{0:.2f}MB".format(float(neki_tamo_brojac)/1024/1024))
 
-	print("\nThe size of folder is:\n{0:.2f}MB".format(float(neki_tamo_brojac)/1024/1024))
+		dvije_rijeci_prva_mix_lower_numeric("rijec_zadnje_slovo_upper", "rijec", naziv_foldera, sve_rijeci_dictionary, 4369)
+		dvije_rijeci_prva_mix_lower_numeric("rijec_zadnje_slovo_upper", "rijec_zadnje_slovo_upper", naziv_foldera, sve_rijeci_dictionary, 4441)
+		dvije_rijeci_prva_mix_lower_numeric("rijec", "rijec_zadnje_slovo_upper", naziv_foldera, sve_rijeci_dictionary, 4513)
 
-	dvije_rijeci_druga_mix_lower_numeric("rijec_zadnje_slovo_upper", "rijec", naziv_foldera, sve_rijeci_dictionary, 4993)
-	dvije_rijeci_druga_mix_lower_numeric("rijec_zadnje_slovo_upper", "rijec_zadnje_slovo_upper", naziv_foldera, sve_rijeci_dictionary, 5041)
-	dvije_rijeci_druga_mix_lower_numeric("rijec", "rijec_zadnje_slovo_upper", naziv_foldera, sve_rijeci_dictionary, 5089)
+		print("\nThe size of folder is:\n{0:.2f}MB".format(float(neki_tamo_brojac)/1024/1024))
 
-	print("\nThe size of folder is:\n{0:.2f}MB".format(float(neki_tamo_brojac)/1024/1024))
+		dvije_rijeci_prva_mix_lower_numeric("rijec_sva_slova_upper", "rijec", naziv_foldera, sve_rijeci_dictionary, 4585)
+		dvije_rijeci_prva_mix_lower_numeric("rijec_sva_slova_upper", "rijec_sva_slova_upper", naziv_foldera, sve_rijeci_dictionary, 4657)
+		dvije_rijeci_prva_mix_lower_numeric("rijec", "rijec_sva_slova_upper", naziv_foldera, sve_rijeci_dictionary, 4729)
 
-	dvije_rijeci_druga_mix_lower_numeric("rijec_sva_slova_upper", "rijec", naziv_foldera, sve_rijeci_dictionary, 5137)
-	dvije_rijeci_druga_mix_lower_numeric("rijec_sva_slova_upper", "rijec_sva_slova_upper", naziv_foldera, sve_rijeci_dictionary, 5185)
-	dvije_rijeci_druga_mix_lower_numeric("rijec", "rijec_sva_slova_upper", naziv_foldera, sve_rijeci_dictionary, 5233)
+		dvije_rijeci_druga_mix_lower_numeric("rijec", "rijec", naziv_foldera, sve_rijeci_dictionary, 4801)
+		dvije_rijeci_druga_mix_lower_numeric("rijec_prvo_slovo_upper", "rijec", naziv_foldera, sve_rijeci_dictionary, 4849)
+		dvije_rijeci_druga_mix_lower_numeric("rijec_prvo_slovo_upper", "rijec_prvo_slovo_upper", naziv_foldera, sve_rijeci_dictionary, 4897)
+		dvije_rijeci_druga_mix_lower_numeric("rijec", "rijec_prvo_slovo_upper", naziv_foldera, sve_rijeci_dictionary, 4945)
 
-	print("\nThe size of folder is:\n{0:.2f}MB".format(float(neki_tamo_brojac)/1024/1024))
+		print("\nThe size of folder is:\n{0:.2f}MB".format(float(neki_tamo_brojac)/1024/1024))
 
-	dvije_rijeci_prva_mix_lower_upper_numeric("rijec", "rijec", naziv_foldera, sve_rijeci_dictionary, 5281)
-	dvije_rijeci_prva_mix_lower_upper_numeric("rijec_prvo_slovo_upper", "rijec", naziv_foldera, sve_rijeci_dictionary, 5329)
-	dvije_rijeci_prva_mix_lower_upper_numeric("rijec_prvo_slovo_upper", "rijec_prvo_slovo_upper", naziv_foldera, sve_rijeci_dictionary, 5377)
-	dvije_rijeci_prva_mix_lower_upper_numeric("rijec", "rijec_prvo_slovo_upper", naziv_foldera, sve_rijeci_dictionary, 5425)
+		dvije_rijeci_druga_mix_lower_numeric("rijec_zadnje_slovo_upper", "rijec", naziv_foldera, sve_rijeci_dictionary, 4993)
+		dvije_rijeci_druga_mix_lower_numeric("rijec_zadnje_slovo_upper", "rijec_zadnje_slovo_upper", naziv_foldera, sve_rijeci_dictionary, 5041)
+		dvije_rijeci_druga_mix_lower_numeric("rijec", "rijec_zadnje_slovo_upper", naziv_foldera, sve_rijeci_dictionary, 5089)
 
-	print("\nThe size of folder is:\n{0:.2f}MB".format(float(neki_tamo_brojac)/1024/1024))
+		print("\nThe size of folder is:\n{0:.2f}MB".format(float(neki_tamo_brojac)/1024/1024))
 
-	dvije_rijeci_prva_mix_lower_upper_numeric("rijec_zadnje_slovo_upper", "rijec", naziv_foldera, sve_rijeci_dictionary, 5473)
-	dvije_rijeci_prva_mix_lower_upper_numeric("rijec_zadnje_slovo_upper", "rijec_zadnje_slovo_upper", naziv_foldera, sve_rijeci_dictionary, 5473)
-	dvije_rijeci_prva_mix_lower_upper_numeric("rijec", "rijec_zadnje_slovo_upper", naziv_foldera, sve_rijeci_dictionary, 5569)
+		dvije_rijeci_druga_mix_lower_numeric("rijec_sva_slova_upper", "rijec", naziv_foldera, sve_rijeci_dictionary, 5137)
+		dvije_rijeci_druga_mix_lower_numeric("rijec_sva_slova_upper", "rijec_sva_slova_upper", naziv_foldera, sve_rijeci_dictionary, 5185)
+		dvije_rijeci_druga_mix_lower_numeric("rijec", "rijec_sva_slova_upper", naziv_foldera, sve_rijeci_dictionary, 5233)
 
-	print("\nThe size of folder is:\n{0:.2f}MB".format(float(neki_tamo_brojac)/1024/1024))
+		print("\nThe size of folder is:\n{0:.2f}MB".format(float(neki_tamo_brojac)/1024/1024))
 
-	dvije_rijeci_prva_mix_lower_upper_numeric("rijec_sva_slova_upper", "rijec", naziv_foldera, sve_rijeci_dictionary, 5617)
-	dvije_rijeci_prva_mix_lower_upper_numeric("rijec_sva_slova_upper", "rijec_sva_slova_upper", naziv_foldera, sve_rijeci_dictionary, 5665)
-	dvije_rijeci_prva_mix_lower_upper_numeric("rijec", "rijec_sva_slova_upper", naziv_foldera, sve_rijeci_dictionary, 5713)
+		dvije_rijeci_prva_mix_lower_upper_numeric("rijec", "rijec", naziv_foldera, sve_rijeci_dictionary, 5281)
+		dvije_rijeci_prva_mix_lower_upper_numeric("rijec_prvo_slovo_upper", "rijec", naziv_foldera, sve_rijeci_dictionary, 5329)
+		dvije_rijeci_prva_mix_lower_upper_numeric("rijec_prvo_slovo_upper", "rijec_prvo_slovo_upper", naziv_foldera, sve_rijeci_dictionary, 5377)
+		dvije_rijeci_prva_mix_lower_upper_numeric("rijec", "rijec_prvo_slovo_upper", naziv_foldera, sve_rijeci_dictionary, 5425)
 
-	print("\nThe size of folder is:\n{0:.2f}MB".format(float(neki_tamo_brojac)/1024/1024))
+		print("\nThe size of folder is:\n{0:.2f}MB".format(float(neki_tamo_brojac)/1024/1024))
 
-	dvije_rijeci_druga_mix_lower_upper_numeric("rijec", "rijec", naziv_foldera, sve_rijeci_dictionary, 5761)
-	dvije_rijeci_druga_mix_lower_upper_numeric("rijec_prvo_slovo_upper", "rijec", naziv_foldera, sve_rijeci_dictionary, 5809)
-	dvije_rijeci_druga_mix_lower_upper_numeric("rijec_prvo_slovo_upper", "rijec_prvo_slovo_upper", naziv_foldera, sve_rijeci_dictionary, 5857)
-	dvije_rijeci_druga_mix_lower_upper_numeric("rijec", "rijec_prvo_slovo_upper", naziv_foldera, sve_rijeci_dictionary, 5905)
+		dvije_rijeci_prva_mix_lower_upper_numeric("rijec_zadnje_slovo_upper", "rijec", naziv_foldera, sve_rijeci_dictionary, 5473)
+		dvije_rijeci_prva_mix_lower_upper_numeric("rijec_zadnje_slovo_upper", "rijec_zadnje_slovo_upper", naziv_foldera, sve_rijeci_dictionary, 5473)
+		dvije_rijeci_prva_mix_lower_upper_numeric("rijec", "rijec_zadnje_slovo_upper", naziv_foldera, sve_rijeci_dictionary, 5569)
 
-	print("\nThe size of folder is:\n{0:.2f}MB".format(float(neki_tamo_brojac)/1024/1024))
+		print("\nThe size of folder is:\n{0:.2f}MB".format(float(neki_tamo_brojac)/1024/1024))
 
-	dvije_rijeci_druga_mix_lower_upper_numeric("rijec_zadnje_slovo_upper", "rijec", naziv_foldera, sve_rijeci_dictionary, 5953)
-	dvije_rijeci_druga_mix_lower_upper_numeric("rijec_zadnje_slovo_upper", "rijec_zadnje_slovo_upper", naziv_foldera, sve_rijeci_dictionary, 6001)
-	dvije_rijeci_druga_mix_lower_upper_numeric("rijec", "rijec_zadnje_slovo_upper", naziv_foldera, sve_rijeci_dictionary, 6049)
+		dvije_rijeci_prva_mix_lower_upper_numeric("rijec_sva_slova_upper", "rijec", naziv_foldera, sve_rijeci_dictionary, 5617)
+		dvije_rijeci_prva_mix_lower_upper_numeric("rijec_sva_slova_upper", "rijec_sva_slova_upper", naziv_foldera, sve_rijeci_dictionary, 5665)
+		dvije_rijeci_prva_mix_lower_upper_numeric("rijec", "rijec_sva_slova_upper", naziv_foldera, sve_rijeci_dictionary, 5713)
 
-	print("\nThe size of folder is:\n{0:.2f}MB".format(float(neki_tamo_brojac)/1024/1024))
+		print("\nThe size of folder is:\n{0:.2f}MB".format(float(neki_tamo_brojac)/1024/1024))
 
-	dvije_rijeci_druga_mix_lower_upper_numeric("rijec_sva_slova_upper", "rijec", naziv_foldera, sve_rijeci_dictionary, 6097)
-	dvije_rijeci_druga_mix_lower_upper_numeric("rijec_sva_slova_upper", "rijec_sva_slova_upper", naziv_foldera, sve_rijeci_dictionary, 6145)
-	dvije_rijeci_druga_mix_lower_upper_numeric("rijec", "rijec_sva_slova_upper", naziv_foldera, sve_rijeci_dictionary, 6193)
+		dvije_rijeci_druga_mix_lower_upper_numeric("rijec", "rijec", naziv_foldera, sve_rijeci_dictionary, 5761)
+		dvije_rijeci_druga_mix_lower_upper_numeric("rijec_prvo_slovo_upper", "rijec", naziv_foldera, sve_rijeci_dictionary, 5809)
+		dvije_rijeci_druga_mix_lower_upper_numeric("rijec_prvo_slovo_upper", "rijec_prvo_slovo_upper", naziv_foldera, sve_rijeci_dictionary, 5857)
+		dvije_rijeci_druga_mix_lower_upper_numeric("rijec", "rijec_prvo_slovo_upper", naziv_foldera, sve_rijeci_dictionary, 5905)
 
-	print("\nThe size of folder is:\n{0:.2f}MB".format(float(neki_tamo_brojac)/1024/1024))
+		print("\nThe size of folder is:\n{0:.2f}MB".format(float(neki_tamo_brojac)/1024/1024))
 
-	dvije_rijeci_char("rijec", "rijec", naziv_foldera, sve_rijeci_dictionary, 6241)
-	dvije_rijeci_char("rijec_prvo_slovo_upper", "rijec", naziv_foldera, sve_rijeci_dictionary, 6279)
-	dvije_rijeci_char("rijec_prvo_slovo_upper", "rijec_prvo_slovo_upper", naziv_foldera, sve_rijeci_dictionary, 6317)
-	dvije_rijeci_char("rijec", "rijec_prvo_slovo_upper", naziv_foldera, sve_rijeci_dictionary, 6355)
+		dvije_rijeci_druga_mix_lower_upper_numeric("rijec_zadnje_slovo_upper", "rijec", naziv_foldera, sve_rijeci_dictionary, 5953)
+		dvije_rijeci_druga_mix_lower_upper_numeric("rijec_zadnje_slovo_upper", "rijec_zadnje_slovo_upper", naziv_foldera, sve_rijeci_dictionary, 6001)
+		dvije_rijeci_druga_mix_lower_upper_numeric("rijec", "rijec_zadnje_slovo_upper", naziv_foldera, sve_rijeci_dictionary, 6049)
 
-	print("\nThe size of folder is:\n{0:.2f}MB".format(float(neki_tamo_brojac)/1024/1024))
+		print("\nThe size of folder is:\n{0:.2f}MB".format(float(neki_tamo_brojac)/1024/1024))
 
-	dvije_rijeci_char("rijec_zadnje_slovo_upper", "rijec", naziv_foldera, sve_rijeci_dictionary, 6393)
-	dvije_rijeci_char("rijec_zadnje_slovo_upper", "rijec_zadnje_slovo_upper", naziv_foldera, sve_rijeci_dictionary, 6431)
-	dvije_rijeci_char("rijec", "rijec_zadnje_slovo_upper", naziv_foldera, sve_rijeci_dictionary, 6469)
+		dvije_rijeci_druga_mix_lower_upper_numeric("rijec_sva_slova_upper", "rijec", naziv_foldera, sve_rijeci_dictionary, 6097)
+		dvije_rijeci_druga_mix_lower_upper_numeric("rijec_sva_slova_upper", "rijec_sva_slova_upper", naziv_foldera, sve_rijeci_dictionary, 6145)
+		dvije_rijeci_druga_mix_lower_upper_numeric("rijec", "rijec_sva_slova_upper", naziv_foldera, sve_rijeci_dictionary, 6193)
 
-	print("\nThe size of folder is:\n{0:.2f}MB".format(float(neki_tamo_brojac)/1024/1024))
+		print("\nThe size of folder is:\n{0:.2f}MB".format(float(neki_tamo_brojac)/1024/1024))
 
-	dvije_rijeci_char("rijec_sva_slova_upper", "rijec", naziv_foldera, sve_rijeci_dictionary, 6507)
-	dvije_rijeci_char("rijec_sva_slova_upper", "rijec_sva_slova_upper", naziv_foldera, sve_rijeci_dictionary, 6545)
-	dvije_rijeci_char("rijec", "rijec_sva_slova_upper", naziv_foldera, sve_rijeci_dictionary, 6583)
+		dvije_rijeci_char("rijec", "rijec", naziv_foldera, sve_rijeci_dictionary, 6241)
+		dvije_rijeci_char("rijec_prvo_slovo_upper", "rijec", naziv_foldera, sve_rijeci_dictionary, 6279)
+		dvije_rijeci_char("rijec_prvo_slovo_upper", "rijec_prvo_slovo_upper", naziv_foldera, sve_rijeci_dictionary, 6317)
+		dvije_rijeci_char("rijec", "rijec_prvo_slovo_upper", naziv_foldera, sve_rijeci_dictionary, 6355)
 
-	print("\nThe size of folder is:\n{0:.2f}MB".format(float(neki_tamo_brojac)/1024/1024))
+		print("\nThe size of folder is:\n{0:.2f}MB".format(float(neki_tamo_brojac)/1024/1024))
 
-	dvije_rijeci_prva_mix_upper_char("rijec", "rijec", naziv_foldera, sve_rijeci_dictionary, 6621)
-	dvije_rijeci_prva_mix_upper_char("rijec_prvo_slovo_upper", "rijec", naziv_foldera, sve_rijeci_dictionary, 6677)
-	dvije_rijeci_prva_mix_upper_char("rijec_prvo_slovo_upper", "rijec_prvo_slovo_upper", naziv_foldera, sve_rijeci_dictionary, 6733)
-	dvije_rijeci_prva_mix_upper_char("rijec", "rijec_prvo_slovo_upper", naziv_foldera, sve_rijeci_dictionary, 6789)
+		dvije_rijeci_char("rijec_zadnje_slovo_upper", "rijec", naziv_foldera, sve_rijeci_dictionary, 6393)
+		dvije_rijeci_char("rijec_zadnje_slovo_upper", "rijec_zadnje_slovo_upper", naziv_foldera, sve_rijeci_dictionary, 6431)
+		dvije_rijeci_char("rijec", "rijec_zadnje_slovo_upper", naziv_foldera, sve_rijeci_dictionary, 6469)
 
-	print("\nThe size of folder is:\n{0:.2f}MB".format(float(neki_tamo_brojac)/1024/1024))
+		print("\nThe size of folder is:\n{0:.2f}MB".format(float(neki_tamo_brojac)/1024/1024))
 
-	dvije_rijeci_prva_mix_upper_char("rijec_zadnje_slovo_upper", "rijec", naziv_foldera, sve_rijeci_dictionary, 6845)
-	dvije_rijeci_prva_mix_upper_char("rijec_zadnje_slovo_upper", "rijec_zadnje_slovo_upper", naziv_foldera, sve_rijeci_dictionary, 6901)
-	dvije_rijeci_prva_mix_upper_char("rijec", "rijec_zadnje_slovo_upper", naziv_foldera, sve_rijeci_dictionary, 6957)
+		dvije_rijeci_char("rijec_sva_slova_upper", "rijec", naziv_foldera, sve_rijeci_dictionary, 6507)
+		dvije_rijeci_char("rijec_sva_slova_upper", "rijec_sva_slova_upper", naziv_foldera, sve_rijeci_dictionary, 6545)
+		dvije_rijeci_char("rijec", "rijec_sva_slova_upper", naziv_foldera, sve_rijeci_dictionary, 6583)
 
-	print("\nThe size of folder is:\n{0:.2f}MB".format(float(neki_tamo_brojac)/1024/1024))
+		print("\nThe size of folder is:\n{0:.2f}MB".format(float(neki_tamo_brojac)/1024/1024))
 
-	dvije_rijeci_prva_mix_upper_char("rijec_sva_slova_upper", "rijec", naziv_foldera, sve_rijeci_dictionary, 7013)
-	dvije_rijeci_prva_mix_upper_char("rijec_sva_slova_upper", "rijec_sva_slova_upper", naziv_foldera, sve_rijeci_dictionary, 7069)
-	dvije_rijeci_prva_mix_upper_char("rijec", "rijec_sva_slova_upper", naziv_foldera, sve_rijeci_dictionary, 7125)
+		dvije_rijeci_prva_mix_upper_char("rijec", "rijec", naziv_foldera, sve_rijeci_dictionary, 6621)
+		dvije_rijeci_prva_mix_upper_char("rijec_prvo_slovo_upper", "rijec", naziv_foldera, sve_rijeci_dictionary, 6677)
+		dvije_rijeci_prva_mix_upper_char("rijec_prvo_slovo_upper", "rijec_prvo_slovo_upper", naziv_foldera, sve_rijeci_dictionary, 6733)
+		dvije_rijeci_prva_mix_upper_char("rijec", "rijec_prvo_slovo_upper", naziv_foldera, sve_rijeci_dictionary, 6789)
 
-	print("\nThe size of folder is:\n{0:.2f}MB".format(float(neki_tamo_brojac)/1024/1024))
+		print("\nThe size of folder is:\n{0:.2f}MB".format(float(neki_tamo_brojac)/1024/1024))
 
-	dvije_rijeci_druga_mix_upper_char("rijec", "rijec", naziv_foldera, sve_rijeci_dictionary, 7181)
-	dvije_rijeci_druga_mix_upper_char("rijec_prvo_slovo_upper", "rijec", naziv_foldera, sve_rijeci_dictionary, 7233)
-	dvije_rijeci_druga_mix_upper_char("rijec_prvo_slovo_upper", "rijec_prvo_slovo_upper", naziv_foldera, sve_rijeci_dictionary, 7285)
-	dvije_rijeci_druga_mix_upper_char("rijec", "rijec_prvo_slovo_upper", naziv_foldera, sve_rijeci_dictionary, 7337)
+		dvije_rijeci_prva_mix_upper_char("rijec_zadnje_slovo_upper", "rijec", naziv_foldera, sve_rijeci_dictionary, 6845)
+		dvije_rijeci_prva_mix_upper_char("rijec_zadnje_slovo_upper", "rijec_zadnje_slovo_upper", naziv_foldera, sve_rijeci_dictionary, 6901)
+		dvije_rijeci_prva_mix_upper_char("rijec", "rijec_zadnje_slovo_upper", naziv_foldera, sve_rijeci_dictionary, 6957)
 
-	print("\nThe size of folder is:\n{0:.2f}MB".format(float(neki_tamo_brojac)/1024/1024))
+		print("\nThe size of folder is:\n{0:.2f}MB".format(float(neki_tamo_brojac)/1024/1024))
 
-	dvije_rijeci_druga_mix_upper_char("rijec_zadnje_slovo_upper", "rijec", naziv_foldera, sve_rijeci_dictionary, 7389)
-	dvije_rijeci_druga_mix_upper_char("rijec_zadnje_slovo_upper", "rijec_zadnje_slovo_upper", naziv_foldera, sve_rijeci_dictionary, 7441)
-	dvije_rijeci_druga_mix_upper_char("rijec", "rijec_zadnje_slovo_upper", naziv_foldera, sve_rijeci_dictionary, 7493)
+		dvije_rijeci_prva_mix_upper_char("rijec_sva_slova_upper", "rijec", naziv_foldera, sve_rijeci_dictionary, 7013)
+		dvije_rijeci_prva_mix_upper_char("rijec_sva_slova_upper", "rijec_sva_slova_upper", naziv_foldera, sve_rijeci_dictionary, 7069)
+		dvije_rijeci_prva_mix_upper_char("rijec", "rijec_sva_slova_upper", naziv_foldera, sve_rijeci_dictionary, 7125)
 
-	print("\nThe size of folder is:\n{0:.2f}MB".format(float(neki_tamo_brojac)/1024/1024))
+		print("\nThe size of folder is:\n{0:.2f}MB".format(float(neki_tamo_brojac)/1024/1024))
 
-	dvije_rijeci_druga_mix_upper_char("rijec_sva_slova_upper", "rijec", naziv_foldera, sve_rijeci_dictionary, 7545)
-	dvije_rijeci_druga_mix_upper_char("rijec_sva_slova_upper", "rijec_sva_slova_upper", naziv_foldera, sve_rijeci_dictionary, 7597)
-	dvije_rijeci_druga_mix_upper_char("rijec", "rijec_sva_slova_upper", naziv_foldera, sve_rijeci_dictionary, 7649)
+		dvije_rijeci_druga_mix_upper_char("rijec", "rijec", naziv_foldera, sve_rijeci_dictionary, 7181)
+		dvije_rijeci_druga_mix_upper_char("rijec_prvo_slovo_upper", "rijec", naziv_foldera, sve_rijeci_dictionary, 7233)
+		dvije_rijeci_druga_mix_upper_char("rijec_prvo_slovo_upper", "rijec_prvo_slovo_upper", naziv_foldera, sve_rijeci_dictionary, 7285)
+		dvije_rijeci_druga_mix_upper_char("rijec", "rijec_prvo_slovo_upper", naziv_foldera, sve_rijeci_dictionary, 7337)
 
-	print("\nThe size of folder is:\n{0:.2f}MB".format(float(neki_tamo_brojac)/1024/1024))
+		print("\nThe size of folder is:\n{0:.2f}MB".format(float(neki_tamo_brojac)/1024/1024))
 
-	dvije_rijeci_prva_mix_lower_char("rijec", "rijec", naziv_foldera, sve_rijeci_dictionary, 7701)
-	dvije_rijeci_prva_mix_lower_char("rijec_prvo_slovo_upper", "rijec", naziv_foldera, sve_rijeci_dictionary, 7753)
-	dvije_rijeci_prva_mix_lower_char("rijec_prvo_slovo_upper", "rijec_prvo_slovo_upper", naziv_foldera, sve_rijeci_dictionary, 7805)
-	dvije_rijeci_prva_mix_lower_char("rijec", "rijec_prvo_slovo_upper", naziv_foldera, sve_rijeci_dictionary, 7857)
+		dvije_rijeci_druga_mix_upper_char("rijec_zadnje_slovo_upper", "rijec", naziv_foldera, sve_rijeci_dictionary, 7389)
+		dvije_rijeci_druga_mix_upper_char("rijec_zadnje_slovo_upper", "rijec_zadnje_slovo_upper", naziv_foldera, sve_rijeci_dictionary, 7441)
+		dvije_rijeci_druga_mix_upper_char("rijec", "rijec_zadnje_slovo_upper", naziv_foldera, sve_rijeci_dictionary, 7493)
 
-	print("\nThe size of folder is:\n{0:.2f}MB".format(float(neki_tamo_brojac)/1024/1024))
+		print("\nThe size of folder is:\n{0:.2f}MB".format(float(neki_tamo_brojac)/1024/1024))
 
-	dvije_rijeci_prva_mix_lower_char("rijec_zadnje_slovo_upper", "rijec", naziv_foldera, sve_rijeci_dictionary, 7909)
-	dvije_rijeci_prva_mix_lower_char("rijec_zadnje_slovo_upper", "rijec_zadnje_slovo_upper", naziv_foldera, sve_rijeci_dictionary, 7961)
-	dvije_rijeci_prva_mix_lower_char("rijec", "rijec_zadnje_slovo_upper", naziv_foldera, sve_rijeci_dictionary, 8013)
+		dvije_rijeci_druga_mix_upper_char("rijec_sva_slova_upper", "rijec", naziv_foldera, sve_rijeci_dictionary, 7545)
+		dvije_rijeci_druga_mix_upper_char("rijec_sva_slova_upper", "rijec_sva_slova_upper", naziv_foldera, sve_rijeci_dictionary, 7597)
+		dvije_rijeci_druga_mix_upper_char("rijec", "rijec_sva_slova_upper", naziv_foldera, sve_rijeci_dictionary, 7649)
 
-	print("\nThe size of folder is:\n{0:.2f}MB".format(float(neki_tamo_brojac)/1024/1024))
+		print("\nThe size of folder is:\n{0:.2f}MB".format(float(neki_tamo_brojac)/1024/1024))
 
-	dvije_rijeci_prva_mix_lower_char("rijec_sva_slova_upper", "rijec", naziv_foldera, sve_rijeci_dictionary, 8065)
-	dvije_rijeci_prva_mix_lower_char("rijec_sva_slova_upper", "rijec_sva_slova_upper", naziv_foldera, sve_rijeci_dictionary, 8117)
-	dvije_rijeci_prva_mix_lower_char("rijec", "rijec_sva_slova_upper", naziv_foldera, sve_rijeci_dictionary, 8169)
+		dvije_rijeci_prva_mix_lower_char("rijec", "rijec", naziv_foldera, sve_rijeci_dictionary, 7701)
+		dvije_rijeci_prva_mix_lower_char("rijec_prvo_slovo_upper", "rijec", naziv_foldera, sve_rijeci_dictionary, 7753)
+		dvije_rijeci_prva_mix_lower_char("rijec_prvo_slovo_upper", "rijec_prvo_slovo_upper", naziv_foldera, sve_rijeci_dictionary, 7805)
+		dvije_rijeci_prva_mix_lower_char("rijec", "rijec_prvo_slovo_upper", naziv_foldera, sve_rijeci_dictionary, 7857)
 
-	print("\nThe size of folder is:\n{0:.2f}MB".format(float(neki_tamo_brojac)/1024/1024))
+		print("\nThe size of folder is:\n{0:.2f}MB".format(float(neki_tamo_brojac)/1024/1024))
 
-	dvije_rijeci_druga_mix_lower_char("rijec", "rijec", naziv_foldera, sve_rijeci_dictionary, 7701)
-	dvije_rijeci_druga_mix_lower_char("rijec_prvo_slovo_upper", "rijec", naziv_foldera, sve_rijeci_dictionary, 7753)
-	dvije_rijeci_druga_mix_lower_char("rijec_prvo_slovo_upper", "rijec_prvo_slovo_upper", naziv_foldera, sve_rijeci_dictionary, 7805)
-	dvije_rijeci_druga_mix_lower_char("rijec", "rijec_prvo_slovo_upper", naziv_foldera, sve_rijeci_dictionary, 7857)
+		dvije_rijeci_prva_mix_lower_char("rijec_zadnje_slovo_upper", "rijec", naziv_foldera, sve_rijeci_dictionary, 7909)
+		dvije_rijeci_prva_mix_lower_char("rijec_zadnje_slovo_upper", "rijec_zadnje_slovo_upper", naziv_foldera, sve_rijeci_dictionary, 7961)
+		dvije_rijeci_prva_mix_lower_char("rijec", "rijec_zadnje_slovo_upper", naziv_foldera, sve_rijeci_dictionary, 8013)
 
-	print("\nThe size of folder is:\n{0:.2f}MB".format(float(neki_tamo_brojac)/1024/1024))
+		print("\nThe size of folder is:\n{0:.2f}MB".format(float(neki_tamo_brojac)/1024/1024))
 
-	dvije_rijeci_druga_mix_lower_char("rijec_zadnje_slovo_upper", "rijec", naziv_foldera, sve_rijeci_dictionary, 7909)
-	dvije_rijeci_druga_mix_lower_char("rijec_zadnje_slovo_upper", "rijec_zadnje_slovo_upper", naziv_foldera, sve_rijeci_dictionary, 7961)
-	dvije_rijeci_druga_mix_lower_char("rijec", "rijec_zadnje_slovo_upper", naziv_foldera, sve_rijeci_dictionary, 8013)
+		dvije_rijeci_prva_mix_lower_char("rijec_sva_slova_upper", "rijec", naziv_foldera, sve_rijeci_dictionary, 8065)
+		dvije_rijeci_prva_mix_lower_char("rijec_sva_slova_upper", "rijec_sva_slova_upper", naziv_foldera, sve_rijeci_dictionary, 8117)
+		dvije_rijeci_prva_mix_lower_char("rijec", "rijec_sva_slova_upper", naziv_foldera, sve_rijeci_dictionary, 8169)
 
-	print("\nThe size of folder is:\n{0:.2f}MB".format(float(neki_tamo_brojac)/1024/1024))
+		print("\nThe size of folder is:\n{0:.2f}MB".format(float(neki_tamo_brojac)/1024/1024))
 
-	dvije_rijeci_druga_mix_lower_char("rijec_sva_slova_upper", "rijec", naziv_foldera, sve_rijeci_dictionary, 8065)
-	dvije_rijeci_druga_mix_lower_char("rijec_sva_slova_upper", "rijec_sva_slova_upper", naziv_foldera, sve_rijeci_dictionary, 8117)
-	dvije_rijeci_druga_mix_lower_char("rijec", "rijec_sva_slova_upper", naziv_foldera, sve_rijeci_dictionary, 8169)
+		dvije_rijeci_druga_mix_lower_char("rijec", "rijec", naziv_foldera, sve_rijeci_dictionary, 7701)
+		dvije_rijeci_druga_mix_lower_char("rijec_prvo_slovo_upper", "rijec", naziv_foldera, sve_rijeci_dictionary, 7753)
+		dvije_rijeci_druga_mix_lower_char("rijec_prvo_slovo_upper", "rijec_prvo_slovo_upper", naziv_foldera, sve_rijeci_dictionary, 7805)
+		dvije_rijeci_druga_mix_lower_char("rijec", "rijec_prvo_slovo_upper", naziv_foldera, sve_rijeci_dictionary, 7857)
 
-	print("\nThe size of folder is:\n{0:.2f}MB".format(float(neki_tamo_brojac)/1024/1024))
+		print("\nThe size of folder is:\n{0:.2f}MB".format(float(neki_tamo_brojac)/1024/1024))
 
-	dvije_rijeci_prva_mix_numeric_char("rijec", "rijec", naziv_foldera, sve_rijeci_dictionary, 8221)
-	dvije_rijeci_prva_mix_numeric_char("rijec_prvo_slovo_upper", "rijec", naziv_foldera, sve_rijeci_dictionary, 8277)
-	dvije_rijeci_prva_mix_numeric_char("rijec_prvo_slovo_upper", "rijec_prvo_slovo_upper", naziv_foldera, sve_rijeci_dictionary, 8333)
-	dvije_rijeci_prva_mix_numeric_char("rijec", "rijec_prvo_slovo_upper", naziv_foldera, sve_rijeci_dictionary, 8389)
+		dvije_rijeci_druga_mix_lower_char("rijec_zadnje_slovo_upper", "rijec", naziv_foldera, sve_rijeci_dictionary, 7909)
+		dvije_rijeci_druga_mix_lower_char("rijec_zadnje_slovo_upper", "rijec_zadnje_slovo_upper", naziv_foldera, sve_rijeci_dictionary, 7961)
+		dvije_rijeci_druga_mix_lower_char("rijec", "rijec_zadnje_slovo_upper", naziv_foldera, sve_rijeci_dictionary, 8013)
 
-	print("\nThe size of folder is:\n{0:.2f}MB".format(float(neki_tamo_brojac)/1024/1024))
+		print("\nThe size of folder is:\n{0:.2f}MB".format(float(neki_tamo_brojac)/1024/1024))
 
-	dvije_rijeci_prva_mix_numeric_char("rijec_zadnje_slovo_upper", "rijec", naziv_foldera, sve_rijeci_dictionary, 8445)
-	dvije_rijeci_prva_mix_numeric_char("rijec_zadnje_slovo_upper", "rijec_zadnje_slovo_upper", naziv_foldera, sve_rijeci_dictionary, 8501)
-	dvije_rijeci_prva_mix_numeric_char("rijec", "rijec_zadnje_slovo_upper", naziv_foldera, sve_rijeci_dictionary, 8557)
+		dvije_rijeci_druga_mix_lower_char("rijec_sva_slova_upper", "rijec", naziv_foldera, sve_rijeci_dictionary, 8065)
+		dvije_rijeci_druga_mix_lower_char("rijec_sva_slova_upper", "rijec_sva_slova_upper", naziv_foldera, sve_rijeci_dictionary, 8117)
+		dvije_rijeci_druga_mix_lower_char("rijec", "rijec_sva_slova_upper", naziv_foldera, sve_rijeci_dictionary, 8169)
 
-	print("\nThe size of folder is:\n{0:.2f}MB".format(float(neki_tamo_brojac)/1024/1024))
+		print("\nThe size of folder is:\n{0:.2f}MB".format(float(neki_tamo_brojac)/1024/1024))
 
-	dvije_rijeci_prva_mix_numeric_char("rijec_sva_slova_upper", "rijec", naziv_foldera, sve_rijeci_dictionary, 8613)
-	dvije_rijeci_prva_mix_numeric_char("rijec_sva_slova_upper", "rijec_sva_slova_upper", naziv_foldera, sve_rijeci_dictionary, 8669)
-	dvije_rijeci_prva_mix_numeric_char("rijec", "rijec_sva_slova_upper", naziv_foldera, sve_rijeci_dictionary, 8725)
+		dvije_rijeci_prva_mix_numeric_char("rijec", "rijec", naziv_foldera, sve_rijeci_dictionary, 8221)
+		dvije_rijeci_prva_mix_numeric_char("rijec_prvo_slovo_upper", "rijec", naziv_foldera, sve_rijeci_dictionary, 8277)
+		dvije_rijeci_prva_mix_numeric_char("rijec_prvo_slovo_upper", "rijec_prvo_slovo_upper", naziv_foldera, sve_rijeci_dictionary, 8333)
+		dvije_rijeci_prva_mix_numeric_char("rijec", "rijec_prvo_slovo_upper", naziv_foldera, sve_rijeci_dictionary, 8389)
 
-	print("\nThe size of folder is:\n{0:.2f}MB".format(float(neki_tamo_brojac)/1024/1024))
+		print("\nThe size of folder is:\n{0:.2f}MB".format(float(neki_tamo_brojac)/1024/1024))
 
-	dvije_rijeci_druga_mix_numeric_char("rijec", "rijec", naziv_foldera, sve_rijeci_dictionary, 8781)
-	dvije_rijeci_druga_mix_numeric_char("rijec_prvo_slovo_upper", "rijec", naziv_foldera, sve_rijeci_dictionary, 8833)
-	dvije_rijeci_druga_mix_numeric_char("rijec_prvo_slovo_upper", "rijec_prvo_slovo_upper", naziv_foldera, sve_rijeci_dictionary, 8885)
-	dvije_rijeci_druga_mix_numeric_char("rijec", "rijec_prvo_slovo_upper", naziv_foldera, sve_rijeci_dictionary, 8937)
+		dvije_rijeci_prva_mix_numeric_char("rijec_zadnje_slovo_upper", "rijec", naziv_foldera, sve_rijeci_dictionary, 8445)
+		dvije_rijeci_prva_mix_numeric_char("rijec_zadnje_slovo_upper", "rijec_zadnje_slovo_upper", naziv_foldera, sve_rijeci_dictionary, 8501)
+		dvije_rijeci_prva_mix_numeric_char("rijec", "rijec_zadnje_slovo_upper", naziv_foldera, sve_rijeci_dictionary, 8557)
 
-	print("\nThe size of folder is:\n{0:.2f}MB".format(float(neki_tamo_brojac)/1024/1024))
+		print("\nThe size of folder is:\n{0:.2f}MB".format(float(neki_tamo_brojac)/1024/1024))
 
-	dvije_rijeci_druga_mix_numeric_char("rijec_zadnje_slovo_upper", "rijec", naziv_foldera, sve_rijeci_dictionary, 8989)
-	dvije_rijeci_druga_mix_numeric_char("rijec_zadnje_slovo_upper", "rijec_zadnje_slovo_upper", naziv_foldera, sve_rijeci_dictionary, 9041)
-	dvije_rijeci_druga_mix_numeric_char("rijec", "rijec_zadnje_slovo_upper", naziv_foldera, sve_rijeci_dictionary, 9093)
+		dvije_rijeci_prva_mix_numeric_char("rijec_sva_slova_upper", "rijec", naziv_foldera, sve_rijeci_dictionary, 8613)
+		dvije_rijeci_prva_mix_numeric_char("rijec_sva_slova_upper", "rijec_sva_slova_upper", naziv_foldera, sve_rijeci_dictionary, 8669)
+		dvije_rijeci_prva_mix_numeric_char("rijec", "rijec_sva_slova_upper", naziv_foldera, sve_rijeci_dictionary, 8725)
 
-	print("\nThe size of folder is:\n{0:.2f}MB".format(float(neki_tamo_brojac)/1024/1024))
+		print("\nThe size of folder is:\n{0:.2f}MB".format(float(neki_tamo_brojac)/1024/1024))
 
-	dvije_rijeci_druga_mix_numeric_char("rijec_sva_slova_upper", "rijec", naziv_foldera, sve_rijeci_dictionary, 9145)
-	dvije_rijeci_druga_mix_numeric_char("rijec_sva_slova_upper", "rijec_sva_slova_upper", naziv_foldera, sve_rijeci_dictionary, 9197)
-	dvije_rijeci_druga_mix_numeric_char("rijec", "rijec_sva_slova_upper", naziv_foldera, sve_rijeci_dictionary, 9249)
+		dvije_rijeci_druga_mix_numeric_char("rijec", "rijec", naziv_foldera, sve_rijeci_dictionary, 8781)
+		dvije_rijeci_druga_mix_numeric_char("rijec_prvo_slovo_upper", "rijec", naziv_foldera, sve_rijeci_dictionary, 8833)
+		dvije_rijeci_druga_mix_numeric_char("rijec_prvo_slovo_upper", "rijec_prvo_slovo_upper", naziv_foldera, sve_rijeci_dictionary, 8885)
+		dvije_rijeci_druga_mix_numeric_char("rijec", "rijec_prvo_slovo_upper", naziv_foldera, sve_rijeci_dictionary, 8937)
 
-	print("\nThe size of folder is:\n{0:.2f}MB".format(float(neki_tamo_brojac)/1024/1024))
+		print("\nThe size of folder is:\n{0:.2f}MB".format(float(neki_tamo_brojac)/1024/1024))
 
-	dvije_rijeci_prva_mix_upper_lower_char("rijec", "rijec", naziv_foldera, sve_rijeci_dictionary, 9301)
-	dvije_rijeci_prva_mix_upper_lower_char("rijec_prvo_slovo_upper", "rijec", naziv_foldera, sve_rijeci_dictionary, 9349)
-	dvije_rijeci_prva_mix_upper_lower_char("rijec_prvo_slovo_upper", "rijec_prvo_slovo_upper", naziv_foldera, sve_rijeci_dictionary, 9397)
-	dvije_rijeci_prva_mix_upper_lower_char("rijec", "rijec_prvo_slovo_upper", naziv_foldera, sve_rijeci_dictionary, 9445)
+		dvije_rijeci_druga_mix_numeric_char("rijec_zadnje_slovo_upper", "rijec", naziv_foldera, sve_rijeci_dictionary, 8989)
+		dvije_rijeci_druga_mix_numeric_char("rijec_zadnje_slovo_upper", "rijec_zadnje_slovo_upper", naziv_foldera, sve_rijeci_dictionary, 9041)
+		dvije_rijeci_druga_mix_numeric_char("rijec", "rijec_zadnje_slovo_upper", naziv_foldera, sve_rijeci_dictionary, 9093)
 
-	print("\nThe size of folder is:\n{0:.2f}MB".format(float(neki_tamo_brojac)/1024/1024))
+		print("\nThe size of folder is:\n{0:.2f}MB".format(float(neki_tamo_brojac)/1024/1024))
 
-	dvije_rijeci_prva_mix_upper_lower_char("rijec_zadnje_slovo_upper", "rijec", naziv_foldera, sve_rijeci_dictionary, 9493)
-	dvije_rijeci_prva_mix_upper_lower_char("rijec_zadnje_slovo_upper", "rijec_zadnje_slovo_upper", naziv_foldera, sve_rijeci_dictionary, 9541)
-	dvije_rijeci_prva_mix_upper_lower_char("rijec", "rijec_zadnje_slovo_upper", naziv_foldera, sve_rijeci_dictionary, 9589)
+		dvije_rijeci_druga_mix_numeric_char("rijec_sva_slova_upper", "rijec", naziv_foldera, sve_rijeci_dictionary, 9145)
+		dvije_rijeci_druga_mix_numeric_char("rijec_sva_slova_upper", "rijec_sva_slova_upper", naziv_foldera, sve_rijeci_dictionary, 9197)
+		dvije_rijeci_druga_mix_numeric_char("rijec", "rijec_sva_slova_upper", naziv_foldera, sve_rijeci_dictionary, 9249)
 
-	print("\nThe size of folder is:\n{0:.2f}MB".format(float(neki_tamo_brojac)/1024/1024))
+		print("\nThe size of folder is:\n{0:.2f}MB".format(float(neki_tamo_brojac)/1024/1024))
 
-	dvije_rijeci_prva_mix_upper_lower_char("rijec_sva_slova_upper", "rijec", naziv_foldera, sve_rijeci_dictionary, 9637)
-	dvije_rijeci_prva_mix_upper_lower_char("rijec_sva_slova_upper", "rijec_sva_slova_upper", naziv_foldera, sve_rijeci_dictionary, 9685)
-	dvije_rijeci_prva_mix_upper_lower_char("rijec", "rijec_sva_slova_upper", naziv_foldera, sve_rijeci_dictionary, 9733)
+		dvije_rijeci_prva_mix_upper_lower_char("rijec", "rijec", naziv_foldera, sve_rijeci_dictionary, 9301)
+		dvije_rijeci_prva_mix_upper_lower_char("rijec_prvo_slovo_upper", "rijec", naziv_foldera, sve_rijeci_dictionary, 9349)
+		dvije_rijeci_prva_mix_upper_lower_char("rijec_prvo_slovo_upper", "rijec_prvo_slovo_upper", naziv_foldera, sve_rijeci_dictionary, 9397)
+		dvije_rijeci_prva_mix_upper_lower_char("rijec", "rijec_prvo_slovo_upper", naziv_foldera, sve_rijeci_dictionary, 9445)
 
-	print("\nThe size of folder is:\n{0:.2f}MB".format(float(neki_tamo_brojac)/1024/1024))
+		print("\nThe size of folder is:\n{0:.2f}MB".format(float(neki_tamo_brojac)/1024/1024))
 
-	dvije_rijeci_druga_mix_upper_lower_char("rijec", "rijec", naziv_foldera, sve_rijeci_dictionary, 9781)
-	dvije_rijeci_druga_mix_upper_lower_char("rijec_prvo_slovo_upper", "rijec", naziv_foldera, sve_rijeci_dictionary, 9829)
-	dvije_rijeci_druga_mix_upper_lower_char("rijec_prvo_slovo_upper", "rijec_prvo_slovo_upper", naziv_foldera, sve_rijeci_dictionary, 9877)
-	dvije_rijeci_druga_mix_upper_lower_char("rijec", "rijec_prvo_slovo_upper", naziv_foldera, sve_rijeci_dictionary, 9925)
+		dvije_rijeci_prva_mix_upper_lower_char("rijec_zadnje_slovo_upper", "rijec", naziv_foldera, sve_rijeci_dictionary, 9493)
+		dvije_rijeci_prva_mix_upper_lower_char("rijec_zadnje_slovo_upper", "rijec_zadnje_slovo_upper", naziv_foldera, sve_rijeci_dictionary, 9541)
+		dvije_rijeci_prva_mix_upper_lower_char("rijec", "rijec_zadnje_slovo_upper", naziv_foldera, sve_rijeci_dictionary, 9589)
 
-	print("\nThe size of folder is:\n{0:.2f}MB".format(float(neki_tamo_brojac)/1024/1024))
+		print("\nThe size of folder is:\n{0:.2f}MB".format(float(neki_tamo_brojac)/1024/1024))
 
-	dvije_rijeci_druga_mix_upper_lower_char("rijec_zadnje_slovo_upper", "rijec", naziv_foldera, sve_rijeci_dictionary, 9973)
-	dvije_rijeci_druga_mix_upper_lower_char("rijec_zadnje_slovo_upper", "rijec_zadnje_slovo_upper", naziv_foldera, sve_rijeci_dictionary, 10021)
-	dvije_rijeci_druga_mix_upper_lower_char("rijec", "rijec_zadnje_slovo_upper", naziv_foldera, sve_rijeci_dictionary, 10069)
+		dvije_rijeci_prva_mix_upper_lower_char("rijec_sva_slova_upper", "rijec", naziv_foldera, sve_rijeci_dictionary, 9637)
+		dvije_rijeci_prva_mix_upper_lower_char("rijec_sva_slova_upper", "rijec_sva_slova_upper", naziv_foldera, sve_rijeci_dictionary, 9685)
+		dvije_rijeci_prva_mix_upper_lower_char("rijec", "rijec_sva_slova_upper", naziv_foldera, sve_rijeci_dictionary, 9733)
 
-	print("\nThe size of folder is:\n{0:.2f}MB".format(float(neki_tamo_brojac)/1024/1024))
+		print("\nThe size of folder is:\n{0:.2f}MB".format(float(neki_tamo_brojac)/1024/1024))
 
-	dvije_rijeci_druga_mix_upper_lower_char("rijec_sva_slova_upper", "rijec", naziv_foldera, sve_rijeci_dictionary, 10117)
-	dvije_rijeci_druga_mix_upper_lower_char("rijec_sva_slova_upper", "rijec_sva_slova_upper", naziv_foldera, sve_rijeci_dictionary, 10165)
-	dvije_rijeci_druga_mix_upper_lower_char("rijec", "rijec_sva_slova_upper", naziv_foldera, sve_rijeci_dictionary, 10213)
+		dvije_rijeci_druga_mix_upper_lower_char("rijec", "rijec", naziv_foldera, sve_rijeci_dictionary, 9781)
+		dvije_rijeci_druga_mix_upper_lower_char("rijec_prvo_slovo_upper", "rijec", naziv_foldera, sve_rijeci_dictionary, 9829)
+		dvije_rijeci_druga_mix_upper_lower_char("rijec_prvo_slovo_upper", "rijec_prvo_slovo_upper", naziv_foldera, sve_rijeci_dictionary, 9877)
+		dvije_rijeci_druga_mix_upper_lower_char("rijec", "rijec_prvo_slovo_upper", naziv_foldera, sve_rijeci_dictionary, 9925)
 
-	print("\nThe size of folder is:\n{0:.2f}MB".format(float(neki_tamo_brojac)/1024/1024))
+		print("\nThe size of folder is:\n{0:.2f}MB".format(float(neki_tamo_brojac)/1024/1024))
 
-	dvije_rijeci_prva_mix_upper_numeric_char("rijec", "rijec", naziv_foldera, sve_rijeci_dictionary, 10261)
-	dvije_rijeci_prva_mix_upper_numeric_char("rijec_prvo_slovo_upper", "rijec", naziv_foldera, sve_rijeci_dictionary, 10309)
-	dvije_rijeci_prva_mix_upper_numeric_char("rijec_prvo_slovo_upper", "rijec_prvo_slovo_upper", naziv_foldera, sve_rijeci_dictionary, 10357)
-	dvije_rijeci_prva_mix_upper_numeric_char("rijec", "rijec_prvo_slovo_upper", naziv_foldera, sve_rijeci_dictionary, 10405)
+		dvije_rijeci_druga_mix_upper_lower_char("rijec_zadnje_slovo_upper", "rijec", naziv_foldera, sve_rijeci_dictionary, 9973)
+		dvije_rijeci_druga_mix_upper_lower_char("rijec_zadnje_slovo_upper", "rijec_zadnje_slovo_upper", naziv_foldera, sve_rijeci_dictionary, 10021)
+		dvije_rijeci_druga_mix_upper_lower_char("rijec", "rijec_zadnje_slovo_upper", naziv_foldera, sve_rijeci_dictionary, 10069)
 
-	print("\nThe size of folder is:\n{0:.2f}MB".format(float(neki_tamo_brojac)/1024/1024))
+		print("\nThe size of folder is:\n{0:.2f}MB".format(float(neki_tamo_brojac)/1024/1024))
 
-	dvije_rijeci_prva_mix_upper_numeric_char("rijec_zadnje_slovo_upper", "rijec", naziv_foldera, sve_rijeci_dictionary, 10453)
-	dvije_rijeci_prva_mix_upper_numeric_char("rijec_zadnje_slovo_upper", "rijec_zadnje_slovo_upper", naziv_foldera, sve_rijeci_dictionary, 10501)
-	dvije_rijeci_prva_mix_upper_numeric_char("rijec", "rijec_zadnje_slovo_upper", naziv_foldera, sve_rijeci_dictionary, 10549)
+		dvije_rijeci_druga_mix_upper_lower_char("rijec_sva_slova_upper", "rijec", naziv_foldera, sve_rijeci_dictionary, 10117)
+		dvije_rijeci_druga_mix_upper_lower_char("rijec_sva_slova_upper", "rijec_sva_slova_upper", naziv_foldera, sve_rijeci_dictionary, 10165)
+		dvije_rijeci_druga_mix_upper_lower_char("rijec", "rijec_sva_slova_upper", naziv_foldera, sve_rijeci_dictionary, 10213)
 
-	print("\nThe size of folder is:\n{0:.2f}MB".format(float(neki_tamo_brojac)/1024/1024))
+		print("\nThe size of folder is:\n{0:.2f}MB".format(float(neki_tamo_brojac)/1024/1024))
 
-	dvije_rijeci_prva_mix_upper_numeric_char("rijec_sva_slova_upper", "rijec", naziv_foldera, sve_rijeci_dictionary, 10597)
-	dvije_rijeci_prva_mix_upper_numeric_char("rijec_sva_slova_upper", "rijec_sva_slova_upper", naziv_foldera, sve_rijeci_dictionary, 10645)
-	dvije_rijeci_prva_mix_upper_numeric_char("rijec", "rijec_sva_slova_upper", naziv_foldera, sve_rijeci_dictionary, 10693)
+		dvije_rijeci_prva_mix_upper_numeric_char("rijec", "rijec", naziv_foldera, sve_rijeci_dictionary, 10261)
+		dvije_rijeci_prva_mix_upper_numeric_char("rijec_prvo_slovo_upper", "rijec", naziv_foldera, sve_rijeci_dictionary, 10309)
+		dvije_rijeci_prva_mix_upper_numeric_char("rijec_prvo_slovo_upper", "rijec_prvo_slovo_upper", naziv_foldera, sve_rijeci_dictionary, 10357)
+		dvije_rijeci_prva_mix_upper_numeric_char("rijec", "rijec_prvo_slovo_upper", naziv_foldera, sve_rijeci_dictionary, 10405)
 
-	print("\nThe size of folder is:\n{0:.2f}MB".format(float(neki_tamo_brojac)/1024/1024))
+		print("\nThe size of folder is:\n{0:.2f}MB".format(float(neki_tamo_brojac)/1024/1024))
 
-	dvije_rijeci_druga_mix_upper_numeric_char("rijec", "rijec", naziv_foldera, sve_rijeci_dictionary, 10741)
-	dvije_rijeci_druga_mix_upper_numeric_char("rijec_prvo_slovo_upper", "rijec", naziv_foldera, sve_rijeci_dictionary, 10789)
-	dvije_rijeci_druga_mix_upper_numeric_char("rijec_prvo_slovo_upper", "rijec_prvo_slovo_upper", naziv_foldera, sve_rijeci_dictionary, 10837)
-	dvije_rijeci_druga_mix_upper_numeric_char("rijec", "rijec_prvo_slovo_upper", naziv_foldera, sve_rijeci_dictionary, 10885)
+		dvije_rijeci_prva_mix_upper_numeric_char("rijec_zadnje_slovo_upper", "rijec", naziv_foldera, sve_rijeci_dictionary, 10453)
+		dvije_rijeci_prva_mix_upper_numeric_char("rijec_zadnje_slovo_upper", "rijec_zadnje_slovo_upper", naziv_foldera, sve_rijeci_dictionary, 10501)
+		dvije_rijeci_prva_mix_upper_numeric_char("rijec", "rijec_zadnje_slovo_upper", naziv_foldera, sve_rijeci_dictionary, 10549)
 
-	print("\nThe size of folder is:\n{0:.2f}MB".format(float(neki_tamo_brojac)/1024/1024))
+		print("\nThe size of folder is:\n{0:.2f}MB".format(float(neki_tamo_brojac)/1024/1024))
 
-	dvije_rijeci_druga_mix_upper_numeric_char("rijec_zadnje_slovo_upper", "rijec", naziv_foldera, sve_rijeci_dictionary, 10933)
-	dvije_rijeci_druga_mix_upper_numeric_char("rijec_zadnje_slovo_upper", "rijec_zadnje_slovo_upper", naziv_foldera, sve_rijeci_dictionary, 10981)
-	dvije_rijeci_druga_mix_upper_numeric_char("rijec", "rijec_zadnje_slovo_upper", naziv_foldera, sve_rijeci_dictionary, 11029)
+		dvije_rijeci_prva_mix_upper_numeric_char("rijec_sva_slova_upper", "rijec", naziv_foldera, sve_rijeci_dictionary, 10597)
+		dvije_rijeci_prva_mix_upper_numeric_char("rijec_sva_slova_upper", "rijec_sva_slova_upper", naziv_foldera, sve_rijeci_dictionary, 10645)
+		dvije_rijeci_prva_mix_upper_numeric_char("rijec", "rijec_sva_slova_upper", naziv_foldera, sve_rijeci_dictionary, 10693)
 
-	print("\nThe size of folder is:\n{0:.2f}MB".format(float(neki_tamo_brojac)/1024/1024))
+		print("\nThe size of folder is:\n{0:.2f}MB".format(float(neki_tamo_brojac)/1024/1024))
 
-	dvije_rijeci_druga_mix_upper_numeric_char("rijec_sva_slova_upper", "rijec", naziv_foldera, sve_rijeci_dictionary, 11077)
-	dvije_rijeci_druga_mix_upper_numeric_char("rijec_sva_slova_upper", "rijec_sva_slova_upper", naziv_foldera, sve_rijeci_dictionary, 11125)
-	dvije_rijeci_druga_mix_upper_numeric_char("rijec", "rijec_sva_slova_upper", naziv_foldera, sve_rijeci_dictionary, 11173)
+		dvije_rijeci_druga_mix_upper_numeric_char("rijec", "rijec", naziv_foldera, sve_rijeci_dictionary, 10741)
+		dvije_rijeci_druga_mix_upper_numeric_char("rijec_prvo_slovo_upper", "rijec", naziv_foldera, sve_rijeci_dictionary, 10789)
+		dvije_rijeci_druga_mix_upper_numeric_char("rijec_prvo_slovo_upper", "rijec_prvo_slovo_upper", naziv_foldera, sve_rijeci_dictionary, 10837)
+		dvije_rijeci_druga_mix_upper_numeric_char("rijec", "rijec_prvo_slovo_upper", naziv_foldera, sve_rijeci_dictionary, 10885)
 
-	#11220 files - 4.3GB
-	#sve spajamo u jedan finalni fajl i brisemo sve ostale fajlove
-	os.chdir(naziv_foldera)
-	os.system("mkdir temp && cat *.txt > temp/{0}_dictionary.txt".format(naziv_foldera))
-	os.system("rm *.txt && mv temp/{0}_dictionary.txt {0}_dictionary.txt && rmdir temp".format(naziv_foldera))
+		print("\nThe size of folder is:\n{0:.2f}MB".format(float(neki_tamo_brojac)/1024/1024))
 
+		dvije_rijeci_druga_mix_upper_numeric_char("rijec_zadnje_slovo_upper", "rijec", naziv_foldera, sve_rijeci_dictionary, 10933)
+		dvije_rijeci_druga_mix_upper_numeric_char("rijec_zadnje_slovo_upper", "rijec_zadnje_slovo_upper", naziv_foldera, sve_rijeci_dictionary, 10981)
+		dvije_rijeci_druga_mix_upper_numeric_char("rijec", "rijec_zadnje_slovo_upper", naziv_foldera, sve_rijeci_dictionary, 11029)
+
+		print("\nThe size of folder is:\n{0:.2f}MB".format(float(neki_tamo_brojac)/1024/1024))
+
+		dvije_rijeci_druga_mix_upper_numeric_char("rijec_sva_slova_upper", "rijec", naziv_foldera, sve_rijeci_dictionary, 11077)
+		dvije_rijeci_druga_mix_upper_numeric_char("rijec_sva_slova_upper", "rijec_sva_slova_upper", naziv_foldera, sve_rijeci_dictionary, 11125)
+		dvije_rijeci_druga_mix_upper_numeric_char("rijec", "rijec_sva_slova_upper", naziv_foldera, sve_rijeci_dictionary, 11173)
+
+		#11220 files - 4.3GB
+		#sve spajamo u jedan finalni fajl i brisemo sve ostale fajlove
+		os.chdir(naziv_foldera)
+		os.system("mkdir temp && cat *.txt > temp/{0}_dictionary.txt".format(naziv_foldera))
+		os.system("rm *.txt && mv temp/{0}_dictionary.txt {0}_dictionary.txt && rmdir temp".format(naziv_foldera))
+
+	else:
+		dvije_rijeci_prva_numeric("rijec", "rijec", naziv_foldera, sve_rijeci_dictionary, 1)
+		dvije_rijeci_prva_numeric("rijec_prvo_slovo_upper", "rijec", naziv_foldera, sve_rijeci_dictionary, 29)
+		dvije_rijeci_prva_numeric("rijec_prvo_slovo_upper", "rijec_prvo_slovo_upper", naziv_foldera, sve_rijeci_dictionary, 57)
+		dvije_rijeci_prva_numeric("rijec", "rijec_prvo_slovo_upper", naziv_foldera, sve_rijeci_dictionary, 85)
+
+		print("\nThe size of folder is:\n{0:.2f}MB".format(float(neki_tamo_brojac)/1024/1024))
+
+		dvije_rijeci_prva_numeric("rijec_zadnje_slovo_upper", "rijec", naziv_foldera, sve_rijeci_dictionary, 113)
+		dvije_rijeci_prva_numeric("rijec_zadnje_slovo_upper", "rijec_zadnje_slovo_upper", naziv_foldera, sve_rijeci_dictionary, 141)
+		dvije_rijeci_prva_numeric("rijec", "rijec_zadnje_slovo_upper", naziv_foldera, sve_rijeci_dictionary, 169)
+
+		print("\nThe size of folder is:\n{0:.2f}MB".format(float(neki_tamo_brojac)/1024/1024))
+
+		dvije_rijeci_prva_numeric("rijec_sva_slova_upper", "rijec", naziv_foldera, sve_rijeci_dictionary, 197)
+		dvije_rijeci_prva_numeric("rijec_sva_slova_upper", "rijec_sva_slova_upper", naziv_foldera, sve_rijeci_dictionary, 225)
+		dvije_rijeci_prva_numeric("rijec", "rijec_sva_slova_upper", naziv_foldera, sve_rijeci_dictionary, 253)
+
+		print("\nThe size of folder is:\n{0:.2f}MB".format(float(neki_tamo_brojac)/1024/1024))
+
+		dvije_rijeci_druga_numeric("rijec", "rijec", naziv_foldera, sve_rijeci_dictionary, 281)
+		dvije_rijeci_druga_numeric("rijec_prvo_slovo_upper", "rijec", naziv_foldera, sve_rijeci_dictionary, 313)
+		dvije_rijeci_druga_numeric("rijec_prvo_slovo_upper", "rijec_prvo_slovo_upper", naziv_foldera, sve_rijeci_dictionary, 345)
+		dvije_rijeci_druga_numeric("rijec", "rijec_prvo_slovo_upper", naziv_foldera, sve_rijeci_dictionary, 377)
+
+		print("\nThe size of folder is:\n{0:.2f}MB".format(float(neki_tamo_brojac)/1024/1024))
+
+		dvije_rijeci_druga_numeric("rijec_zadnje_slovo_upper", "rijec", naziv_foldera, sve_rijeci_dictionary, 409)
+		dvije_rijeci_druga_numeric("rijec_zadnje_slovo_upper", "rijec_zadnje_slovo_upper", naziv_foldera, sve_rijeci_dictionary, 441)
+		dvije_rijeci_druga_numeric("rijec", "rijec_zadnje_slovo_upper", naziv_foldera, sve_rijeci_dictionary, 473)
+
+		print("\nThe size of folder is:\n{0:.2f}MB".format(float(neki_tamo_brojac)/1024/1024))
+
+		dvije_rijeci_druga_numeric("rijec_sva_slova_upper", "rijec", naziv_foldera, sve_rijeci_dictionary, 505)
+		dvije_rijeci_druga_numeric("rijec_sva_slova_upper", "rijec_sva_slova_upper", naziv_foldera, sve_rijeci_dictionary, 537)
+		dvije_rijeci_druga_numeric("rijec", "rijec_sva_slova_upper", naziv_foldera, sve_rijeci_dictionary, 569)
+
+		print("\nThe size of folder is:\n{0:.2f}MB".format(float(neki_tamo_brojac)/1024/1024))
+
+		dvije_rijeci_prva_lower_alpha("rijec", "rijec", naziv_foldera, sve_rijeci_dictionary, 601)
+		dvije_rijeci_prva_lower_alpha("rijec_prvo_slovo_upper", "rijec", naziv_foldera, sve_rijeci_dictionary, 629)
+		dvije_rijeci_prva_lower_alpha("rijec_prvo_slovo_upper", "rijec_prvo_slovo_upper", naziv_foldera, sve_rijeci_dictionary, 657)
+		dvije_rijeci_prva_lower_alpha("rijec", "rijec_prvo_slovo_upper", naziv_foldera, sve_rijeci_dictionary, 685)
+
+		print("\nThe size of folder is:\n{0:.2f}MB".format(float(neki_tamo_brojac)/1024/1024))
+
+		dvije_rijeci_prva_lower_alpha("rijec_zadnje_slovo_upper", "rijec", naziv_foldera, sve_rijeci_dictionary, 713)
+		dvije_rijeci_prva_lower_alpha("rijec_zadnje_slovo_upper", "rijec_zadnje_slovo_upper", naziv_foldera, sve_rijeci_dictionary, 741)
+		dvije_rijeci_prva_lower_alpha("rijec", "rijec_zadnje_slovo_upper", naziv_foldera, sve_rijeci_dictionary, 769)
+
+		print("\nThe size of folder is:\n{0:.2f}MB".format(float(neki_tamo_brojac)/1024/1024))
+
+		dvije_rijeci_prva_lower_alpha("rijec_sva_slova_upper", "rijec", naziv_foldera, sve_rijeci_dictionary, 797)
+		dvije_rijeci_prva_lower_alpha("rijec_sva_slova_upper", "rijec_sva_slova_upper", naziv_foldera, sve_rijeci_dictionary, 825)
+		dvije_rijeci_prva_lower_alpha("rijec", "rijec_sva_slova_upper", naziv_foldera, sve_rijeci_dictionary, 853)
+
+		print("\nThe size of folder is:\n{0:.2f}MB".format(float(neki_tamo_brojac)/1024/1024))
+
+		dvije_rijeci_druga_lower_alpha("rijec", "rijec", naziv_foldera, sve_rijeci_dictionary, 881)
+		dvije_rijeci_druga_lower_alpha("rijec_prvo_slovo_upper", "rijec", naziv_foldera, sve_rijeci_dictionary, 913)
+		dvije_rijeci_druga_lower_alpha("rijec_prvo_slovo_upper", "rijec_prvo_slovo_upper", naziv_foldera, sve_rijeci_dictionary, 945)
+		dvije_rijeci_druga_lower_alpha("rijec", "rijec_prvo_slovo_upper", naziv_foldera, sve_rijeci_dictionary, 977)
+
+		print("\nThe size of folder is:\n{0:.2f}MB".format(float(neki_tamo_brojac)/1024/1024))
+
+		dvije_rijeci_druga_lower_alpha("rijec_zadnje_slovo_upper", "rijec", naziv_foldera, sve_rijeci_dictionary, 1009)
+		dvije_rijeci_druga_lower_alpha("rijec_zadnje_slovo_upper", "rijec_zadnje_slovo_upper", naziv_foldera, sve_rijeci_dictionary, 1041)
+		dvije_rijeci_druga_lower_alpha("rijec", "rijec_zadnje_slovo_upper", naziv_foldera, sve_rijeci_dictionary, 1073)
+
+		print("\nThe size of folder is:\n{0:.2f}MB".format(float(neki_tamo_brojac)/1024/1024))
+
+		dvije_rijeci_druga_lower_alpha("rijec_sva_slova_upper", "rijec", naziv_foldera, sve_rijeci_dictionary, 1105)
+		dvije_rijeci_druga_lower_alpha("rijec_sva_slova_upper", "rijec_sva_slova_upper", naziv_foldera, sve_rijeci_dictionary, 1137)
+		dvije_rijeci_druga_lower_alpha("rijec", "rijec_sva_slova_upper", naziv_foldera, sve_rijeci_dictionary, 1169)
+
+		print("\nThe size of folder is:\n{0:.2f}MB".format(float(neki_tamo_brojac)/1024/1024))
+
+		#sve spajamo u jedan finalni fajl i brisemo sve ostale fajlove
+		os.chdir(naziv_foldera)
+		os.system("mkdir temp && cat *.txt > temp/{0}_dictionary.txt".format(naziv_foldera))
+		os.system("rm *.txt && mv temp/{0}_dictionary.txt {0}_dictionary.txt && rmdir temp".format(naziv_foldera))
+
+		while (True):
+			nastavak_pitanje = input("Once you're finished with created dictionary, type in 1 and we will continue to create dictionaries.\n")
+
+			if (nastavak_pitanje == 1):
+				break
+
+		os.system("rm *.txt")
+		nastavak_pitanje = 0
+
+		dvije_rijeci_prva_upper_alpha("rijec", "rijec", naziv_foldera, sve_rijeci_dictionary, 1201)
+		dvije_rijeci_prva_upper_alpha("rijec_prvo_slovo_upper", "rijec", naziv_foldera, sve_rijeci_dictionary, 1229)
+		dvije_rijeci_prva_upper_alpha("rijec_prvo_slovo_upper", "rijec_prvo_slovo_upper", naziv_foldera, sve_rijeci_dictionary, 1257)
+		dvije_rijeci_prva_upper_alpha("rijec", "rijec_prvo_slovo_upper", naziv_foldera, sve_rijeci_dictionary, 1285)
+
+		print("\nThe size of folder is:\n{0:.2f}MB".format(float(neki_tamo_brojac)/1024/1024))
+
+		dvije_rijeci_prva_upper_alpha("rijec_zadnje_slovo_upper", "rijec", naziv_foldera, sve_rijeci_dictionary, 1313)
+		dvije_rijeci_prva_upper_alpha("rijec_zadnje_slovo_upper", "rijec_zadnje_slovo_upper", naziv_foldera, sve_rijeci_dictionary, 1341)
+		dvije_rijeci_prva_upper_alpha("rijec", "rijec_zadnje_slovo_upper", naziv_foldera, sve_rijeci_dictionary, 1369)
+
+		print("\nThe size of folder is:\n{0:.2f}MB".format(float(neki_tamo_brojac)/1024/1024))
+
+		dvije_rijeci_prva_upper_alpha("rijec_sva_slova_upper", "rijec", naziv_foldera, sve_rijeci_dictionary, 1397)
+		dvije_rijeci_prva_upper_alpha("rijec_sva_slova_upper", "rijec_sva_slova_upper", naziv_foldera, sve_rijeci_dictionary, 1425)
+		dvije_rijeci_prva_upper_alpha("rijec", "rijec_sva_slova_upper", naziv_foldera, sve_rijeci_dictionary, 1453)
+
+		print("\nThe size of folder is:\n{0:.2f}MB".format(float(neki_tamo_brojac)/1024/1024))
+
+		dvije_rijeci_druga_upper_alpha("rijec", "rijec", naziv_foldera, sve_rijeci_dictionary, 1481)
+		dvije_rijeci_druga_upper_alpha("rijec_prvo_slovo_upper", "rijec", naziv_foldera, sve_rijeci_dictionary, 1513)
+		dvije_rijeci_druga_upper_alpha("rijec_prvo_slovo_upper", "rijec_prvo_slovo_upper", naziv_foldera, sve_rijeci_dictionary, 1545)
+		dvije_rijeci_druga_upper_alpha("rijec", "rijec_prvo_slovo_upper", naziv_foldera, sve_rijeci_dictionary, 1577)
+
+		print("\nThe size of folder is:\n{0:.2f}MB".format(float(neki_tamo_brojac)/1024/1024))
+
+		dvije_rijeci_druga_upper_alpha("rijec_zadnje_slovo_upper", "rijec", naziv_foldera, sve_rijeci_dictionary, 1609)
+		dvije_rijeci_druga_upper_alpha("rijec_zadnje_slovo_upper", "rijec_zadnje_slovo_upper", naziv_foldera, sve_rijeci_dictionary, 1641)
+		dvije_rijeci_druga_upper_alpha("rijec", "rijec_zadnje_slovo_upper", naziv_foldera, sve_rijeci_dictionary, 1673)
+
+		print("\nThe size of folder is:\n{0:.2f}MB".format(float(neki_tamo_brojac)/1024/1024))
+
+		dvije_rijeci_druga_upper_alpha("rijec_sva_slova_upper", "rijec", naziv_foldera, sve_rijeci_dictionary, 1705)
+		dvije_rijeci_druga_upper_alpha("rijec_sva_slova_upper", "rijec_sva_slova_upper", naziv_foldera, sve_rijeci_dictionary, 1737)
+		dvije_rijeci_druga_upper_alpha("rijec", "rijec_sva_slova_upper", naziv_foldera, sve_rijeci_dictionary, 1769)
+
+		print("\nThe size of folder is:\n{0:.2f}MB".format(float(neki_tamo_brojac)/1024/1024))
+
+		dvije_rijeci_prva_mix_upper_lower("rijec", "rijec", naziv_foldera, sve_rijeci_dictionary, 1801)
+		dvije_rijeci_prva_mix_upper_lower("rijec_prvo_slovo_upper", "rijec", naziv_foldera, sve_rijeci_dictionary, 1857)
+		dvije_rijeci_prva_mix_upper_lower("rijec_prvo_slovo_upper", "rijec_prvo_slovo_upper", naziv_foldera, sve_rijeci_dictionary, 1913)
+		dvije_rijeci_prva_mix_upper_lower("rijec", "rijec_prvo_slovo_upper", naziv_foldera, sve_rijeci_dictionary, 1969)
+
+		print("\nThe size of folder is:\n{0:.2f}MB".format(float(neki_tamo_brojac)/1024/1024))
+
+		dvije_rijeci_prva_mix_upper_lower("rijec_zadnje_slovo_upper", "rijec", naziv_foldera, sve_rijeci_dictionary, 2025)
+		dvije_rijeci_prva_mix_upper_lower("rijec_zadnje_slovo_upper", "rijec_zadnje_slovo_upper", naziv_foldera, sve_rijeci_dictionary, 2081)
+		dvije_rijeci_prva_mix_upper_lower("rijec", "rijec_zadnje_slovo_upper", naziv_foldera, sve_rijeci_dictionary, 2137)
+
+		print("\nThe size of folder is:\n{0:.2f}MB".format(float(neki_tamo_brojac)/1024/1024))
+
+		dvije_rijeci_prva_mix_upper_lower("rijec_sva_slova_upper", "rijec", naziv_foldera, sve_rijeci_dictionary, 2193)
+		dvije_rijeci_prva_mix_upper_lower("rijec_sva_slova_upper", "rijec_sva_slova_upper", naziv_foldera, sve_rijeci_dictionary, 2249)
+		dvije_rijeci_prva_mix_upper_lower("rijec", "rijec_sva_slova_upper", naziv_foldera, sve_rijeci_dictionary, 2305)
+
+		print("\nThe size of folder is:\n{0:.2f}MB".format(float(neki_tamo_brojac)/1024/1024))
+
+		while (True):
+			nastavak_pitanje = input("Once you're finished with created dictionary, type in 1 and we will continue to create dictionaries.\n")
+
+			if (nastavak_pitanje == 1):
+				break
+
+		print("idemo dalje!!!")
 else:
 	pass
