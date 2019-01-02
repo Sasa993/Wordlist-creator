@@ -8,156 +8,81 @@ folder_path = ""
 os.chdir("..")
 
 def prva_numeric(rijec, rijec_original, txt_broj):
-	
-
-	os.system("crunch {0} {0} -t {1}% -o {2}{3}/{4}.txt".format(rijec_duzina + 1,rijec, folder_path, rijec_original, txt_broj))
-	
-	os.system("crunch {0} {0} -t {1}%% -o {2}{3}/{4}.txt".format(rijec_duzina + 2,rijec, folder_path, rijec_original, txt_broj + 1))
-	
-	os.system("crunch {0} {0} -t {1}%%% -o {2}{3}/{4}.txt".format(rijec_duzina + 3,rijec, folder_path, rijec_original, txt_broj + 2))
-	
-	os.system("crunch {0} {0} -t {1}%%%% -o {2}{3}/{4}.txt".format(rijec_duzina + 4,rijec, folder_path, rijec_original, txt_broj + 3))
-	
+	os.system("crunch {0} {0} -t {1}% -o {2}{3}/{4}.txt".format(rijec_duzina + 1,rijec, folder_path, rijec_original, txt_broj))	
+	os.system("crunch {0} {0} -t {1}%% -o {2}{3}/{4}.txt".format(rijec_duzina + 2,rijec, folder_path, rijec_original, txt_broj + 1))	
+	os.system("crunch {0} {0} -t {1}%%% -o {2}{3}/{4}.txt".format(rijec_duzina + 3,rijec, folder_path, rijec_original, txt_broj + 2))	
+	os.system("crunch {0} {0} -t {1}%%%% -o {2}{3}/{4}.txt".format(rijec_duzina + 4,rijec, folder_path, rijec_original, txt_broj + 3))	
 
 def druga_numeric(rijec, rijec_original, txt_broj):
-	
-
-	os.system("crunch {0} {0} -t %{1} -o {2}{3}/{4}.txt".format(rijec_duzina + 1,rijec, folder_path, rijec_original, txt_broj))
-	
-	os.system("crunch {0} {0} -t %%{1} -o {2}{3}/{4}.txt".format(rijec_duzina + 2,rijec, folder_path, rijec_original, txt_broj + 1))
-	
-	os.system("crunch {0} {0} -t %%%{1} -o {2}{3}/{4}.txt".format(rijec_duzina + 3,rijec, folder_path, rijec_original, txt_broj + 2))
-	
-	os.system("crunch {0} {0} -t %%%%{1} -o {2}{3}/{4}.txt".format(rijec_duzina + 4,rijec, folder_path, rijec_original, txt_broj + 3))
-	
+	os.system("crunch {0} {0} -t %{1} -o {2}{3}/{4}.txt".format(rijec_duzina + 1,rijec, folder_path, rijec_original, txt_broj))	
+	os.system("crunch {0} {0} -t %%{1} -o {2}{3}/{4}.txt".format(rijec_duzina + 2,rijec, folder_path, rijec_original, txt_broj + 1))	
+	os.system("crunch {0} {0} -t %%%{1} -o {2}{3}/{4}.txt".format(rijec_duzina + 3,rijec, folder_path, rijec_original, txt_broj + 2))	
+	os.system("crunch {0} {0} -t %%%%{1} -o {2}{3}/{4}.txt".format(rijec_duzina + 4,rijec, folder_path, rijec_original, txt_broj + 3))	
 
 def prva_lower_alpha(rijec, rijec_original, txt_broj):
-	
-
-	os.system("crunch {0} {0} -t {1}@ -o {2}{3}/{4}.txt".format(rijec_duzina + 1,rijec, folder_path, rijec_original, txt_broj))
-	
-	os.system("crunch {0} {0} -t {1}@@ -o {2}{3}/{4}.txt".format(rijec_duzina + 2,rijec, folder_path, rijec_original, txt_broj + 1))
-	
-	os.system("crunch {0} {0} -t {1}@@@ -o {2}{3}/{4}.txt".format(rijec_duzina + 3,rijec, folder_path, rijec_original, txt_broj + 2))
-	
+	os.system("crunch {0} {0} -t {1}@ -o {2}{3}/{4}.txt".format(rijec_duzina + 1,rijec, folder_path, rijec_original, txt_broj))	
+	os.system("crunch {0} {0} -t {1}@@ -o {2}{3}/{4}.txt".format(rijec_duzina + 2,rijec, folder_path, rijec_original, txt_broj + 1))	
+	os.system("crunch {0} {0} -t {1}@@@ -o {2}{3}/{4}.txt".format(rijec_duzina + 3,rijec, folder_path, rijec_original, txt_broj + 2))	
 	os.system("crunch {0} {0} -t {1}@@@@ -o {2}{3}/{4}.txt".format(rijec_duzina + 4,rijec, folder_path, rijec_original, txt_broj + 3))	
-	
 
 def druga_lower_alpha(rijec, rijec_original, txt_broj):
-	
-
-	os.system("crunch {0} {0} -t @{1} -o {2}{3}/{4}.txt".format(rijec_duzina + 1,rijec, folder_path, rijec_original, txt_broj))
-	
-	os.system("crunch {0} {0} -t @@{1} -o {2}{3}/{4}.txt".format(rijec_duzina + 2,rijec, folder_path, rijec_original, txt_broj + 1))
-	
-	os.system("crunch {0} {0} -t @@@{1} -o {2}{3}/{4}.txt".format(rijec_duzina + 3,rijec, folder_path, rijec_original, txt_broj + 2))
-	
+	os.system("crunch {0} {0} -t @{1} -o {2}{3}/{4}.txt".format(rijec_duzina + 1,rijec, folder_path, rijec_original, txt_broj))	
+	os.system("crunch {0} {0} -t @@{1} -o {2}{3}/{4}.txt".format(rijec_duzina + 2,rijec, folder_path, rijec_original, txt_broj + 1))	
+	os.system("crunch {0} {0} -t @@@{1} -o {2}{3}/{4}.txt".format(rijec_duzina + 3,rijec, folder_path, rijec_original, txt_broj + 2))	
 	os.system("crunch {0} {0} -t @@@@{1} -o {2}{3}/{4}.txt".format(rijec_duzina + 4,rijec, folder_path, rijec_original, txt_broj + 3))
-	
 
 def prva_upper_alpha(rijec, rijec_original, txt_broj):
-	
-
-	os.system("crunch {0} {0} -t {1}, -o {2}{3}/{4}.txt".format(rijec_duzina + 1,rijec, folder_path, rijec_original, txt_broj))
-	
-	os.system("crunch {0} {0} -t {1},, -o {2}{3}/{4}.txt".format(rijec_duzina + 2,rijec, folder_path, rijec_original, txt_broj + 1))
-	
-	os.system("crunch {0} {0} -t {1},,, -o {2}{3}/{4}.txt".format(rijec_duzina + 3,rijec, folder_path, rijec_original, txt_broj + 2))
-	
+	os.system("crunch {0} {0} -t {1}, -o {2}{3}/{4}.txt".format(rijec_duzina + 1,rijec, folder_path, rijec_original, txt_broj))	
+	os.system("crunch {0} {0} -t {1},, -o {2}{3}/{4}.txt".format(rijec_duzina + 2,rijec, folder_path, rijec_original, txt_broj + 1))	
+	os.system("crunch {0} {0} -t {1},,, -o {2}{3}/{4}.txt".format(rijec_duzina + 3,rijec, folder_path, rijec_original, txt_broj + 2))	
 	os.system("crunch {0} {0} -t {1},,,, -o {2}{3}/{4}.txt".format(rijec_duzina + 4,rijec, folder_path, rijec_original, txt_broj + 3))
 	
 
 def druga_upper_alpha(rijec, rijec_original, txt_broj):
-	
-
-	os.system("crunch {0} {0} -t ,{1} -o {2}{3}/{4}.txt".format(rijec_duzina + 1,rijec, folder_path, rijec_original, txt_broj))
-	
-	os.system("crunch {0} {0} -t ,,{1} -o {2}{3}/{4}.txt".format(rijec_duzina + 2,rijec, folder_path, rijec_original, txt_broj + 1))
-	
-	os.system("crunch {0} {0} -t ,,,{1} -o {2}{3}/{4}.txt".format(rijec_duzina + 3,rijec, folder_path, rijec_original, txt_broj + 2))
-	
-	os.system("crunch {0} {0} -t ,,,,{1} -o {2}{3}/{4}.txt".format(rijec_duzina + 4,rijec, folder_path, rijec_original, txt_broj + 3))
-	
+	os.system("crunch {0} {0} -t ,{1} -o {2}{3}/{4}.txt".format(rijec_duzina + 1,rijec, folder_path, rijec_original, txt_broj))	
+	os.system("crunch {0} {0} -t ,,{1} -o {2}{3}/{4}.txt".format(rijec_duzina + 2,rijec, folder_path, rijec_original, txt_broj + 1))	
+	os.system("crunch {0} {0} -t ,,,{1} -o {2}{3}/{4}.txt".format(rijec_duzina + 3,rijec, folder_path, rijec_original, txt_broj + 2))	
+	os.system("crunch {0} {0} -t ,,,,{1} -o {2}{3}/{4}.txt".format(rijec_duzina + 4,rijec, folder_path, rijec_original, txt_broj + 3))	
 
 def prva_mix_upper_lower(rijec, rijec_original, txt_broj):
-	
-
-	os.system("crunch {0} {0} -t ,@{1} -o {2}{3}/{4}.txt".format(rijec_duzina + 2,rijec, folder_path, rijec_original, txt_broj))
-	
-	os.system("crunch {0} {0} -t @,{1} -o {2}{3}/{4}.txt".format(rijec_duzina + 2,rijec, folder_path, rijec_original, txt_broj + 1))
-	
-	os.system("crunch {0} {0} -t @,,{1} -o {2}{3}/{4}.txt".format(rijec_duzina + 3,rijec, folder_path, rijec_original, txt_broj + 2))
-	
-	os.system("crunch {0} {0} -t ,@,{1} -o {2}{3}/{4}.txt".format(rijec_duzina + 3,rijec, folder_path, rijec_original, txt_broj + 3))
-	
-	os.system("crunch {0} {0} -t ,,@{1} -o {2}{3}/{4}.txt".format(rijec_duzina + 3,rijec, folder_path, rijec_original, txt_broj + 4))
-	
-	os.system("crunch {0} {0} -t @@,{1} -o {2}{3}/{4}.txt".format(rijec_duzina + 3,rijec, folder_path, rijec_original, txt_broj + 5))
-	
-	os.system("crunch {0} {0} -t ,@@{1} -o {2}{3}/{4}.txt".format(rijec_duzina + 3,rijec, folder_path, rijec_original, txt_broj + 6))
-	
-	os.system("crunch {0} {0} -t @,@{1} -o {2}{3}/{4}.txt".format(rijec_duzina + 3,rijec, folder_path, rijec_original, txt_broj + 7))
-	
+	os.system("crunch {0} {0} -t ,@{1} -o {2}{3}/{4}.txt".format(rijec_duzina + 2,rijec, folder_path, rijec_original, txt_broj))	
+	os.system("crunch {0} {0} -t @,{1} -o {2}{3}/{4}.txt".format(rijec_duzina + 2,rijec, folder_path, rijec_original, txt_broj + 1))	
+	os.system("crunch {0} {0} -t @,,{1} -o {2}{3}/{4}.txt".format(rijec_duzina + 3,rijec, folder_path, rijec_original, txt_broj + 2))	
+	os.system("crunch {0} {0} -t ,@,{1} -o {2}{3}/{4}.txt".format(rijec_duzina + 3,rijec, folder_path, rijec_original, txt_broj + 3))	
+	os.system("crunch {0} {0} -t ,,@{1} -o {2}{3}/{4}.txt".format(rijec_duzina + 3,rijec, folder_path, rijec_original, txt_broj + 4))	
+	os.system("crunch {0} {0} -t @@,{1} -o {2}{3}/{4}.txt".format(rijec_duzina + 3,rijec, folder_path, rijec_original, txt_broj + 5))	
+	os.system("crunch {0} {0} -t ,@@{1} -o {2}{3}/{4}.txt".format(rijec_duzina + 3,rijec, folder_path, rijec_original, txt_broj + 6))	
+	os.system("crunch {0} {0} -t @,@{1} -o {2}{3}/{4}.txt".format(rijec_duzina + 3,rijec, folder_path, rijec_original, txt_broj + 7))	
 
 def druga_mix_upper_lower(rijec, rijec_original, txt_broj):
-	
-
-	os.system("crunch {0} {0} -t {1},@ -o {2}{3}/{4}.txt".format(rijec_duzina + 2,rijec, folder_path, rijec_original, txt_broj))
-	
-	os.system("crunch {0} {0} -t {1}@, -o {2}{3}/{4}.txt".format(rijec_duzina + 2,rijec, folder_path, rijec_original, txt_broj + 1))
-	
-	os.system("crunch {0} {0} -t {1}@,, -o {2}{3}/{4}.txt".format(rijec_duzina + 3,rijec, folder_path, rijec_original, txt_broj + 2))
-	
-	os.system("crunch {0} {0} -t {1},@, -o {2}{3}/{4}.txt".format(rijec_duzina + 3,rijec, folder_path, rijec_original, txt_broj + 3))
-	
-	os.system("crunch {0} {0} -t {1},,@ -o {2}{3}/{4}.txt".format(rijec_duzina + 3,rijec, folder_path, rijec_original, txt_broj + 4))
-	
-	os.system("crunch {0} {0} -t {1}@@, -o {2}{3}/{4}.txt".format(rijec_duzina + 3,rijec, folder_path, rijec_original, txt_broj + 5))
-	
-	os.system("crunch {0} {0} -t {1},@@ -o {2}{3}/{4}.txt".format(rijec_duzina + 3,rijec, folder_path, rijec_original, txt_broj + 6))
-	
-	os.system("crunch {0} {0} -t {1}@,@ -o {2}{3}/{4}.txt".format(rijec_duzina + 3,rijec, folder_path, rijec_original, txt_broj + 7))
-	
+	os.system("crunch {0} {0} -t {1},@ -o {2}{3}/{4}.txt".format(rijec_duzina + 2,rijec, folder_path, rijec_original, txt_broj))	
+	os.system("crunch {0} {0} -t {1}@, -o {2}{3}/{4}.txt".format(rijec_duzina + 2,rijec, folder_path, rijec_original, txt_broj + 1))	
+	os.system("crunch {0} {0} -t {1}@,, -o {2}{3}/{4}.txt".format(rijec_duzina + 3,rijec, folder_path, rijec_original, txt_broj + 2))	
+	os.system("crunch {0} {0} -t {1},@, -o {2}{3}/{4}.txt".format(rijec_duzina + 3,rijec, folder_path, rijec_original, txt_broj + 3))	
+	os.system("crunch {0} {0} -t {1},,@ -o {2}{3}/{4}.txt".format(rijec_duzina + 3,rijec, folder_path, rijec_original, txt_broj + 4))	
+	os.system("crunch {0} {0} -t {1}@@, -o {2}{3}/{4}.txt".format(rijec_duzina + 3,rijec, folder_path, rijec_original, txt_broj + 5))	
+	os.system("crunch {0} {0} -t {1},@@ -o {2}{3}/{4}.txt".format(rijec_duzina + 3,rijec, folder_path, rijec_original, txt_broj + 6))	
+	os.system("crunch {0} {0} -t {1}@,@ -o {2}{3}/{4}.txt".format(rijec_duzina + 3,rijec, folder_path, rijec_original, txt_broj + 7))	
 
 def prva_mix_upper_numeric(rijec, rijec_original, txt_broj):
-	
-
-	os.system("crunch {0} {0} -t ,%{1} -o {2}{3}/{4}.txt".format(rijec_duzina + 2,rijec, folder_path, rijec_original, txt_broj))
-	
-	os.system("crunch {0} {0} -t %,{1} -o {2}{3}/{4}.txt".format(rijec_duzina + 2,rijec, folder_path, rijec_original, txt_broj + 1))
-	
-	os.system("crunch {0} {0} -t %,,{1} -o {2}{3}/{4}.txt".format(rijec_duzina + 3,rijec, folder_path, rijec_original, txt_broj + 2))
-	
-	os.system("crunch {0} {0} -t ,%,{1} -o {2}{3}/{4}.txt".format(rijec_duzina + 3,rijec, folder_path, rijec_original, txt_broj + 3))
-	
-	os.system("crunch {0} {0} -t ,,%{1} -o {2}{3}/{4}.txt".format(rijec_duzina + 3,rijec, folder_path, rijec_original, txt_broj + 4))
-	
-	os.system("crunch {0} {0} -t %%,{1} -o {2}{3}/{4}.txt".format(rijec_duzina + 3,rijec, folder_path, rijec_original, txt_broj + 5))
-	
-	os.system("crunch {0} {0} -t ,%%{1} -o {2}{3}/{4}.txt".format(rijec_duzina + 3,rijec, folder_path, rijec_original, txt_broj + 6))
-	
-	os.system("crunch {0} {0} -t %,%{1} -o {2}{3}/{4}.txt".format(rijec_duzina + 3,rijec, folder_path, rijec_original, txt_broj + 7))
-	
+	os.system("crunch {0} {0} -t ,%{1} -o {2}{3}/{4}.txt".format(rijec_duzina + 2,rijec, folder_path, rijec_original, txt_broj))	
+	os.system("crunch {0} {0} -t %,{1} -o {2}{3}/{4}.txt".format(rijec_duzina + 2,rijec, folder_path, rijec_original, txt_broj + 1))	
+	os.system("crunch {0} {0} -t %,,{1} -o {2}{3}/{4}.txt".format(rijec_duzina + 3,rijec, folder_path, rijec_original, txt_broj + 2))	
+	os.system("crunch {0} {0} -t ,%,{1} -o {2}{3}/{4}.txt".format(rijec_duzina + 3,rijec, folder_path, rijec_original, txt_broj + 3))	
+	os.system("crunch {0} {0} -t ,,%{1} -o {2}{3}/{4}.txt".format(rijec_duzina + 3,rijec, folder_path, rijec_original, txt_broj + 4))	
+	os.system("crunch {0} {0} -t %%,{1} -o {2}{3}/{4}.txt".format(rijec_duzina + 3,rijec, folder_path, rijec_original, txt_broj + 5))	
+	os.system("crunch {0} {0} -t ,%%{1} -o {2}{3}/{4}.txt".format(rijec_duzina + 3,rijec, folder_path, rijec_original, txt_broj + 6))	
+	os.system("crunch {0} {0} -t %,%{1} -o {2}{3}/{4}.txt".format(rijec_duzina + 3,rijec, folder_path, rijec_original, txt_broj + 7))	
 
 def druga_mix_upper_numeric(rijec, rijec_original, txt_broj):
-	
-
-	os.system("crunch {0} {0} -t {1},% -o {2}{3}/{4}.txt".format(rijec_duzina + 2,rijec, folder_path, rijec_original, txt_broj))
-	
-	os.system("crunch {0} {0} -t {1}%, -o {2}{3}/{4}.txt".format(rijec_duzina + 2,rijec, folder_path, rijec_original, txt_broj + 1))
-	
-	os.system("crunch {0} {0} -t {1}%,, -o {2}{3}/{4}.txt".format(rijec_duzina + 3,rijec, folder_path, rijec_original, txt_broj + 2))
-	
-	os.system("crunch {0} {0} -t {1},%, -o {2}{3}/{4}.txt".format(rijec_duzina + 3,rijec, folder_path, rijec_original, txt_broj + 3))
-	
-	os.system("crunch {0} {0} -t {1},,% -o {2}{3}/{4}.txt".format(rijec_duzina + 3,rijec, folder_path, rijec_original, txt_broj + 4))
-	
-	os.system("crunch {0} {0} -t {1}%%, -o {2}{3}/{4}.txt".format(rijec_duzina + 3,rijec, folder_path, rijec_original, txt_broj + 5))
-	
-	os.system("crunch {0} {0} -t {1},%% -o {2}{3}/{4}.txt".format(rijec_duzina + 3,rijec, folder_path, rijec_original, txt_broj + 6))
-	
-	os.system("crunch {0} {0} -t {1}%,% -o {2}{3}/{4}.txt".format(rijec_duzina + 3,rijec, folder_path, rijec_original, txt_broj + 7))
-	
+	os.system("crunch {0} {0} -t {1},% -o {2}{3}/{4}.txt".format(rijec_duzina + 2,rijec, folder_path, rijec_original, txt_broj))	
+	os.system("crunch {0} {0} -t {1}%, -o {2}{3}/{4}.txt".format(rijec_duzina + 2,rijec, folder_path, rijec_original, txt_broj + 1))	
+	os.system("crunch {0} {0} -t {1}%,, -o {2}{3}/{4}.txt".format(rijec_duzina + 3,rijec, folder_path, rijec_original, txt_broj + 2))	
+	os.system("crunch {0} {0} -t {1},%, -o {2}{3}/{4}.txt".format(rijec_duzina + 3,rijec, folder_path, rijec_original, txt_broj + 3))	
+	os.system("crunch {0} {0} -t {1},,% -o {2}{3}/{4}.txt".format(rijec_duzina + 3,rijec, folder_path, rijec_original, txt_broj + 4))	
+	os.system("crunch {0} {0} -t {1}%%, -o {2}{3}/{4}.txt".format(rijec_duzina + 3,rijec, folder_path, rijec_original, txt_broj + 5))	
+	os.system("crunch {0} {0} -t {1},%% -o {2}{3}/{4}.txt".format(rijec_duzina + 3,rijec, folder_path, rijec_original, txt_broj + 6))	
+	os.system("crunch {0} {0} -t {1}%,% -o {2}{3}/{4}.txt".format(rijec_duzina + 3,rijec, folder_path, rijec_original, txt_broj + 7))	
 
 def prva_mix_lower_numeric(rijec, rijec_original, txt_broj):
 	
@@ -2950,21 +2875,15 @@ if (broj_ukupnih_rijeci == 1):
 	prva_numeric(rijec_zadnje_slovo_upper, rijec, 9)
 	prva_numeric(rijec_sva_slova_upper, rijec, 13)
 
-	
-
 	druga_numeric(rijec, rijec, 17)
 	druga_numeric(rijec_prvo_slovo_upper, rijec, 21)
 	druga_numeric(rijec_zadnje_slovo_upper, rijec, 25)
 	druga_numeric(rijec_sva_slova_upper, rijec, 29)
 
-	
-
 	prva_lower_alpha(rijec, rijec, 33)
 	prva_lower_alpha(rijec_prvo_slovo_upper, rijec, 37)
 	prva_lower_alpha(rijec_zadnje_slovo_upper, rijec, 41)
 	prva_lower_alpha(rijec_sva_slova_upper, rijec, 45)
-
-	
 
 	#48 files - 21.8MB
 
@@ -3741,7 +3660,9 @@ elif (broj_ukupnih_rijeci == 2):
 			if (nastavak_pitanje == "y"):
 				break
 
-		os.system("rm *.txt")
+		#deletes everything in current folder and empties the Trash
+		os.system("rm *.txt && rm -rf ~/.local/share/Trash/*")
+		os.chdir("..")
 		nastavak_pitanje = ""
 
 		dvije_rijeci_prva_upper_alpha("rijec", "rijec", naziv_foldera, sve_rijeci_dictionary, 1201)
@@ -3819,7 +3740,9 @@ elif (broj_ukupnih_rijeci == 2):
 			if (nastavak_pitanje == "y"):
 				break
 
-		os.system("rm *.txt")
+		#deletes everything in current folder and empties the Trash
+		os.system("rm *.txt && rm -rf ~/.local/share/Trash/*")
+		os.chdir("..")
 		nastavak_pitanje = ""
 
 		dvije_rijeci_druga_mix_upper_lower("rijec_zadnje_slovo_upper", "rijec", naziv_foldera, sve_rijeci_dictionary, 2569)
@@ -3896,7 +3819,9 @@ elif (broj_ukupnih_rijeci == 2):
 			if (nastavak_pitanje == "y"):
 				break
 
-		os.system("rm *.txt")
+		#deletes everything in current folder and empties the Trash
+		os.system("rm *.txt && rm -rf ~/.local/share/Trash/*")
+		os.chdir("..")
 		nastavak_pitanje = ""
 
 		dvije_rijeci_prva_mix_lower_numeric("rijec_sva_slova_upper", "rijec", naziv_foldera, sve_rijeci_dictionary, 4585)
@@ -3969,7 +3894,9 @@ elif (broj_ukupnih_rijeci == 2):
 			if (nastavak_pitanje == "y"):
 				break
 
-		os.system("rm *.txt")
+		#deletes everything in current folder and empties the Trash
+		os.system("rm *.txt && rm -rf ~/.local/share/Trash/*")
+		os.chdir("..")
 		nastavak_pitanje = ""
 
 		dvije_rijeci_char("rijec", "rijec", naziv_foldera, sve_rijeci_dictionary, 6241)
@@ -4053,7 +3980,9 @@ elif (broj_ukupnih_rijeci == 2):
 			if (nastavak_pitanje == "y"):
 				break
 
-		os.system("rm *.txt")
+		#deletes everything in current folder and empties the Trash
+		os.system("rm *.txt && rm -rf ~/.local/share/Trash/*")
+		os.chdir("..")
 		nastavak_pitanje = ""
 
 		dvije_rijeci_prva_mix_lower_char("rijec_sva_slova_upper", "rijec", naziv_foldera, sve_rijeci_dictionary, 8065)
