@@ -1489,8 +1489,8 @@ while(True):
 
 	if (1 <= int(broj_ukupnih_rijeci) < 3):
 		break
-
-	print("We're sorry. You have to type in 1 or 2. Try again, please.\n")
+	else:
+		print("We're sorry. You have to type in 1 or 2. Try again, please.\n")
 
 if (broj_ukupnih_rijeci == 1):
 	rijec = raw_input("Insert your word:")
@@ -1673,12 +1673,12 @@ elif (broj_ukupnih_rijeci == 2):
 	os.system("mkdir {0}{1}".format(folder_path, naziv_foldera))
 
 	while(True):
-		memory_pitanje = input('Do you have at least 6GB of free memory space?(type 0 for "no" and 1 for "yes"): ')
+		memory_pitanje = raw_input('Do you have at least 6GB of free memory space?(type "no" or "yes"): ')
 
-		if (0 <= int(memory_pitanje) < 2):
+		if (memory_pitanje == "no" or memory_pitanje == "yes"):
 			break
-
-		print("We're sorry. You have to type in 1 or 2. Try again, please.\n")
+		else:
+			print("We're sorry. You have to type in 1 or 2. Try again, please.\n")
 
 	if (memory_pitanje == 1):
 
